@@ -1,0 +1,136 @@
+:root {
+  --colour-1: #332828; // #283033;
+  --colour-2: #462f2f; // #2f3f46;
+  --colour-3: #ff4a4a; // #4ACFFF;
+  --colour-4: #f2f1ef; // #DAEBF0;
+
+  --colour-light: var(--colour-4);
+  --colour-dark: var(--colour-1);
+  --colour-off: var(--colour-2);
+  --colour-accent: var(--colour-3);
+  --colour-white: #FFFFFF;
+
+  --colour-mono: #fff;
+}
+
+:root,
+.light-mode {
+  --background-colour: var(--colour-white);
+  --background-accent: var(--colour-4);
+  --background-accent-two: var(--colour-1);
+  --text-colour: var(--colour-1);
+  --text-colour-invert: var(--colour-4);
+
+  --link-colour: var(--colour-3);
+
+  --padding-full: 2rem;
+  --padding-half: calc(var(--padding-full) / 2);
+  --max-width: 1200px;
+
+  --box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+
+.dark-mode {
+  --background-colour: var(--colour-dark);
+  --background-accent: var(--colour-2);
+  --background-accent-two: var(--colour-2);
+  --text-colour: var(--colour-4);
+  --text-colour-invert: var(--colour-1);
+  --box-shadow: 15px 15px 30px #191919, -15px -15px 30px #4d3a3a93;
+  --colour-mono: #000;
+}
+
+//** Normalize the styles for all browsers. **//
+@import "~/node_modules/normalize.css/normalize.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  //** Enable for finding overflowing elements **//
+  // outline: 1px solid red;
+}
+
+body,
+html,
+#__nuxt,
+#__layout {
+  background-color: var(--background-colour);
+  color: var(--text-colour);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 100%;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  scroll-margin-top: 6rem;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+#__nuxt,
+#__layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+}
+
+pre,
+code {
+  font-family: 'Fira Code', monospace;
+}
+
+a {
+  color: var(--link-colour);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--link-colour-accent);
+  }
+}
+
+.container {
+  // max-width: var(--max-width);
+  // margin: auto;
+  width: 100%;
+  padding: var(--padding-full);
+}
+
+.subcontainer {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@keyframes slide-fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.not-in-view {
+  animation: slide-fade-up 0.3s 1 ease-in-out;
+
+  &:not(.in-view) {
+    animation-play-state: paused;
+    transform: translateY(0);
+  }
+
+  &.in-view {
+    animation-play-state: unset;
+  }
+}

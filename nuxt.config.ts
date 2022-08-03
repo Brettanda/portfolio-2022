@@ -4,12 +4,25 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   // target: "static",
   // titleTemplate: '%s | Brett Anda\'s Portfolio',
+
   modules: [
     '@nuxt/content',
     '@nuxtjs/color-mode',
     '@nuxt/image-edge',
-    // '@nuxtjs/recaptcha',
   ],
+
+  // experimental: {
+  //   viteNode: true
+  // },
+
+  runtimeConfig: {
+    captchaKey: '',
+    emailUsername: '',
+    emailPassword: '',
+    public: {
+      captchaSiteKey: '',
+    }
+  },
 
   typescript: {
     strict: true
@@ -25,11 +38,6 @@ export default defineNuxtConfig({
     fallback: "light",
   },
 
-  // https://www.npmjs.com/package/@nuxtjs/recaptcha
-  // recaptcha: {
-  //   /* reCAPTCHA options */
-  // },
-
   build: {
     transpile: [
       '@fortawesome/vue-fontawesome',
@@ -39,26 +47,30 @@ export default defineNuxtConfig({
     ]
   },
 
-  experimental: {
-    viteNode: true
-  },
-
   content: {
     // documentDriven: true,
     highlight: {
-      preload: ["csharp","md","javascript"],
-      // theme: 'dracula',
-      theme: {
-        // Default theme (same as single string)
-        default: 'github-light',
-        // Theme used if `html.dark`
-        dark: 'material-darker',
-      }
+      preload: ["csharp", "md", "javascript", "python"],
+      theme: 'github-dark',
+      // theme: {
+      //   // Default theme (same as single string)
+      //   default: 'github-light',
+      //   // Theme used if `html.dark`
+      //   dark: 'material-darker',
+      // }
     }
   },
+
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
+  },
+
   css: [
     '@/assets/styles/global.scss'
   ],
+
   vite: {
     css: {
       preprocessorOptions: {

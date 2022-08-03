@@ -3,7 +3,7 @@
     class="image"
     :imgAttrs="{
       class: 'image',
-      style: 'max-width: 100%;max-height: 500px;',
+      style: 'max-width: 100%;max-height: 500px;margin: 0 auto;display: block;',
     }"
     :src="src"
     :alt="alt"
@@ -39,8 +39,8 @@ defineProps({
 .image {
   max-width: 100%;
   max-height: 500px;
-  // margin: 0 auto;
-  // display: block;
+  margin: 0 auto;
+  display: block;
   // background-color: var(--background-accent);
 }
 </style>

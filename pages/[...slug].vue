@@ -1,35 +1,46 @@
 <template>
-  <ContentDoc>
-    <template v-slot:default="{ doc }">
-      <header class="container">
-        <div class="subcontainer">
-          <h1>{{ doc.title }}</h1>
-        </div>
-      </header>
-      <ContentRenderer :value="doc" class="prose prose-gray" />
-    </template>
-    <template #empty>
-      <header class="container">
-        <div class="subcontainer">
-          <h1>No content found.</h1>
-        </div>
-      </header>
-      <div class="prose">
-        <p>No content found.</p>
-      </div>
-    </template>
-    <template #not-found
-      ><header class="container">
-        <div class="subcontainer">
-          <h1>Document not found</h1>
-        </div>
-      </header>
-      <div class="prose">
-        <p>Document not found</p>
-      </div>
-    </template>
-  </ContentDoc>
+  <main class="container">
+    <Head>
+      <Title v-if="data">{{
+        data.head && data.head.title ? data.head.title : data.title
+      }}</Title>
+      <Meta
+        v-if="data"
+        name="description"
+        :content="
+          data.head && data.head.description
+            ? data.head.description
+            : data.description
+        "
+      />
+    </Head>
+    <NuxtLayout name="default">
+      <template #header v-if="data">
+        {{ data.title }}
+      </template>
+      <template #header v-else> Content failed to load </template>
+      <ContentRenderer v-if="data" :value="data">
+        <template #empty>No content found</template>
+        <template #not-found>Document not found</template>
+      </ContentRenderer>
+    </NuxtLayout>
+  </main>
 </template>
+
+<script setup>
+import { createError } from "h3";
+
+const { path } = useRoute();
+const { data } = await useAsyncData(`page-${path}`, () =>
+  queryContent().where({ _path: path }).findOne()
+);
+if (!data.value) {
+  throw createError({ statusCode: 404, statusMessage: "Page Not Found" });
+}
+definePageMeta({
+  layout: false,
+});
+</script>
 
 <style lang="scss" scoped>
 img {
@@ -38,31 +49,5 @@ img {
 pre {
   max-width: 100%;
   overflow-x: hidden;
-}
-header {
-  background-color: var(--background-accent);
-  height: 20rem;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-
-  & > div {
-    max-width: var(--max-width);
-    width: 100%;
-    // margin: 0 auto;
-    // padding: var(--padding-full);
-  }
-
-  h1 {
-    text-transform: uppercase;
-  }
-
-  & + * {
-    margin-top: 20rem;
-  }
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
   <header class="header canvas-home">
-    <ClientOnly>
+    <!-- <ClientOnly> -->
       <IndexHeaderCanvas />
-    </ClientOnly>
+    <!-- </ClientOnly> -->
     <div class="text">
       <div>
         <h1 class="slide-left">
@@ -68,10 +68,11 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
-    height: calc(90vh + 2vw);
+    height: 90vh;
     background: var(--background-accent);
     transform-origin: top left;
     transform: skewY(-3deg);
+    min-width: var(--min-width);
   }
 
   &::after {
@@ -89,6 +90,13 @@ export default {
   display: flex;
   align-items: flex-end;
   z-index: 1;
+  min-width: var(--min-width);
+
+  @include break(md) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
   &::before {
     content: "";
@@ -99,6 +107,7 @@ export default {
     position: absolute;
     z-index: -1;
     opacity: 0.7;
+    min-width: var(--min-width);
   }
 
   h1 {
@@ -106,6 +115,18 @@ export default {
     font-weight: bold;
     margin: 0;
     text-transform: uppercase;
+
+    @include break(md) {
+      font-size: 4rem;
+    }
+
+    @include break(sm) {
+      font-size: 3rem;
+    }
+
+    @include break(xs) {
+      font-size: 2rem;
+    }
   }
 
   & > * {
@@ -120,6 +141,10 @@ export default {
   line-height: 2;
   text-align: left;
   justify-content: center;
+
+  @include break(md) {
+    text-align: center;
+  }
 }
 
 a {
@@ -147,6 +172,7 @@ $item-count: 13 * 4;
   text-transform: uppercase;
   overflow: hidden;
   position: relative;
+  transform-origin: top left;
 
   ul {
     list-style: none;

@@ -1,6 +1,7 @@
 ---
-title: A Senior Web Developer in Training
+title: A Senior Full Stack Developer in Training
 description: "I am a Calgary based web developer interested In making fluid Websites, C# applications, and learning more about how AI will take over."
+head.title: "Dev in Training"
 ---
 
 I was a student in Calgary at SAIT and took the New Media Production and Design course from Sept 2017 to April 2019. I learned how to make websites using HTML, CSS, PHP, Javascript, and Word Press.
@@ -37,6 +38,12 @@ I have learned how to make web pages using HTML, CSS, PHP, and some JavaScript
 - jQuery
 - SEO standards and better HTML structure for SEO
 - Twig templating language
+
+## What I have on my own time
+
+- Python
+- PostgreSQL
+- NuxtJS
 
 These are just some of the things that I have learned. I am always looking to learn more.
 

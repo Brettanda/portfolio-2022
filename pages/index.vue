@@ -1,8 +1,9 @@
 <template>
-  <Head>
-    <Title>Brett Anda's Portfolio</Title>
-  </Head>
   <main class="main">
+    <Head>
+      <Title>Brett Anda's Portfolio</Title>
+      <Meta property="description" content="Welcome to the web developer portfolio of Brett Anda, feel free to click around. The theme of this website was created by me while proudly using VueJS and NuxtJS."/>
+    </Head>
     <IndexHeader />
     <div class="container">
       <div class="subcontainer">
@@ -30,9 +31,10 @@
     </div>
   </main>
 </template>
+
 <script>
 definePageMeta({
-  layout: "index",
+  layout: false,
 });
 </script>
 

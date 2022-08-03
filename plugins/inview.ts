@@ -17,7 +17,6 @@ export default defineNuxtPlugin(nuxtApp => {
     );
   }
   const callbackFunc = () => {
-    console.log("callback")
     const items = document.querySelectorAll(".not-in-view");
     for (var i = 0; i < items.length; i++) {
       if (isElementInViewport(items[i])) {

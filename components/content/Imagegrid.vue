@@ -1,7 +1,7 @@
 <template>
   <CCarousel
     :items-to-show="1"
-    :autoplay="5000"
+    :autoplay="500000"
     :wrap-around="true"
     class="carousel"
   >
@@ -31,13 +31,14 @@ const { flatUnwrap } = useUnwrap();
   width: 100%;
   height: 500px;
   background: var(--background-accent);
+  margin-bottom: 3rem;
 }
 
 .carousel-item {
   max-height: 500px;
+  max-width: 100%;
   width: auto;
   height: auto;
-  margin-right: 10px;
   display: inline-flex;
   object-fit: contain;
 
@@ -60,6 +61,6 @@ const { flatUnwrap } = useUnwrap();
 }
 
 .carousel__pagination-button--active {
-  background-color: var(--background-accent-two);
+  background-color: var(--text-colour);
 }
 </style>

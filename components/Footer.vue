@@ -26,6 +26,14 @@
             <NuxtLink
               class="fab"
               target="_blank"
+              to="https://facebook.com/brett.anda?utm_source=brettanda.ca"
+              ><font-awesome-icon :icon="['fab', 'facebook']"
+            /></NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              class="fab"
+              target="_blank"
               to="https://www.linkedin.com/in/brett-anda?utm_source=brettanda.ca"
               ><font-awesome-icon :icon="['fab', 'linkedin']"
             /></NuxtLink>
@@ -44,6 +52,25 @@
         <p>2022 &copy; Brett Anda. All Rights Reserved.</p>
       </div>
     </div>
+    <Script type="application/ld+json">
+      { "@context": "https://schema.org", "@type": "WebSite", "name": "Brett
+      Anda's Portfolio", "image": "https://brettanda.ca/logo_full.png", "logo":
+      "https://brettanda.ca/logo_full.png", "author": { "@type": "Person",
+      "@id": "#brettanda" }, "url": "https://brettanda.ca" }
+    </Script>
+    <Script type="application/ld+json">
+      { "@context": "https://schema.org", "@type": "Person", "@id":
+      "#brettanda", "name": "Brett Anda", "url": "https://brettanda.ca", "owns":
+      [ "Developer Bacon", "Friday Bot" ], "alumniOf": { "@type":
+      "CollegeOrUniversity", "name": "Southern Alberta Institute of Technology",
+      "url": "https://www.sait.ca", "sameAs":
+      "https://en.wikipedia.org/wiki/Southern_Alberta_Institute_of_Technology"
+      }, "sameAs": [ "https://facebook.com/brett.anda",
+      "https://github.com/Brettanda", "https://twitter.com/brettanda",
+      "https://codepen.io/brettanda", "https://linkedin.com/in/brett-anda",
+      "https://medium.com/@brettanda", "https://dev.to/brettanda",
+      "https://keybase.io/brett_anda" ] }
+    </Script>
   </footer>
 </template>
 
@@ -52,7 +79,7 @@
   background-color: var(--background-accent-two);
   color: var(--colour-light);
   padding: var(--padding-full);
-  margin-top: 4rem;
+  margin-top: auto;
   overflow-x: hidden;
 }
 
@@ -95,7 +122,7 @@
   list-style: none;
   align-items: flex-end;
   justify-content: space-between;
-  margin: 2rem -1rem 0 -1rem;
+  margin: 2rem 0 0 0;
 
   & > * {
     padding: 0 var(--padding-half);

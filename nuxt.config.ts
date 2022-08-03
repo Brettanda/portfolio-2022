@@ -62,6 +62,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    preset: 'cloudflare',
     prerender: {
       routes: ['/sitemap.xml']
     }

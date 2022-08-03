@@ -62,7 +62,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'cloudflare',
+    preset: 'netlify-edge',
     prerender: {
       routes: ['/sitemap.xml']
     }

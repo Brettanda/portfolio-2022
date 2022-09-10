@@ -4,7 +4,7 @@
     <Link rel="preconnect" href="https://fonts.googleapis.com" />
     <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <Link
-      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500;700&family=Fira+Code&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500;700&display=swap"
       rel="stylesheet"
     />
     <Link rel="home" title="Home" href="/" />

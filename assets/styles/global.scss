@@ -47,6 +47,7 @@
 
 //** Normalize the styles for all browsers. **//
 @import "~/node_modules/normalize.css/normalize.css";
+@import url("fonts.scss");
 
 *,
 *::before,
@@ -92,7 +93,7 @@ h5 {
 
 pre,
 code {
-  font-family: 'Fira Code', monospace;
+  font-family: Monocraft, monospace;
 }
 
 a {

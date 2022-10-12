@@ -1,4 +1,3 @@
-// Credits to https://github.com/IdreesInc/Monocraft
 @font-face {
     font-family: 'Monocraft';
     src: url('Monocraft.eot');
@@ -12,3 +11,28 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-Bold.eot');
+    src: local('Bai Jamjuree Bold'), local('BaiJamjuree-Bold'),
+        url('BaiJamjuree-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-Bold.woff2') format('woff2'),
+        url('BaiJamjuree-Bold.woff') format('woff'),
+        url('BaiJamjuree-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-Medium.eot');
+    src: local('Bai Jamjuree Medium'), local('BaiJamjuree-Medium'),
+        url('BaiJamjuree-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-Medium.woff2') format('woff2'),
+        url('BaiJamjuree-Medium.woff') format('woff'),
+        url('BaiJamjuree-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

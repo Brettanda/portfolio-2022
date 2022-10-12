@@ -1,25 +1,16 @@
 ---
 title: A Senior Full Stack Developer in Training
 description: "I am a Calgary based web developer interested In making fluid Websites, C# applications, and learning more about how AI will take over."
-head.title: "Dev in Training"
+head.title: "Developer in Training"
 ---
 
-I was a student in Calgary at SAIT and took the New Media Production and Design course from Sept 2017 to April 2019. I learned how to make websites using HTML, CSS, PHP, Javascript, and Word Press.
+My name is Brett Anda. I am a Full Stack (Web) Developer. I add the parenthesis because I develop websites and other non-web-related projects, including building WordPress websites with custom themes and Python applications like Discord bots. I took my post-secondary schooling at the Southern Alberta Institute of Technology, where I learned about the basics of building websites and WordPress theming and other new media operations to do with the Adobe suite.
 
-This website acts as a hub for all of my projects that are in development. At the moment it is a single page that shows linked card to the projects that I am working on. This website cannot be found on Google because it is just a testing server run on my Raspberry Pi.
+## My academic history
 
-## What I am interested in
+My academic history starts at the Southern Alberta Institute of Technology (SAIT) with the New Media Production and Design (NMPD) course, where I learned many things like video editing, photo editing, business card design, logo design, the basics of website development and design, WordPress theming, and more. All of these were taught alongside learning Adobe products like Photoshop, Illustrator, Premiere, etc. To see some of the projects that I made while at SAIT checkout my [academic projects](/#academic-projects).
 
-I am interested in making any kind of website with new or old technologies like WordPress or Grav. I like learning new platforms and technologies to make a websiteor finish a project in progress.
-
-## What I have learned from SAIT
-
-I have learned how to do basic HTML forms like Login Pages. How to make arrays of different items. I have made this webpage to display my ability to make a webpage.
-
-I have learned how to make web pages using HTML, CSS, PHP, and some JavaScript
-
-### What I have learned to build from SAIT
-
+These are the major things I learned while taking NMPD:
 - E-Commerce Sites With HTML, PHP, CSS, and JavaScript
 - How to manipulate DataBases with MySQL
 - Use a green screen in Adobe Premiere and After Effects
@@ -27,8 +18,11 @@ I have learned how to make web pages using HTML, CSS, PHP, and some JavaScript
 - Build Login pages with PHP sessions
 - Landing Pages with HTML,CSS, & JavaScript
 
-## What I have learned while working at True Market
+## My work history
 
+My first job in web development was right after my time at SAIT for the company True Market, and started as a practicum for my last semester at SAIT. During my time with True Market I was tasked with developing WordPress themes for clients. For clients that needed a new wesbite, I would be given a pre-approved design mockup and content, and build out the WordPress theme. Making themes for WordPress makes it easy to go back and change the content of the site within the WordPress back end if needed in the future. To see the projects I worked on during my time with True Market check out my [industry projects](/#industry-projects).
+
+These are the major things I learned during my time with True Market:
 - Composer
 - Yarn/NPM
 - SASS/SCSS
@@ -39,18 +33,14 @@ I have learned how to make web pages using HTML, CSS, PHP, and some JavaScript
 - SEO standards and better HTML structure for SEO
 - Twig templating language
 
-## What I have on my own time
+## Personal Learnings
 
-- Python
-- PostgreSQL
-- NuxtJS
-
-These are just some of the things that I have learned. I am always looking to learn more.
+Of course I haven't been in school and working every moment of my life. In my free time I have been learning about many more things to do with website development and methods to improve my projects. One of the things I have been learning is Python. Over the last few years I have been self-taught in Python by building [Friday, a Discord chatbot powered by GPT-3](/projects/friday-discord-bot). I have also been learning new website frameworks like VueJS and many more can be found in my [personal projects](/#personal-projects).
 
 <aside>
 
 ## Adobe Certifications
 
-I do have a couple of Adobe badges. If they are something that interests you, check them out at [youracclaim.com](http://youracclaim.com/users/brettanda)
+Although they are expired now, I have a couple of Adobe badges. If they are something that interests you, check them out at [youracclaim.com](https://youracclaim.com/users/brettanda).
 
 </aside>

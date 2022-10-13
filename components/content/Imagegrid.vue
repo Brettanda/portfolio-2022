@@ -1,17 +1,42 @@
 <template>
   <section class="carousel">
-    <ol class="carousel__viewport">
-      <li
-        v-for="(item, index) of flatUnwrap($slots.default(), ['p'])"
-        ref="viewportSlides"
-        :key="index"
-        :class="`carousel__slide ${index === 0 ? 'active' : ''}`"
+    <div class="carousel__viewport" ref="viewportparent">
+      <ol
+        class="carousel__viewport-sub"
+        ref="viewport"
+        :style="`--item-length: ${flatUnwrap($slots.default(), ['p']).length}`"
       >
-        <ContentSlot :use="() => item" unwrap="li" />
-      </li>
-    </ol>
-    <button class="carousel__button--next" @click="moveNext()"></button>
-    <button class="carousel__button--prev" @click="movePrev()"></button>
+        <li
+          v-for="(item, index) of flatUnwrap($slots.default(), ['p'])"
+          ref="viewportSlides"
+          :key="index"
+          :class="`carousel__slide`"
+          @dragstart.prevent
+          @touchstart="touchStart(index, $event)"
+          @touchend="touchEnd"
+          @touchmove="touchMove"
+          @mousedown="touchStart(index, $event)"
+          @mouseup="touchEnd"
+          @mousemove="touchMove"
+          @mouseleave="touchEnd"
+        >
+          <!-- :class="`carousel__slide ${index === 0 ? 'active' : ''}`" -->
+          <ContentSlot :use="() => item" unwrap="li" />
+        </li>
+      </ol>
+    </div>
+    <button
+      class="carousel__button--next"
+      type="button"
+      @click="slideNext"
+      aria-label="Move to next carousel item"
+    ></button>
+    <button
+      class="carousel__button--prev"
+      type="button"
+      @click="slidePrev"
+      aria-label="Move to previous carousel item"
+    ></button>
     <ol class="carousel__pagination" ref="pagination">
       <li
         v-for="(item, index) of flatUnwrap($slots.default(), ['p'])"
@@ -23,7 +48,7 @@
           ref="paginationButtons"
           type="button"
           :aria-label="`Navigate to slide ${index + 1}`"
-          @click="moveIndex(Number(index))"
+          @click="slideTo(index)"
         ></button>
       </li>
     </ol>
@@ -31,90 +56,116 @@
 </template>
 
 <script setup lang="ts">
-import { ref, reactive } from "vue";
+// https://codepen.io/bushblade/pen/ZEpvzbK
+import { ref, Ref } from "vue";
+const { flatUnwrap } = useUnwrap();
+
 const viewportSlides = ref<HTMLLIElement[]>([]);
+// @ts-ignore
+const viewport: Ref<HTMLOListElement> = ref<HTMLOListElement>();
+// @ts-ignore
+const viewportparent: Ref<HTMLDivElement> = ref<HTMLDivElement>();
 const paginationButtons = ref<HTMLButtonElement[]>([]);
-const { unwrap, flatUnwrap } = useUnwrap();
-let slide: number = 0;
-let moving: boolean = true;
+let isDragging = false,
+  startPos = 0,
+  currentTranslate = 0,
+  prevTranslate = 0,
+  animationID: number,
+  currentIndex = 0;
 
-const itemClassName = "carousel__slide";
-const itemClassPaginationName = "carousel__pagination-button";
-let totalItems: number = 1;
+// const wrap = (num: number, min: number, max: number): number =>
+//   ((((num - min) % (max - min)) + (max - min)) % (max - min)) + min;
 
-const wrap = (num: number, min: number, max: number): number =>
-  ((((num - min) % (max - min)) + (max - min)) % (max - min)) + min;
+const range = (num: number, min: number, max: number): number =>
+  Math.min(max-1, Math.max(min, num));
 
-const moveIndex = (index: number) => {
-  if (!moving) {
-    const oldSlide = slide;
-    slide = index;
-    moveCarouselTo(oldSlide, index);
-  }
+const getPositionX = (event: any) => {
+  const num = event.type.includes("mouse")
+    ? event.pageX
+    : event.touches[0].clientX;
+  return num;
 };
-const moveNext = () => {
-  if (!moving) {
-    if (slide === totalItems - 1) {
-      slide = 0;
-    } else {
-      slide++;
-    }
-    moveCarouselTo(slide - 1, slide);
-  }
-};
-const movePrev = () => {
-  if (!moving) {
-    if (slide === 0) {
-      slide = totalItems - 1;
-    } else {
-      slide--;
-    }
 
-    moveCarouselTo(slide + 1, slide);
+const slidePrev = () => {
+  slideTo(currentIndex - 1);
+};
+const slideNext = () => {
+  slideTo(currentIndex + 1);
+};
+const slideTo = (index: number) => {
+  paginationButtons.value[currentIndex].classList.remove(
+    "carousel__pagination-button--active"
+  );
+  currentIndex = range(index, 0, viewportSlides.value.length);
+  paginationButtons.value[currentIndex].classList.add(
+    "carousel__pagination-button--active"
+  );
+  setPositionByIndex();
+};
+
+const touchStart = (index: number, event: TouchEvent | MouseEvent) => {
+  currentIndex = index;
+  startPos = getPositionX(event);
+  isDragging = true;
+  animationID = requestAnimationFrame(animation);
+  viewport.value.classList.add("grabbing");
+  return event;
+};
+const touchMove = (event: TouchEvent | MouseEvent) => {
+  if (isDragging) {
+    const currentPosition = getPositionX(event);
+    currentTranslate = prevTranslate + currentPosition - startPos;
   }
+  return event;
 };
-const disableInteraction = () => {
-  moving = true;
-  setTimeout(() => {
-    moving = false;
-  }, 500);
+const touchEnd = (event: TouchEvent | MouseEvent) => {
+  cancelAnimationFrame(animationID);
+  isDragging = false;
+  const movedBy = currentTranslate - prevTranslate;
+  paginationButtons.value[currentIndex].classList.remove(
+    "carousel__pagination-button--active"
+  );
+
+  // if moved enough negative then snap to next slide if there is one
+  if (movedBy < -100 && currentIndex < viewportSlides.value.length - 1)
+    currentIndex += 1;
+
+  // if moved enough positive then snap to previous slide if there is one
+  if (movedBy > 100 && currentIndex > 0) currentIndex -= 1;
+
+  setPositionByIndex();
+  paginationButtons.value[currentIndex].classList.add(
+    "carousel__pagination-button--active"
+  );
+
+  viewport.value.classList.remove("grabbing");
+  return event;
 };
-const moveCarouselTo = (prevSlide: number, slide: number) => {
-  if (!moving) {
-    disableInteraction(); // Update the "old" adjacent slides with "new" ones
-    prevSlide = wrap(prevSlide, 0, totalItems);
-    let newPrevious = wrap(slide - 1, 0, totalItems);
-    let newNext = wrap(slide + 1, 0, totalItems);
-    let oldPrevious = wrap(prevSlide - 1, 0, totalItems);
-    let oldNext = wrap(prevSlide + 1, 0, totalItems); // Test if carousel has more than three items
-    if (totalItems - 1 > 3) {
-      viewportSlides.value[oldPrevious].className = itemClassName;
-      viewportSlides.value[oldNext].className = itemClassName; // Add new classes
-      viewportSlides.value[prevSlide].className = itemClassName; // Add new classes
-      viewportSlides.value[newPrevious].className = itemClassName + " prev";
-      viewportSlides.value[slide].className = itemClassName + " active";
-      viewportSlides.value[newNext].className = itemClassName + " next";
-      paginationButtons.value[prevSlide].className = itemClassPaginationName;
-      paginationButtons.value[
-        slide
-      ].className = `${itemClassPaginationName} ${itemClassPaginationName}--active`;
-    }
-  }
+
+const animation = () => {
+  setSliderPosition();
+  if (isDragging) requestAnimationFrame(animation);
 };
+const setPositionByIndex = () => {
+  currentTranslate = currentIndex * -viewportparent.value.offsetWidth;
+  prevTranslate = currentTranslate;
+  setSliderPosition();
+};
+
+const setSliderPosition = () => {
+  viewport.value.style.transform = `translateX(${currentTranslate}px)`;
+};
+
 onMounted(() => {
-  totalItems = viewportSlides.value.length;
-  viewportSlides.value[totalItems - 1].classList.add("prev");
-  viewportSlides.value[0].classList.add("active");
-  viewportSlides.value[1].classList.add("next");
+  window.addEventListener("resize", setPositionByIndex);
   paginationButtons.value[0].classList.add(
     "carousel__pagination-button--active"
   );
-  moving = false;
 });
 </script>
 
 
-<style lang="scss" scoped>
+<style lang="scss">
 .carousel {
   width: 100%;
   height: 500px;
@@ -133,45 +184,38 @@ ol {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  transform-style: preserve-3d;
+  position: relative;
+}
+
+.carousel__viewport-sub {
+  width: calc(100% * var(--item-length, 10));
+  height: 100%;
+  display: inline-flex;
+  will-change: transform;
+  transition: transform 0.3s ease-out;
+  cursor: grab;
 }
 
 .carousel__slide {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  margin: auto;
-  transition: translate 0.5s, rotate 0.5s, opacity 0.5s, z-index 0.5s;
-  width: 100%;
+  width: inherit;
+  max-width: 100%;
   height: 100%;
-  z-index: 100;
   display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
 
-  & > img {
+  & > .image {
     max-height: 100%;
-    width: auto;
     height: 100%;
     object-fit: contain;
     object-position: center;
+    user-select: none;
   }
+}
 
-  &.initial,
-  &.active {
-    opacity: 1;
-    position: relative;
-    z-index: 900;
-  }
-
-  &.prev,
-  &.next {
-    z-index: 800;
-  }
-  &.prev {
-    translate: -100% 0;
-  }
-  &.next {
-    translate: 100% 0;
-  }
+.grabbing {
+  cursor: grabbing;
 }
 
 $size: 50px;
@@ -219,7 +263,7 @@ $size: 50px;
 .carousel__pagination {
   display: flex;
   justify-content: center;
-  height: 10px;
+  height: 12px;
 }
 
 .carousel__pagination-button {

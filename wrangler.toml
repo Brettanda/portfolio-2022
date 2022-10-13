@@ -1,0 +1,8 @@
+name = "portfolio-2022"
+main = "./.output/server/index.mjs"
+workers_dev = true
+compatibility_date = "2022-09-10"
+account_id = "04ae15b7b5cfe73c69ea3a0035d92571"
+
+[site]
+bucket = ".output/public"

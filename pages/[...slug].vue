@@ -34,7 +34,7 @@
       { "@context": "https://schema.org/", "@type": "BreadcrumbList",
       "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home",
       "item": "https://brettanda.ca" },{ "@type": "ListItem", "position": 2,
-      "name": "{{ data.title }}", "item": "https://brettanda.ca/{{ path }}"
+      "name": "{{ data.title }}", "item": "https://brettanda.ca/{{ newPath }}"
       }] }
     </Script>
     <NuxtLayout name="default">
@@ -52,12 +52,16 @@
 
 <script setup>
 import { createError } from "h3";
+const appConfig = useAppConfig();
 
 const { path } = useRoute();
-const { data } = await useAsyncData(`page-${path}`, () =>
-  queryContent().where({ _path: path }).findOne()
+const newPath = path.slice(-1, path.length) === "/" ? path.slice(0, -1) : path;
+const { data } = await useAsyncData(`page-${newPath}`, () =>
+  queryContent()
+    .where({ _path: newPath, draft: false || undefined })
+    .findOne()
 );
-if (!data.value) {
+if (!data.value || data.value.draft === true) {
   throw createError({ statusCode: 404, statusMessage: "Page Not Found" });
 }
 definePageMeta({

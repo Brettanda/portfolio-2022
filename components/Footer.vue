@@ -68,10 +68,11 @@
     </Script>
     <Script type="application/ld+json">
       { "@context": "https://schema.org", "@type": "Person", "@id":
-      "#brettanda", "name": "Brett Anda", "url": "https://brettanda.ca", "owns":
-      [ "Developer Bacon", "Friday Bot" ], "alumniOf": { "@type":
-      "CollegeOrUniversity", "name": "Southern Alberta Institute of Technology",
-      "url": "https://www.sait.ca", "sameAs":
+      "#brettanda", "name": "Brett Anda", "url": "https://brettanda.ca",
+      "image": "https://brettanda.ca/portrait.jpg","jobTitle": "Full Stack Web
+      Developer" "owns": [ "Developer Bacon", "Friday Bot" ], "alumniOf": {
+      "@type": "CollegeOrUniversity", "name": "Southern Alberta Institute of
+      Technology", "url": "https://www.sait.ca", "sameAs":
       "https://en.wikipedia.org/wiki/Southern_Alberta_Institute_of_Technology"
       }, "sameAs": [ "https://facebook.com/brett.anda",
       "https://github.com/Brettanda", "https://twitter.com/brettanda",
@@ -84,10 +85,11 @@
 
 <style lang="scss" scoped>
 .footer {
-  background-color: var(--background-accent-two);
-  color: var(--colour-light);
+  background-color: var(--background-secondary);
+  color: var(--text-colour);
   padding: var(--padding-full);
   margin-top: auto;
+  margin-bottom: 0;
   overflow-x: hidden;
 }
 
@@ -95,7 +97,7 @@
   height: 30px;
   width: 30px;
   display: inline-block;
-  color: var(--colour-light);
+  color: var(--text-colour);
   transition: color 0.2s ease-in-out;
 
   &:hover,
@@ -114,7 +116,7 @@
   flex-flow: row wrap;
 }
 .bottom {
-  border-top: 1px solid var(--colour-light);
+  border-top: 1px solid var(--text-colour);
   padding-top: var(--padding-full);
   margin-top: var(--padding-full);
 }

@@ -1,11 +1,12 @@
 <template>
   <component v-bind:is="tag" class="card" v-inview>
     <div class="content">
-      <h3><NuxtLink v-bind:to="item._path" v-text="item.title" /></h3>
+      <h3 class="title">
+        <NuxtLink v-bind:to="item._path" v-text="item.title" />
+      </h3>
       <p v-text="item.description"></p>
-      <NuxtLink v-bind:to="item._path" class="read-more"> Read more </NuxtLink>
     </div>
-    <nuxt-picture
+    <img
       v-if="item.image != null"
       class="image loaded"
       :imgAttrs="{
@@ -28,7 +29,7 @@ export default {
     tag: {
       type: String,
       required: false,
-      default: "div",
+      default: "article",
     },
     item: {
       type: Object,
@@ -44,28 +45,23 @@ export default {
   min-width: 400px;
   width: 100%;
   margin: 0 auto;
-  // padding: var(--padding-half);
-  // margin: var(--padding-full);
   border-radius: 5px;
   position: relative;
   display: flex;
-  min-height: 250px;
+  min-height: 200px;
   flex-direction: column;
-  // display: inline-flex;
-  // flex-direction: column;
   justify-content: flex-end;
 }
 .image {
-  // width: calc(100% + var(--padding-full) * 2);
   width: 200px;
   position: absolute;
   right: 0;
   top: 0;
   z-index: 1;
-  // margin: calc(var(--padding-full) * -1);
-  height: 100%;
-  max-height: 300px;
+  height: 90%;
+  max-height: 200px;
   object-fit: contain;
+  border-radius: $border-radius;
 
   &:not(.loaded) {
     background: var(--background-accent);
@@ -78,6 +74,8 @@ export default {
 .content {
   z-index: 2;
   position: relative;
+  margin: auto;
+  width: 100%;
 }
 
 h3 {
@@ -86,18 +84,5 @@ h3 {
 
 a {
   color: inherit;
-}
-
-.read-more {
-  color: var(--link-colour);
-  border: 1px solid var(--link-colour);
-  padding: 0.5rem;
-  margin: 0.5rem 0;
-  display: inline-block;
-
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-  }
 }
 </style>

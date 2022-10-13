@@ -1,14 +1,12 @@
-import { defineNuxtConfig } from 'nuxt'
-
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  // target: "static",
   // titleTemplate: '%s | Brett Anda\'s Portfolio',
 
   modules: [
     '@nuxt/content',
     '@nuxtjs/color-mode',
-    '@nuxt/image-edge',
+    // '@nuxt/image-edge',
+    '@nuxtjs/html-validator',
     // 'nuxt-turnstile',
   ],
 
@@ -29,17 +27,20 @@ export default defineNuxtConfig({
   },
 
   typescript: {
-    strict: true
+    strict: true,
+    shim: false
   },
 
   // https://image.nuxtjs.org
-  image: {
-    // Options
-  },
+  // image: {
+  //   // Options
+  // },
 
   colorMode: {
     preference: "system",
     fallback: "light",
+    // for the theme in content
+    classSuffix: ''
   },
 
   build: {
@@ -52,23 +53,22 @@ export default defineNuxtConfig({
   },
 
   content: {
-    // documentDriven: true,
     highlight: {
       preload: ["csharp", "md", "javascript", "python"],
-      theme: 'github-dark',
-      // theme: {
-      //   // Default theme (same as single string)
-      //   default: 'github-light',
-      //   // Theme used if `html.dark`
-      //   dark: 'material-darker',
-      // }
+      theme: {
+        default: 'github-light',
+        dark: 'dark-plus',
+      }
+    },
+    navigation: {
+      fields: ['image', 'draft', 'description', 'category']
     }
   },
 
   nitro: {
-    preset: 'netlify-edge',
+    preset: 'cloudflare',
     prerender: {
-      routes: ['/sitemap.xml']
+      routes: ['/sitemap.xml', '/robots.txt']
     }
   },
 
@@ -80,7 +80,7 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@import "@/assets/styles/_variables.scss";',
+          additionalData: '@use "@/assets/styles/_variables.scss" as *;',
         },
       },
     },

@@ -1,6 +1,6 @@
 <template>
   <span>
-    <Markdown :use="$slots.default" unwrap="img" />
+    <ContentSlot :use="$slots.default" unwrap="img" />
   </span>
 </template>
 

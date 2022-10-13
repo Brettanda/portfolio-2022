@@ -27,10 +27,11 @@ export default defineComponent({
   <slot />
 </template>
 
-<style>
+<style lang="scss">
 pre {
-  background: var(--text-colour);
-  padding: var(--padding-full);
+  background: var(--background-secondary);
+  padding: var(--padding-half);
+  border-radius: $border-radius;
 }
 pre code .line {
   display: block;

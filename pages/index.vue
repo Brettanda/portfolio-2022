@@ -1,8 +1,30 @@
 <template>
   <main class="main">
     <Head>
-      <Title>Brett Anda's Portfolio</Title>
-      <Meta property="description" content="Welcome to the web developer portfolio of Brett Anda, feel free to click around. The theme of this website was created by me while proudly using VueJS and NuxtJS."/>
+      <Meta
+        name="description"
+        content="Welcome to the web developer portfolio of Brett Anda, feel free to click around. The theme of this website was created by me while proudly using VueJS and NuxtJS."
+      />
+      <Link rel="canonical" href="https://brettanda.ca" />
+      <Link
+        rel="apple-touch-icon-precomposed"
+        type="image/png"
+        sizes="120x120"
+        :href="`${appConfig.domain}/apple_touch.png`"
+      />
+      <Meta
+        name="msapplication-TileImage"
+        :content="`${appConfig.domain}/apple_touch.png`"
+      />
+      <Meta
+        name="twitter:image"
+        :content="`${appConfig.domain}/og_image.jpg`"
+      />
+      <Meta property="og:image" :content="`${appConfig.domain}/og_image.jpg`" />
+      <Meta
+        property="og:keywords"
+        content="Brett, Anda, Web, Website, Developer, Calgary, Alberta, Canada, Portfolio, NuxtJS"
+      />
     </Head>
     <Script type="application/ld+json">
       { "@context": "https://schema.org/", "@type": "BreadcrumbList",
@@ -61,12 +83,17 @@
             </ContentNavigation>
           </ul>
         </section>
+        <!-- <section class="container section"> -->
+        <!-- <h2 id="portfolio-evolution" v-inview>Portfolio Evolution</h2>
+          <ul></ul> -->
+        <!-- </section> -->
       </div>
     </div>
   </main>
 </template>
 
 <script setup>
+const appConfig = useAppConfig();
 const industry = queryContent("industry").where({
   _path: { $contains: "/projects" },
   category: "Work",

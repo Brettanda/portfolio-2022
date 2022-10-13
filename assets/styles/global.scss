@@ -1,6 +1,6 @@
 :root {
-  --colour-1: #332828; // #283033;
-  --colour-2: #462f2f; // #2f3f46;
+  --colour-1: rgb(32, 34, 37); // #283033;
+  --colour-2: rgb(47, 49, 54); // #2f3f46;
   --colour-3: #ff4a4a; // #4ACFFF;
   --colour-4: #f2f1ef; // #DAEBF0;
 
@@ -11,6 +11,8 @@
   --colour-white: #FFFFFF;
 
   --colour-mono: #fff;
+
+  --link-colour: var(--text-colour);
 }
 
 :root,
@@ -18,20 +20,25 @@
   --background-colour: var(--colour-white);
   --background-accent: var(--colour-4);
   --background-accent-two: var(--colour-1);
+
+  --background-primary: var(--colour-white);
+  --background-secondary: var(--colour-4);
+  --background-tertiary: var(--colour-1);
+
   --text-colour: var(--colour-1);
   --text-colour-invert: var(--colour-4);
 
-  --link-colour: var(--colour-3);
 
-  --padding-full: 2rem;
+  --padding-full: #{$padding-full};
   --padding-half: calc(var(--padding-full) / 2);
   --max-width: 1200px;
+  --max-width-content: 1000px;
   --min-width: 320px;
 
   --box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
 
   @include break(xs) {
-    --padding-full: 1rem;
+    --padding-full: calc(#{$padding-full} / 2);
   }
 }
 
@@ -39,6 +46,11 @@
   --background-colour: var(--colour-dark);
   --background-accent: var(--colour-2);
   --background-accent-two: var(--colour-2);
+
+  --background-primary: var(--colour-dark);
+  --background-secondary: var(--colour-2);
+  --background-tertiary: var(--colour-2);
+
   --text-colour: var(--colour-4);
   --text-colour-invert: var(--colour-1);
   --box-shadow: 15px 15px 30px #191919, -15px -15px 30px #4d3a3a93;
@@ -90,19 +102,56 @@ h3,
 h4,
 h5 {
   text-transform: uppercase;
+  max-width: max-content;
 }
 
 pre,
 code {
-  font-family: Monocraft, monospace;
+  font-family: monospace;
+  // font-family: Monocraft, monospace;
+  // font-family: Monocraft, 'Fira Code', monospace;
 }
 
 a {
   color: var(--link-colour);
   text-decoration: none;
+}
 
-  &:hover {
-    color: var(--link-colour-accent);
+main {
+  a {
+    transition: all 0.2s ease-in-out;
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      transition: all 0.2s ease-in-out;
+      width: 0;
+      top: 100%;
+      border-radius: $border-radius;
+      height: 2px;
+      background-color: var(--link-colour);
+    }
+
+    &:hover,
+    &:focus {
+      filter: brightness(60%);
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.prose {
+
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin-top: calc(var(--padding-full)*1.5);
   }
 }
 
@@ -120,12 +169,11 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-top: 0 !important;
 
   &>div {
     max-width: var(--max-width);
     width: 100%;
-    // margin: 0 auto;
-    // padding: var(--padding-full);
   }
 
   h1 {
@@ -138,8 +186,6 @@ a {
 }
 
 .container {
-  // max-width: var(--max-width);
-  // margin: auto;
   width: 100%;
   padding: var(--padding-full);
 }
@@ -149,28 +195,29 @@ a {
   max-width: var(--max-width);
 }
 
-@keyframes slide-fade-up {
-  0% {
-    opacity: 0;
-    transform: translateY(5rem);
-  }
+.content {
+  margin: 0 auto;
+  max-width: var(--max-width-content);
+}
 
-  100% {
-    opacity: 1;
-    transform: translateY(0);
+.spacer {
+  margin: var(--padding-half) 0;
+  padding: var(--padding-half) 0;
+
+  &__top {
+    margin-top: calc(var(--padding-full) * 2);
   }
 }
 
-
 .not-in-view {
-  animation: slide-fade-up 0.3s 1 ease-in-out;
-
-  &:not(.in-view) {
-    animation-play-state: paused;
-    transform: translateY(0);
-  }
+  opacity: 0;
+  transition: 0.4s;
+  transition-delay: 0.1s;
+  translate: 0 5rem;
 
   &.in-view {
-    animation-play-state: unset;
+    opacity: 1;
+    // filter: blur(0);
+    translate: 0;
   }
 }

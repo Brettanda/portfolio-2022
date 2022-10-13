@@ -1,7 +1,11 @@
 <template>
   <h3 :id="id">
-    <a :href="`#${id}`">
-      <font-awesome-icon class="header-link" :icon="['fa', 'link']" />
+    <a
+      :href="`#${id}`"
+      class="header-link"
+      v-bind:aria-label="id.replaceAll('-', ' ')"
+    >
+      <font-awesome-icon :icon="['fa', 'link']" />
     </a>
     <slot />
   </h3>
@@ -13,10 +17,19 @@ defineProps<{ id: string }>();
 
 <style lang="scss" scoped>
 .header-link {
-  height: 1rem;
+  --link-colour: var(--colour-3);
   opacity: 0;
   width: 0;
+  display: inline-block;
   transition: all 0.2s ease-in-out;
+
+  svg {
+    height: 1rem;
+  }
+
+  &::after {
+    display: none;
+  }
 }
 
 h3 {
@@ -25,10 +38,8 @@ h3 {
   &:hover,
   &:focus {
     .header-link {
-      display: inline-block;
       opacity: 1;
-      padding-right: 1rem;
-      width: auto;
+      width: 2rem;
     }
   }
 }

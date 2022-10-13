@@ -6,7 +6,7 @@
     <div class="text">
       <div>
         <h1 class="slide-left">
-          Hi, I'm Brett.<br />A Full Stack<br />(Web) Developer
+          Hi, I'm Brett <br />A Full Stack<br />(Web) Developer
         </h1>
       </div>
 
@@ -33,24 +33,11 @@
         <li>Laravel Mix</li>
         <li>PHP</li>
         <li>MySQL</li>
+        <li>PostgreSQL</li>
       </template>
     </ul>
   </div>
-</template>
-
-<script lang="ts">
-export default {
-  data() {
-    return {
-      loaded: false,
-    };
-  },
-  mounted() {
-    this.loaded = true;
-  },
-};
-</script>
-  
+</template>  
   
 <style lang="scss" scoped>
 .header {
@@ -60,6 +47,9 @@ export default {
   flex-direction: column;
   justify-content: center;
   max-width: 100%;
+  min-width: var(--min-width);
+  min-height: 700px;
+  max-height: 180vw;
   position: relative;
   // background: var(--background-accent);
 
@@ -70,6 +60,9 @@ export default {
     left: 0;
     width: 100%;
     height: 90vh;
+    min-height: 700px;
+    max-height: 180vw;
+    min-width: var(--min-width);
     background: var(--background-accent);
     transform-origin: top left;
     transform: skewY(-3deg);
@@ -126,7 +119,7 @@ export default {
     }
 
     @include break(xs) {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
   }
 
@@ -154,21 +147,21 @@ a {
 }
 
 $item-width: 200px;
-$item-count: 13 * 4;
+$item-count: 14 * 4;
 
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    translate: 0;
   }
   100% {
-    transform: translateX(calc(-#{$item-width} * (#{$item-count} / 2)));
+    translate: calc(-#{$item-width} * (#{$item-count} / 2));
   }
 }
 
 .knowledge-slider {
   background: var(--text-colour);
   color: var(--background-colour);
-  padding: var(--padding-full);
+  padding: $padding-full;
   transform: skewY(-3deg) translateY(-100%);
   text-transform: uppercase;
   overflow: hidden;
@@ -186,7 +179,7 @@ $item-count: 13 * 4;
 }
 
 .knowledge-track {
-  animation: scroll #{calc($item-count/1.5)}s linear infinite;
+  animation: scroll #{calc($item-count/1.1)}s linear infinite;
   width: calc($item-width * $item-count);
   display: flex;
   // justify-content: space-around;

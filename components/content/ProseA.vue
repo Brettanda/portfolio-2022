@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="link(href)">
+  <NuxtLink :to="link(href)" target="_blank">
     <slot />
   </NuxtLink>
 </template>
@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     link(l: String) {
-      if (!l.startsWith("/")) return l + "?utm_source=brettanda.ca";
+      // if (!l.startsWith("/")) return l + "?utm_source=brettanda.ca";
       return l;
     },
   },
@@ -26,6 +26,21 @@ export default {
 
 <style lang="scss" scoped>
 a {
-  text-decoration: underline;
+  --link-colour: var(--colour-3);
+  display: inline-block;
+
+  &::after {
+    width: 100%;
+    color: inherit;
+    left: unset;
+    right: 0;
+  }
+
+  &:hover,
+  &:focus {
+    &::after {
+      width: 0%;
+    }
+  }
 }
 </style>

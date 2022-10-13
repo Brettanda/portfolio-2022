@@ -1,5 +1,6 @@
 <template>
-  <nuxt-picture
+  <!-- <nuxt-picture -->
+  <img
     class="image"
     :imgAttrs="{
       class: 'image',

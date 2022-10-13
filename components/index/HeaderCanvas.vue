@@ -146,7 +146,7 @@ const drawLines = (timestamp: number) => {
     context.moveTo(line_x_position, backface.value.height);
     context.lineTo(
       line_x_position,
-      getRandom(10, backface.value.height - 100)
+      getRandom(100, backface.value.height - 100)
     );
 
     if (canvas_stop == true) {
@@ -302,6 +302,8 @@ onUnmounted(() => {
   height: 90vh;
   width: 100vw;
   max-width: 100%;
+  max-height: 180vw;
+  min-height: 700px;
   position: absolute;
   overflow: hidden;
   transform: skewY(-3deg);
@@ -314,11 +316,13 @@ onUnmounted(() => {
   transform-origin: top left;
   height: 100vh;
   width: 100vw;
+  max-height: 180vw;
+  min-height: 700px;
   // max-width: 100%;
   position: relative;
   transform: skew(0, 3deg);
   min-width: var(--min-width);
-  // opacity: 0.6;
+  // opacity: 0.7;
 }
 </style>
 

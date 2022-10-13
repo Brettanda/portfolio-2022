@@ -1,6 +1,10 @@
 <template>
   <h2 :id="id">
-    <a :href="`#${id}`" class="header-link">
+    <a
+      :href="`#${id}`"
+      class="header-link"
+      v-bind:aria-label="id.replaceAll('-', ' ')"
+    >
       <font-awesome-icon :icon="['fa', 'link']" />
     </a>
     <slot />
@@ -13,6 +17,7 @@ defineProps<{ id: string }>();
 
 <style lang="scss" scoped>
 .header-link {
+  --link-colour: var(--colour-3);
   opacity: 0;
   width: 0;
   display: inline-block;
@@ -20,6 +25,10 @@ defineProps<{ id: string }>();
 
   svg {
     height: 1rem;
+  }
+
+  &::after {
+    display: none;
   }
 }
 

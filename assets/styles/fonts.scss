@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Monocraft';
-    src: url('Monocraft.eot');
+    src: url('/fonts/Monocraft.eot');
     src: local('Monocraft'),
-        url('Monocraft.eot?#iefix') format('embedded-opentype'),
-        url('Monocraft.woff2') format('woff2'),
-        url('Monocraft.woff') format('woff'),
-        url('Monocraft.ttf') format('truetype');
+        url('/fonts/Monocraft.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Monocraft.woff2') format('woff2'),
+        url('/fonts/Monocraft.woff') format('woff'),
+        url('/fonts/Monocraft.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'Bai Jamjuree';
-    src: url('BaiJamjuree-Bold.eot');
+    src: url('/fonts/BaiJamjuree-Bold.eot');
     src: local('Bai Jamjuree Bold'), local('BaiJamjuree-Bold'),
-        url('BaiJamjuree-Bold.eot?#iefix') format('embedded-opentype'),
-        url('BaiJamjuree-Bold.woff2') format('woff2'),
-        url('BaiJamjuree-Bold.woff') format('woff'),
-        url('BaiJamjuree-Bold.ttf') format('truetype');
+        url('/fonts/BaiJamjuree-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/BaiJamjuree-Bold.woff2') format('woff2'),
+        url('/fonts/BaiJamjuree-Bold.woff') format('woff'),
+        url('/fonts/BaiJamjuree-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -26,12 +26,12 @@
 
 @font-face {
     font-family: 'Bai Jamjuree';
-    src: url('BaiJamjuree-Medium.eot');
+    src: url('/fonts/BaiJamjuree-Medium.eot');
     src: local('Bai Jamjuree Medium'), local('BaiJamjuree-Medium'),
-        url('BaiJamjuree-Medium.eot?#iefix') format('embedded-opentype'),
-        url('BaiJamjuree-Medium.woff2') format('woff2'),
-        url('BaiJamjuree-Medium.woff') format('woff'),
-        url('BaiJamjuree-Medium.ttf') format('truetype');
+        url('/fonts/BaiJamjuree-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/BaiJamjuree-Medium.woff2') format('woff2'),
+        url('/fonts/BaiJamjuree-Medium.woff') format('woff'),
+        url('/fonts/BaiJamjuree-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;

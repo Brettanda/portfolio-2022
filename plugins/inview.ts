@@ -1,39 +1,24 @@
 export default defineNuxtPlugin(nuxtApp => {
-  let offsetTop = 0;
+  let observer: IntersectionObserver;
 
-  const onScroll = (el) => {
-    offsetTop = window.pageYOffset || document.documentElement.scrollTop;
-    callbackFunc();
-  }
-  const isElementInViewport = el => {
-    const rect = el.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <=
-      (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <=
-      (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
-  const callbackFunc = () => {
-    const items = document.querySelectorAll(".not-in-view");
-    for (var i = 0; i < items.length; i++) {
-      if (isElementInViewport(items[i])) {
-        items[i].classList.add("in-view");
-      }
-    }
-  };
   nuxtApp.vueApp.directive('inview', {
-    created(el) {
-      el.classList.add('not-in-view')
-    },
     mounted(el) {
-      window.addEventListener("scroll", onScroll);
-      onScroll(el);
+      el.classList.add('not-in-view')
+      observer = new IntersectionObserver(([entry]) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in-view")
+        } else {
+          entry.target.classList.remove("in-view")
+        }
+      }, {
+        root: null,
+        rootMargin: '1000px 0px 0px 0px',
+        threshold: 0.25
+      })
+      observer.observe(el);
     },
     unmounted() {
-      window.removeEventListener("scroll", onScroll);
+      observer.disconnect()
     },
   })
 })

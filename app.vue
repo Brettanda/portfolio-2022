@@ -2,6 +2,7 @@
   <AppHead/>
   <Navigation />
   <NuxtLayout>
+    <NuxtLoadingIndicator />
     <NuxtPage />
   </NuxtLayout>
   <Footer />

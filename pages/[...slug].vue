@@ -13,6 +13,22 @@
             : data.description
         "
       />
+      <Link
+        rel="canonical"
+        :href="`https://brettanda.ca${
+          path.slice(-1, path.length) === '/' ? path.slice(0, -1) : path
+        }`"
+      />
+      <Meta
+        name="twitter:image"
+        v-if="data.image !== undefined"
+        :content="`${appConfig.domain}${data.image}`"
+      />
+      <Meta
+        property="og:image"
+        v-if="data.image !== undefined"
+        :content="`${appConfig.domain}${data.image}`"
+      />
     </Head>
     <Script type="application/ld+json">
       { "@context": "https://schema.org/", "@type": "BreadcrumbList",

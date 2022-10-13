@@ -1,8 +1,8 @@
 <template>
   <header class="header canvas-home">
-    <!-- <ClientOnly> -->
+    <ClientOnly>
       <IndexHeaderCanvas />
-    <!-- </ClientOnly> -->
+    </ClientOnly>
     <div class="text">
       <div>
         <h1 class="slide-left">

@@ -5,3 +5,6 @@ layouts/*-ignore.vue
 # ignore page inside ignore folder
 pages/ignore/*.vue
 pages/*-ignore.vue
+
+**/ignore/*
+**/*-ignore.vue

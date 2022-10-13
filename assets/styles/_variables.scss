@@ -7,8 +7,7 @@
   }
 
   @else {
-    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
-    +"Available breakpoints are: #{map-keys($breakpoints)}.";
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "+"Available breakpoints are: #{map-keys($breakpoints)}.";
   }
 }
 
@@ -25,7 +24,6 @@
   }
 }
 
-$red: #ff0000;
 
 $breakpoints: (
   "xs": 600px,
@@ -34,3 +32,8 @@ $breakpoints: (
   "lg": 1400px,
   "xl": 1700px,
   ) !default;
+
+$red: #ff0000;
+
+$border-radius: 4px;
+$padding-full: 2rem;

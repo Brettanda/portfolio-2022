@@ -14,6 +14,13 @@
         "
       />
     </Head>
+    <Script type="application/ld+json">
+      { "@context": "https://schema.org/", "@type": "BreadcrumbList",
+      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home",
+      "item": "https://brettanda.ca" },{ "@type": "ListItem", "position": 2,
+      "name": "{{ data.title }}", "item": "https://brettanda.ca/{{ path }}"
+      }] }
+    </Script>
     <NuxtLayout name="default">
       <template #header v-if="data">
         {{ data.title }}

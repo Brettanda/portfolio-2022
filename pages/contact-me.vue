@@ -8,6 +8,12 @@
         content="Contact me here for anything that I could help you with or if you just want to expand your social network."
       />
     </Head>
+    <Script type="application/ld+json">
+      { "@context": "https://schema.org/", "@type": "BreadcrumbList",
+      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home",
+      "item": "https://brettanda.ca" },{ "@type": "ListItem", "position": 2,
+      "name": "Contact me", "item": "https://brettanda.ca/contact-me" }] }
+    </Script>
     <NuxtLayout name="default">
       <template #header>Contact Me</template>
       <template #default>

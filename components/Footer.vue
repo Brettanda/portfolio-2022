@@ -70,7 +70,7 @@
       { "@context": "https://schema.org", "@type": "Person", "@id":
       "#brettanda", "name": "Brett Anda", "url": "https://brettanda.ca",
       "image": "https://brettanda.ca/portrait.jpg","jobTitle": "Full Stack Web
-      Developer" "owns": [ "Developer Bacon", "Friday Bot" ], "alumniOf": {
+      Developer", "owns": [ "Developer Bacon", "Friday Bot" ], "alumniOf": {
       "@type": "CollegeOrUniversity", "name": "Southern Alberta Institute of
       Technology", "url": "https://www.sait.ca", "sameAs":
       "https://en.wikipedia.org/wiki/Southern_Alberta_Institute_of_Technology"

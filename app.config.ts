@@ -1,3 +1,3 @@
 export default defineAppConfig({
-  domain: "https://dev.brettanda.ca"
+  domain: "https://brettanda.ca"
 })

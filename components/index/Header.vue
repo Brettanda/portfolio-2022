@@ -11,8 +11,9 @@
       </div>
 
       <nav class="anchors slide-right">
-        <a href="#projects">Projects</a>
-        <a href="#portfolio-evolution">Portfolio Evolution</a>
+        <a href="#industry-projects">Industry Projects</a>
+        <a href="#personal-projects">Personal Projects</a>
+        <a href="#academic-projects">Academic Projects</a>
       </nav>
     </div>
   </header>

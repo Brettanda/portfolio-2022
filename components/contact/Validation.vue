@@ -4,7 +4,7 @@
       <div
         class="error"
         v-for="error of item.$errors"
-        :key="error.$message"
+        :key="error.$uid"
       >
         <div>{{ error.$message }}</div>
       </div>
@@ -17,11 +17,14 @@ export default {
   props: {
     item: {
       required: true,
-    },
-    name: {
-      type: String,
-      default: "Value"
+      type: Object
     }
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.error {
+  padding: 10px 10px 0 10px;
+}
+</style>

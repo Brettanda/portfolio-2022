@@ -1,5 +1,5 @@
-import { VueRecaptcha } from "vue-recaptcha"
+// import { VueRecaptcha } from "vue-recaptcha"
 
 export default defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp.component("vue-recaptcha", VueRecaptcha)
+  // nuxtApp.vueApp.component("vue-recaptcha", VueRecaptcha)
 })

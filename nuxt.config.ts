@@ -9,11 +9,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/color-mode',
     '@nuxt/image-edge',
+    // 'nuxt-turnstile',
   ],
-
-  // experimental: {
-  //   viteNode: true
-  // },
 
   runtimeConfig: {
     captchaKey: '',
@@ -21,7 +18,14 @@ export default defineNuxtConfig({
     emailPassword: '',
     public: {
       captchaSiteKey: '',
-    }
+    },
+    turnstile: {
+      secretKey: process.env.NUXT_TURNSTILE_SECRET_KEY || '',
+    },
+  },
+
+  turnstile: {
+    siteKey: process.env.NUXT_TURNSTILE_SITE_KEY || '',
   },
 
   typescript: {

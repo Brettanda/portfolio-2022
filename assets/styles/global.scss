@@ -14,7 +14,7 @@
 }
 
 :root,
-.light-mode {
+.light {
   --background-colour: var(--colour-white);
   --background-accent: var(--colour-4);
   --background-accent-two: var(--colour-1);
@@ -35,7 +35,7 @@
   }
 }
 
-.dark-mode {
+.dark {
   --background-colour: var(--colour-dark);
   --background-accent: var(--colour-2);
   --background-accent-two: var(--colour-2);

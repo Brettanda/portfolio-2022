@@ -6,8 +6,7 @@
       class="backface"
       id="backface"
       ref="backface"
-      ></canvas
-    >
+    ></canvas>
   </div>
 </template>
 
@@ -25,8 +24,8 @@ let canvas_stop: boolean = false;
 
 let current_animation: number;
 
-const colourMode = useColorMode();
-const mode = colourMode.preference; //document.getElementsByTagName("html")[0].className;
+// const colourMode = useColorMode();
+// const mode = colourMode.value; //document.getElementsByTagName("html")[0].className;
 let colourMinH = 0;
 let colourMaxH = 255;
 let colourMinS = 30;
@@ -34,14 +33,14 @@ let colourMaxS = 70;
 let colourMinL = 60;
 let colourMaxL = 80;
 
-if (mode == "dark") {
-  colourMinH = 0;
-  colourMaxH = 255;
-  colourMinS = 30;
-  colourMaxS = 70;
-  colourMinL = 20;
-  colourMaxL = 40;
-}
+// if (mode == "dark") {
+//   colourMinH = 0;
+//   colourMaxH = 255;
+//   colourMinS = 30;
+//   colourMaxS = 70;
+//   colourMinL = 20;
+//   colourMaxL = 40;
+// }
 
 class Circle {
   x: number;
@@ -248,24 +247,41 @@ onMounted(() => {
     // @ts-ignore
     context = backface.value.getContext("2d");
     window.addEventListener("resize", onResize);
-    window.addEventListener("colourChange", (e: Event) => {
-      // @ts-ignore
-      const mode = e.detail;
-      colourMinH = 0;
-      colourMaxH = 255;
-      colourMinS = 30;
-      colourMaxS = 70;
-      colourMinL = 60;
-      colourMaxL = 80;
-      if (mode == "dark") {
-        colourMinH = 0;
-        colourMaxH = 255;
-        colourMinS = 30;
-        colourMaxS = 70;
-        colourMinL = 20;
-        colourMaxL = 40;
-      }
-    });
+    // const changeColours = (mode: string) => {
+    //   colourMinH = 0;
+    //   colourMaxH = 255;
+    //   colourMinS = 30;
+    //   colourMaxS = 70;
+    //   colourMinL = 60;
+    //   colourMaxL = 80;
+    //   if (mode == "dark") {
+    //     colourMinH = 0;
+    //     colourMaxH = 255;
+    //     colourMinS = 30;
+    //     colourMaxS = 70;
+    //     colourMinL = 20;
+    //     colourMaxL = 40;
+    //   }
+    // };
+    // window
+    //   .matchMedia("(prefers-color-scheme: dark)")
+    //   .addEventListener("change", (ev: MediaQueryListEvent) => {
+    //     if (colourMode.preference == "system") {
+    //       changeColours(ev.matches ? "dark" : "light");
+    //     }
+    //   });
+    // window.addEventListener("colourChange", (e: Event) => {
+    //   // @ts-ignore
+    //   let mode = e.detail;
+    //   if (
+    //     colourMode.preference == "system" &&
+    //     window.matchMedia &&
+    //     window.matchMedia("(prefers-color-scheme: dark)").matches
+    //   ) {
+    //     mode = "dark";
+    //   }
+    //   changeColours(mode);
+    // });
     if (rand == 1) {
       current_animation = requestAnimationFrame(drawCircle);
     } else if (rand == 2) {
@@ -275,7 +291,7 @@ onMounted(() => {
     }
   });
 });
-onBeforeUnmount(() => {
+onUnmounted(() => {
   window.removeEventListener("resize", onResize);
   cancelAnimationFrame(current_animation);
 });
@@ -307,9 +323,9 @@ onBeforeUnmount(() => {
 </style>
 
 <style lang="scss">
-// .light-mode {
-//   .backface {
-//     opacity: 0.6;
-//   }
-// }
+.dark {
+  .backface {
+    filter: brightness(50%);
+  }
+}
 </style>

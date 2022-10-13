@@ -9,10 +9,12 @@ export default defineEventHandler(async (event) => {
   })
 
   for (const doc of docs) {
-    sitemap.write({
-      url: doc._path,
-      changefreq: 'monthly'
-    })
+    if (!doc.draft) {
+      sitemap.write({
+        url: doc._path,
+        changefreq: 'monthly'
+      })
+    }
   }
   sitemap.end()
 

@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxtjs/color-mode',
+    '@nuxt/image-edge',
     '@nuxtjs/html-validator',
     // 'nuxt-turnstile',
   ],

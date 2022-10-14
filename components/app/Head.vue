@@ -27,7 +27,7 @@
       type="image/png"
       :sizes="x + 'x' + x"
       media="(prefers-color-scheme: light)"
-      href="/logo-light.png"
+      :href="$img(`/logo-light.png`, { height: x, width: x })"
     />
     <Link
       v-for="x in sizes"
@@ -36,13 +36,11 @@
       type="image/png"
       :sizes="x + 'x' + x"
       media="(prefers-color-scheme: dark)"
-      href="/logo.png"
+      :href="$img(`/logo.png`, { height: x, width: x })"
     />
   </Head>
 </template>
 
 <script setup lang="ts">
-// <!-- :href="$img(`/logo-light.png`, { height: x, width: x })" -->
-// <!-- :href="$img(`/logo.png`, { height: x, width: x })" -->
 const sizes: number[] = [16, 32, 64, 192];
 </script>

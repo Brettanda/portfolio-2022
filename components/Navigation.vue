@@ -1,5 +1,10 @@
 <template>
-  <nav class="nav container" aria-label="Main">
+  <nav
+    class="nav container"
+    aria-label="Main"
+    itemscope
+    itemtype="https://schema.org/SiteNavigationElement"
+  >
     <div class="nav_sub subcontainer">
       <NuxtLink to="/" title="Home" class="logo">
         <img
@@ -17,9 +22,9 @@
           alt="Brett Anda's logo"
         />
       </NuxtLink>
-      <NuxtLink to="/">Home</NuxtLink>
-      <NuxtLink to="/about-me">About</NuxtLink>
-      <NuxtLink to="/contact-me">Contact</NuxtLink>
+      <NuxtLink itemprop="url" to="/"><span itemprop="name">Home</span></NuxtLink>
+      <NuxtLink itemprop="url" to="/about-me"><span itemprop="name">About</span></NuxtLink>
+      <NuxtLink itemprop="url" to="/contact-me"><span itemprop="name">Contact</span></NuxtLink>
       <button
         class="colour-mode"
         type="button"

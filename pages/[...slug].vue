@@ -30,13 +30,6 @@
         :content="`${appConfig.domain}${data.image}`"
       />
     </Head>
-    <Script type="application/ld+json">
-      { "@context": "https://schema.org/", "@type": "BreadcrumbList",
-      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home",
-      "item": "https://brettanda.ca" },{ "@type": "ListItem", "position": 2,
-      "name": "{{ data.title }}", "item": "https://brettanda.ca/{{ newPath }}"
-      }] }
-    </Script>
     <NuxtLayout name="default">
       <template #header v-if="data">
         {{ data.title }}
@@ -64,6 +57,18 @@ const { data } = await useAsyncData(`page-${newPath}`, () =>
 if (!data.value || data.value.draft === true) {
   throw createError({ statusCode: 404, statusMessage: "Page Not Found" });
 }
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      children: `{ "@context": "https://schema.org/", "@type": "BreadcrumbList",
+      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home",
+      "item": "https://brettanda.ca" },{ "@type": "ListItem", "position": 2,
+      "name": "${data.value.head?.title || data.value.title}", "item": "https://brettanda.ca${newPath}"
+      }] }`,
+    },
+  ],
+});
 definePageMeta({
   layout: false,
 });

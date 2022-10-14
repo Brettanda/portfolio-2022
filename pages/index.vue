@@ -7,7 +7,7 @@
       />
       <Link rel="canonical" href="https://brettanda.ca" />
       <Link
-        rel="apple-touch-icon-precomposed"
+        rel="apple-touch-icon"
         type="image/png"
         sizes="120x120"
         :href="`${appConfig.domain}/apple_touch.png`"

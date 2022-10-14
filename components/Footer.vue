@@ -1,5 +1,9 @@
 <template>
-  <footer class="footer container">
+  <footer
+    class="footer container"
+    itemscope
+    itemtype="https://schema.org/Person"
+  >
     <div class="subfooter subcontainer">
       <div class="top">
         <div class="top-left">
@@ -24,7 +28,11 @@
               target="_blank"
               to="https://github.com/Brettanda?utm_source=brettanda.ca"
               aria-label="Brett Anda's Github profile"
-              ><font-awesome-icon :icon="['fab', 'github']"
+              itemprop="sameAs"
+              ><font-awesome-icon
+                height="30"
+                width="30"
+                :icon="['fab', 'github']"
             /></NuxtLink>
           </li>
           <li>
@@ -33,7 +41,11 @@
               target="_blank"
               to="https://facebook.com/brett.anda?utm_source=brettanda.ca"
               aria-label="Brett Anda's Facebook profile"
-              ><font-awesome-icon :icon="['fab', 'facebook']"
+              itemprop="sameAs"
+              ><font-awesome-icon
+                height="30"
+                width="30"
+                :icon="['fab', 'facebook']"
             /></NuxtLink>
           </li>
           <li>
@@ -42,7 +54,11 @@
               target="_blank"
               to="https://www.linkedin.com/in/brett-anda?utm_source=brettanda.ca"
               aria-label="Brett Anda's LinkedIn profile"
-              ><font-awesome-icon :icon="['fab', 'linkedin']"
+              itemprop="sameAs"
+              ><font-awesome-icon
+                height="30"
+                width="30"
+                :icon="['fab', 'linkedin']"
             /></NuxtLink>
           </li>
           <li>
@@ -51,20 +67,38 @@
               target="_blank"
               to="https://codepen.io/brettanda?utm_source=brettanda.ca"
               aria-label="Brett Anda's CodePen profile"
-              ><font-awesome-icon :icon="['fab', 'codepen']"
+              itemprop="sameAs"
+              ><font-awesome-icon
+                height="30"
+                width="30"
+                :icon="['fab', 'codepen']"
+            /></NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              class="fab"
+              target="_blank"
+              to="https://dev.to/brettanda?utm_source=brettanda.ca"
+              aria-label="Brett Anda's Dev.to profile"
+              itemprop="sameAs"
+              ><font-awesome-icon height="30" width="30" :icon="['fab', 'dev']"
             /></NuxtLink>
           </li>
         </ul>
       </div>
       <div class="bottom">
-        <p>2022 &copy; Brett Anda. All Rights Reserved.</p>
+        <p>
+          2022 &copy;
+          <span itemprop="name" itemid="#brettanda">Brett Anda</span>. All
+          Rights Reserved.
+        </p>
       </div>
     </div>
     <Script type="application/ld+json">
       { "@context": "https://schema.org", "@type": "WebSite", "name": "Brett
-      Anda's Portfolio", "image": "https://brettanda.ca/logo_full.png", "logo":
-      "https://brettanda.ca/logo_full.png", "author": { "@type": "Person",
-      "@id": "#brettanda" }, "url": "https://brettanda.ca" }
+      Anda's Portfolio", "image": "https://brettanda.ca/logo_full.png",
+      "author": { "@type": "Person", "@id": "#brettanda" }, "url":
+      "https://brettanda.ca" }
     </Script>
     <Script type="application/ld+json">
       { "@context": "https://schema.org", "@type": "Person", "@id":
@@ -74,10 +108,8 @@
       "@type": "CollegeOrUniversity", "name": "Southern Alberta Institute of
       Technology", "url": "https://www.sait.ca", "sameAs":
       "https://en.wikipedia.org/wiki/Southern_Alberta_Institute_of_Technology"
-      }, "sameAs": [ "https://facebook.com/brett.anda",
-      "https://github.com/Brettanda", "https://twitter.com/brettanda",
-      "https://codepen.io/brettanda", "https://linkedin.com/in/brett-anda",
-      "https://medium.com/@brettanda", "https://dev.to/brettanda",
+      }, "sameAs": [ "https://twitter.com/brettanda",
+      "https://linkedin.com/in/brett-anda", "https://medium.com/@brettanda",
       "https://keybase.io/brett_anda" ] }
     </Script>
   </footer>

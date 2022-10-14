@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "@nuxt/content": "latest",
-    "@nuxt/image-edge": "latest",
     "@nuxtjs/color-mode": "^3.1.4",
     "@nuxtjs/html-validator": "^1.0.0",
     "@types/node": "18.8.0",

@@ -22,17 +22,21 @@
     />
     <Link
       rel="icon"
-      v-if="$colorMode.value == 'dark' && !$colorMode.unknown"
-      type="image/svg+xml"
-      media="(prefers-color-scheme: dark)"
-      href="/logo-light.svg"
+      type="image/png"
+      :sizes="x + 'x' + x"
+      media="(prefers-color-scheme: light)"
+      :href="$img(`/logo-light.png`, { height: x, width: x })"
     />
     <Link
       rel="icon"
-      v-else
-      type="image/svg+xml"
-      media="(prefers-color-scheme: light),(prefers-color-scheme: no-prefrence)"
-      href="/logo-dark.svg"
+      type="image/png"
+      :sizes="x + 'x' + x"
+      media="(prefers-color-scheme: dark)"
+      :href="$img(`/logo.png`, { height: x, width: x })"
     />
   </Head>
 </template>
+
+<script setup lang="ts">
+const sizes: number[] = [16, 32, 64, 192];
+</script>

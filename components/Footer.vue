@@ -94,14 +94,22 @@
         </p>
       </div>
     </div>
-    <Script type="application/ld+json">
-      { "@context": "https://schema.org", "@type": "WebSite", "name": "Brett
+  </footer>
+</template>
+
+<script lang="ts" setup>
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      children: `{ "@context": "https://schema.org", "@type": "WebSite", "name": "Brett
       Anda's Portfolio", "image": "https://brettanda.ca/logo_full.png",
       "author": { "@type": "Person", "@id": "#brettanda" }, "url":
-      "https://brettanda.ca" }
-    </Script>
-    <Script type="application/ld+json">
-      { "@context": "https://schema.org", "@type": "Person", "@id":
+      "https://brettanda.ca" }`,
+    },
+    {
+      type: "application/ld+json",
+      children: `{ "@context": "https://schema.org", "@type": "Person", "@id":
       "#brettanda", "name": "Brett Anda", "url": "https://brettanda.ca",
       "image": "https://brettanda.ca/portrait.jpg","jobTitle": "Full Stack Web
       Developer", "owns": [ "Developer Bacon", "Friday Bot" ], "alumniOf": {
@@ -110,10 +118,11 @@
       "https://en.wikipedia.org/wiki/Southern_Alberta_Institute_of_Technology"
       }, "sameAs": [ "https://twitter.com/brettanda",
       "https://linkedin.com/in/brett-anda", "https://medium.com/@brettanda",
-      "https://keybase.io/brett_anda" ] }
-    </Script>
-  </footer>
-</template>
+      "https://keybase.io/brett_anda" ] }`,
+    },
+  ],
+});
+</script>
 
 <style lang="scss" scoped>
 .footer {

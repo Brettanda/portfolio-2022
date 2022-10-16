@@ -7,14 +7,8 @@
         name="description"
         content="Contact me here for anything that I could help you with or if you just want to expand your social network."
       />
-      <Link rel="canonical" href="https://brettanda.ca/contact-me"/>
+      <Link rel="canonical" href="https://brettanda.ca/contact-me" />
     </Head>
-    <Script type="application/ld+json">
-      { "@context": "https://schema.org/", "@type": "BreadcrumbList",
-      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home",
-      "item": "https://brettanda.ca" },{ "@type": "ListItem", "position": 2,
-      "name": "Contact me", "item": "https://brettanda.ca/contact-me" }] }
-    </Script>
     <NuxtLayout name="default">
       <template #header>Contact Me</template>
       <template #default>
@@ -148,6 +142,17 @@ export default {
     const config = useRuntimeConfig();
     definePageMeta({
       layout: false,
+    });
+    useHead({
+      script: [
+        {
+          type: "application/ld+json",
+          children: `{ "@context": "https://schema.org/", "@type": "BreadcrumbList",
+      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home",
+      "item": "https://brettanda.ca" },{ "@type": "ListItem", "position": 2,
+      "name": "Contact me", "item": "https://brettanda.ca/contact-me" }] }`,
+        },
+      ],
     });
     return {
       // v$: useVuelidate(),

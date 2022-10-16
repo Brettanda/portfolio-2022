@@ -50,11 +50,9 @@ const appConfig = useAppConfig();
 const { path } = useRoute();
 const newPath = path.slice(-1, path.length) === "/" ? path.slice(0, -1) : path;
 const { data } = await useAsyncData(`page-${newPath}`, () =>
-  queryContent()
-    .where({ _path: newPath, draft: false || undefined })
-    .findOne()
+  queryContent().where({ _path: newPath }).findOne()
 );
-if (!data.value || data.value.draft === true) {
+if (!process.dev && (!data.value || data.value.draft === true)) {
   throw createError({ statusCode: 404, statusMessage: "Page Not Found" });
 }
 useHead({
@@ -64,7 +62,9 @@ useHead({
       children: `{ "@context": "https://schema.org/", "@type": "BreadcrumbList",
       "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home",
       "item": "https://brettanda.ca" },{ "@type": "ListItem", "position": 2,
-      "name": "${data.value.head?.title || data.value.title}", "item": "https://brettanda.ca${newPath}"
+      "name": "${
+        data.value.head?.title || data.value.title
+      }", "item": "https://brettanda.ca${newPath}"
       }] }`,
     },
   ],

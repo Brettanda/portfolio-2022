@@ -26,11 +26,6 @@
         content="Brett, Anda, Web, Website, Developer, Calgary, Alberta, Canada, Portfolio, NuxtJS"
       />
     </Head>
-    <Script type="application/ld+json">
-      { "@context": "https://schema.org/", "@type": "BreadcrumbList",
-      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home",
-      "item": "https://brettanda.ca" }] }
-    </Script>
     <IndexHeader />
     <div class="container">
       <div class="subcontainer">
@@ -108,6 +103,16 @@ const educational = queryContent("educational").where({
 });
 definePageMeta({
   layout: false,
+});
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      children: `{ "@context": "https://schema.org/", "@type": "BreadcrumbList",
+      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home",
+      "item": "https://brettanda.ca" }] }`,
+    },
+  ],
 });
 </script>
 

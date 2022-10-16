@@ -8,7 +8,7 @@ My name is Brett Anda. I am a Full Stack (Web) Developer. I add the parenthesis 
 
 ## My academic history
 
-My academic history starts at the Southern Alberta Institute of Technology (SAIT) with the New Media Production and Design (NMPD) course, where I learned many things like video editing, photo editing, business card design, logo design, the basics of website development and design, WordPress theming, and more. All of these were taught alongside learning Adobe products like Photoshop, Illustrator, Premiere, etc. To see some of the projects that I made while at SAIT checkout my [academic projects](/#academic-projects).
+My academic history starts at the Southern Alberta Institute of Technology (SAIT) with the [New Media Production and Design (NMPD)](https://saitnewmedia.ca/showcase/showcase-2019/) course, where I learned many things like video editing, photo editing, business card design, logo design, the basics of website development and design, WordPress theming, and more. All of these were taught alongside learning Adobe products like Photoshop, Illustrator, Premiere, etc. To see some of the projects that I made while at SAIT checkout my [academic projects](/#academic-projects).
 
 These are the major things I learned while taking NMPD:
 - E-Commerce Sites With HTML, PHP, CSS, and JavaScript

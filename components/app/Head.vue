@@ -21,8 +21,6 @@
       href="/logo.ico"
     />
     <Link
-      v-for="x in sizes"
-      :key="x"
       rel="icon"
       type="image/png"
       :sizes="x + 'x' + x"
@@ -30,8 +28,6 @@
       :href="$img(`/logo-light.png`, { height: x, width: x })"
     />
     <Link
-      v-for="x in sizes"
-      :key="x"
       rel="icon"
       type="image/png"
       :sizes="x + 'x' + x"

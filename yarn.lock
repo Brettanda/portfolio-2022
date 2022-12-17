@@ -35,8 +35,11 @@
   dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
     "@ampproject/remapping" "^2.2.0"
     "@babel/code-frame" "^7.22.13"
     "@babel/generator" "^7.23.0"
@@ -49,6 +52,9 @@
     "@babel/types" "^7.23.0"
     convert-source-map "^2.0.0"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
     "@babel/highlight" "^7.18.6"
 
@@ -73,9 +79,13 @@
     "@babel/traverse" "^7.20.5"
     "@babel/types" "^7.20.5"
     convert-source-map "^1.7.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     debug "^4.1.0"
     gensync "^1.0.0-beta.2"
     json5 "^2.2.3"
@@ -83,8 +93,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@babel/generator@^7.23.0":
   version "7.23.0"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.23.0.tgz#df5c386e2218be505b34837acbcb874d7a983420"
@@ -99,11 +112,15 @@
   integrity sha512-jl7JY2Ykn9S0yj4DQP82sYvPU+T3g0HFcWTqDLqiuA9tGRNIj9VfbtXGAYTTkyNEnQk1jkMGOdYka8aG/lulCA==
   dependencies:
     "@babel/types" "^7.20.5"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
     "@babel/types" "^7.23.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     "@jridgewell/gen-mapping" "^0.3.2"
     "@jridgewell/trace-mapping" "^0.3.17"
     jsesc "^2.5.1"
@@ -117,8 +134,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@babel/helper-compilation-targets@^7.22.15":
   version "7.22.15"
   resolved "https://registry.yarnpkg.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.22.15.tgz#0698fc44551a26cf29f18d4662d5bf545a6cfc52"
@@ -150,6 +170,7 @@
   version "7.20.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.20.0.tgz#6bf5374d424e1b3922822f1d9bdaa43b1a139d0a"
   integrity sha512-0jp//vDGp9e8hZzBc6N/KwA5ZK3Wsm/pfm4CrY7vzegkVxc65SgSn6wYOnwHe9Js9HRQ1YTCKLGPzDtaS3RoLQ==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
@@ -165,6 +186,19 @@
   integrity sha512-jKkwA59IXcvSaiK2UN45kKwSC9o+KuoXsBDvHvU/7BecYIp8GQ2UwrVvFgJASUT+hBnwJx6MhvMCuMzwZZ7jlg==
   dependencies:
 <<<<<<< HEAD
+=======
+  dependencies:
+    "@babel/compat-data" "^7.20.0"
+    "@babel/helper-validator-option" "^7.18.6"
+    browserslist "^4.21.3"
+    semver "^6.3.0"
+
+"@babel/helper-create-class-features-plugin@^7.20.2":
+  version "7.20.5"
+  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.20.5.tgz#327154eedfb12e977baa4ecc72e5806720a85a06"
+  integrity sha512-3RCdA/EmEaikrhayahwToF0fpweU/8o2p8vhc1c/1kftHOdTKuC65kik/TLc+qfbS8JKw4qqJbne4ovICDhmww==
+  dependencies:
+>>>>>>> bf23d9a (package updates and better logo)
     "@babel/helper-annotate-as-pure" "^7.18.6"
     "@babel/helper-environment-visitor" "^7.18.9"
     "@babel/helper-function-name" "^7.19.0"
@@ -172,6 +206,7 @@
     "@babel/helper-optimise-call-expression" "^7.18.6"
     "@babel/helper-replace-supers" "^7.19.1"
     "@babel/helper-split-export-declaration" "^7.18.6"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
     "@babel/helper-annotate-as-pure" "^7.22.5"
@@ -184,6 +219,9 @@
     "@babel/helper-split-export-declaration" "^7.22.6"
     semver "^6.3.1"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@babel/helper-environment-visitor@^7.22.20", "@babel/helper-environment-visitor@^7.22.5":
   version "7.22.20"
@@ -221,8 +259,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@babel/helper-module-transforms@^7.23.0":
   version "7.23.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-module-transforms/-/helper-module-transforms-7.23.0.tgz#3ec246457f6c842c0aee62a01f60739906f7047e"
@@ -248,6 +289,7 @@
     "@babel/template" "^7.18.10"
     "@babel/traverse" "^7.20.1"
     "@babel/types" "^7.20.2"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -257,6 +299,9 @@
     "@babel/helper-split-export-declaration" "^7.22.6"
     "@babel/helper-validator-identifier" "^7.22.20"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@babel/helper-optimise-call-expression@^7.22.5":
   version "7.22.5"
@@ -267,8 +312,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@babel/helper-plugin-utils@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.22.5.tgz#dd7ee3735e8a313b9f7b05a773d892e88e6d7295"
@@ -289,6 +337,7 @@
   version "7.19.1"
   resolved "https://registry.yarnpkg.com/@babel/helper-replace-supers/-/helper-replace-supers-7.19.1.tgz#e1592a9b4b368aa6bdb8784a711e0bcbf0612b78"
   integrity sha512-T7ahH7wV0Hfs46SFh5Jz3s0B6+o8g3c+7TMxu7xKfmHikg7EAZ3I2Qk9LFhjxXq8sL7UkP5JflezNwoZa8WvWw==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 
@@ -297,6 +346,9 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-replace-supers/-/helper-replace-supers-7.22.20.tgz#e37d367123ca98fe455a9887734ed2e16eb7a793"
   integrity sha512-qsW0In3dbwQUbK8kejJ4R7IHVGwHJlV6lpG6UA7a9hSa2YEiAib+N1T2kr6PEeUT+Fl7najmSOS6SmAwCHK6Tw==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@babel/helper-environment-visitor" "^7.22.20"
     "@babel/helper-member-expression-to-functions" "^7.22.15"
@@ -304,8 +356,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@babel/helper-simple-access@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-simple-access/-/helper-simple-access-7.22.5.tgz#4938357dc7d782b80ed6dbb03a0fba3d22b1d5de"
@@ -320,11 +375,15 @@
   integrity sha512-+0woI/WPq59IrqDYbVGfshjT5Dmk/nnbdpcF8SnMhhXObpTq2KNBdLFRFrkVdbDOyUmHBCxzm5FHV1rACIkIbA==
   dependencies:
     "@babel/types" "^7.20.2"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
     "@babel/types" "^7.22.5"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@babel/helper-skip-transparent-expression-wrappers@^7.22.5":
   version "7.22.5"
@@ -335,8 +394,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@babel/helper-split-export-declaration@^7.22.6":
   version "7.22.6"
   resolved "https://registry.yarnpkg.com/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.22.6.tgz#322c61b7310c0997fe4c323955667f18fcefb91c"
@@ -368,11 +430,15 @@
     "@babel/template" "^7.18.10"
     "@babel/traverse" "^7.20.5"
     "@babel/types" "^7.20.5"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
     "@babel/types" "^7.22.5"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@babel/helper-string-parser@^7.22.5":
   version "7.22.5"
@@ -409,8 +475,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@babel/parser@^7.20.15", "@babel/parser@^7.21.3", "@babel/parser@^7.22.14", "@babel/parser@^7.22.15", "@babel/parser@^7.22.7", "@babel/parser@^7.23.0":
   version "7.23.0"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.23.0.tgz#da950e622420bf96ca0d0f2909cdddac3acd8719"
@@ -428,7 +497,11 @@
   version "7.20.5"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.20.5.tgz#7f3c7335fe417665d929f34ae5dceae4c04015e8"
   integrity sha512-r27t/cy/m9uKLXQNWWebeCUHgnAZq0CpG1OwKRxzJMP1vpSU4bSIK2hq+/cp0bQxetkXx38n09rNu8jVkcK/zA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@babel/plugin-syntax-typescript@^7.22.5":
   version "7.22.5"
@@ -487,6 +560,7 @@
   version "7.20.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-typescript/-/plugin-syntax-typescript-7.20.0.tgz#4e9a0cfc769c85689b77a2e642d24e9f697fc8c7"
   integrity sha512-rd9TkG+u1CExzS4SM1BlMEhMXwFLKVjOAFFCDx9PbX5ycJWDoWMcwdJH9RhkPu1dOgn5TrxLot/Gx6lWFuAUNQ==
+<<<<<<< HEAD
 =======
 
 "@babel/plugin-syntax-jsx@^7.22.5":
@@ -545,10 +619,55 @@
     globals "^11.1.0"
 
 <<<<<<< HEAD
+=======
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.19.0"
+
+"@babel/plugin-transform-typescript@^7.20.0":
+  version "7.20.2"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-typescript/-/plugin-transform-typescript-7.20.2.tgz#91515527b376fc122ba83b13d70b01af8fe98f3f"
+  integrity sha512-jvS+ngBfrnTUBfOQq8NfGnSbF9BrqlR6hjJ2yVxMkmO5nL/cdifNbI30EfjRlN4g5wYWNnMPyj5Sa6R1pbLeag==
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.20.2"
+    "@babel/helper-plugin-utils" "^7.20.2"
+    "@babel/plugin-syntax-typescript" "^7.20.0"
+
+"@babel/standalone@^7.20.6":
+  version "7.20.6"
+  resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.20.6.tgz#7deb7ad244176414c3cbde020aad0607afdbe2fe"
+  integrity sha512-u5at/CbBLETf7kx2LOY4XdhseD79Y099WZKAOMXeT8qvd9OSR515my2UNBBLY4qIht/Qi9KySeQHQwQwxJN4Sw==
+
+"@babel/template@^7.0.0", "@babel/template@^7.18.10":
+  version "7.18.10"
+  resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.18.10.tgz#6f9134835970d1dbf0835c0d100c9f38de0c5e71"
+  integrity sha512-TI+rCtooWHr3QJ27kJxfjutghu44DLnasDMwpDqCXVTal9RLp3RSYNh4NdBrRP2cQAoG9A8juOQl6P6oZG4JxA==
+  dependencies:
+    "@babel/code-frame" "^7.18.6"
+    "@babel/parser" "^7.18.10"
+    "@babel/types" "^7.18.10"
+
+"@babel/traverse@^7.0.0", "@babel/traverse@^7.19.1", "@babel/traverse@^7.20.1", "@babel/traverse@^7.20.5":
+  version "7.20.5"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.20.5.tgz#78eb244bea8270fdda1ef9af22a5d5e5b7e57133"
+  integrity sha512-WM5ZNN3JITQIq9tFZaw1ojLU3WgWdtkxnhM1AegMS+PvHjkM5IXjmYEGY7yukz5XS4sJyEf2VzWjI8uAavhxBQ==
+  dependencies:
+    "@babel/code-frame" "^7.18.6"
+    "@babel/generator" "^7.20.5"
+    "@babel/helper-environment-visitor" "^7.18.9"
+    "@babel/helper-function-name" "^7.19.0"
+    "@babel/helper-hoist-variables" "^7.18.6"
+    "@babel/helper-split-export-declaration" "^7.18.6"
+    "@babel/parser" "^7.20.5"
+    "@babel/types" "^7.20.5"
+    debug "^4.1.0"
+    globals "^11.1.0"
+
+>>>>>>> bf23d9a (package updates and better logo)
 "@babel/types@^7.0.0", "@babel/types@^7.18.10", "@babel/types@^7.18.6", "@babel/types@^7.18.9", "@babel/types@^7.19.0", "@babel/types@^7.20.2", "@babel/types@^7.20.5":
   version "7.20.5"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.20.5.tgz#e206ae370b5393d94dfd1d04cd687cace53efa84"
   integrity sha512-c9fst/h2/dcF7H+MJKZ2T0KjEQ8hY/BNnDk/H3XY8C4Aw/eWQXWn/lWntHF9ooUBnGmEvbfGrTgLWc+um0YDUg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 "@babel/types@^7.22.15", "@babel/types@^7.22.17", "@babel/types@^7.22.19", "@babel/types@^7.22.5", "@babel/types@^7.23.0":
@@ -556,6 +675,9 @@
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.23.0.tgz#8c1f020c9df0e737e4e247c0619f58c68458aaeb"
   integrity sha512-0oIyUfKoI3mSqMvsxBdclDwxXKXAUA8v/apZbc+iSyARYou1o8ZGDxbUYyLFoW2arqS2jDGqJuZvv1d/io1axg==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@babel/helper-string-parser" "^7.22.5"
     "@babel/helper-validator-identifier" "^7.22.20"
@@ -570,8 +692,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@esbuild/android-arm64@0.18.20":
   version "0.18.20"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.18.20.tgz#984b4f9c8d0377443cc2dfcef266d02244593622"
@@ -594,6 +719,127 @@
   version "0.19.4"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.19.4.tgz#74752a09301b8c6b9a415fbda9fb71406a62a7b7"
   integrity sha512-mRsi2vJsk4Bx/AFsNBqOH2fqedxn5L/moT58xgg51DjX1la64Z3Npicut2VbhvDFO26qjWtPMsVxCd80YTFVeg==
+=======
+"@esbuild/android-arm64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.16.8.tgz#37837dd8092d98268d0c3cf682c1b4a284d33638"
+  integrity sha512-TGQM/tdy5EV1KoFHu0+cMrKvPR8UBLGEfwS84PTCJ07KVp21Fr488aFEL2TCamz9CxoF1np36kY6XOSdLncg2Q==
+
+"@esbuild/android-arm@0.15.18":
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.15.18.tgz#266d40b8fdcf87962df8af05b76219bc786b4f80"
+  integrity sha512-5GT+kcs2WVGjVs7+boataCkO5Fg0y4kCjzkB5bAip7H4jfnOS3dA6KPiww9W1OEKTKeAcUVhdZGvgI65OXmUnw==
+
+"@esbuild/android-arm@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.16.8.tgz#bfe7e05ea51517948e93b190b3d8d8b7f1ce13f5"
+  integrity sha512-r/qxYWkC3gY+Uq24wZacAUevGGb6d7d8VpyO8R0HGg31LXVi+eUr8XxHLCcmVzAjRjlZsZfzPelGpAKP/DafKg==
+
+"@esbuild/android-x64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/android-x64/-/android-x64-0.16.8.tgz#fb625a45f3f73f153e2497bcfdf42f62225851a4"
+  integrity sha512-HtA4BNfrf5Nyoz3G2IS3qW4A0yckPJ1NjCMA3SiOw3zS1IfpMkbepDGp/Gdokc/tASFd38IP2uIL3W6bHJzAQw==
+
+"@esbuild/darwin-arm64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/darwin-arm64/-/darwin-arm64-0.16.8.tgz#46ace701d2e7f9981584ec719cd8da6f6088642b"
+  integrity sha512-Ks8K1HGFf6LEjLnnVqB/zyaJcv7zMjbJ9txRZAwQwj+bzg8/AP0TmLBMJf9Ahwn6ATnHrhORtpydP8A/mNthXg==
+
+"@esbuild/darwin-x64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/darwin-x64/-/darwin-x64-0.16.8.tgz#a1de180765d63a247a892c3abdf32cc9497f55ab"
+  integrity sha512-XXh2070hatspZdG/uPqyHLFlHlGbytvT4JlqZuTU3AizcyOvmatPBSnuARvwCtJMw30wjjehcYY8DWPZ5UF2og==
+
+"@esbuild/freebsd-arm64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/freebsd-arm64/-/freebsd-arm64-0.16.8.tgz#c52f25e4f74c1b50b7242a7aefd208652716a209"
+  integrity sha512-6DJuU3+tG9LcHCG/4K3e0AnqmmKWhUc9WDNIhLHOOdleafXwZeFvsqwfyaowNg9yUw5KipRLvV3JJMQ8kT1aPg==
+
+"@esbuild/freebsd-x64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/freebsd-x64/-/freebsd-x64-0.16.8.tgz#fbec93f8fd4864b5882d62e45d2adf535ef2f582"
+  integrity sha512-UcsCaR25C0tZWnoImprPzr7vMEMjLImlTQAIfWXU2wvjF4gBWKO9GEH2JlsKYqBjfWfGgH+HHoGSF/evZbKyxA==
+
+"@esbuild/linux-arm64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-arm64/-/linux-arm64-0.16.8.tgz#ba2799f92f34a0ded78963892c8e5a3117b575fe"
+  integrity sha512-WTL1v/OhSxgE7rEELRFNWskym0e+hKDMl4JZs7jpQp7218yJPOjdOEWsbzVEYv4G1cbbtWFvp9DtaAONtdCW5w==
+
+"@esbuild/linux-arm@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-arm/-/linux-arm-0.16.8.tgz#2b17c138f32ac00299bfdc9300c88f57e6bf04f9"
+  integrity sha512-Hn36NbKd6Prh0Ehv1A2ObjfXtN2g81jTpmq1+uRLHrW7CJW+W8GdVgOCVwyeupADUIOOa8bars6IZGcjkwq21w==
+
+"@esbuild/linux-ia32@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-ia32/-/linux-ia32-0.16.8.tgz#7665de87f89bde21166da55f097f91d227945108"
+  integrity sha512-Jt+8YBFR2Pk68oS7E9z9PtmgJrDonGdEW3Camb2plZcztKpu/OxfnxFu8f41+TYpKhzUDm5uNMwqxRH3yDYrsQ==
+
+"@esbuild/linux-loong64@0.15.18":
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.18.tgz#128b76ecb9be48b60cf5cfc1c63a4f00691a3239"
+  integrity sha512-L4jVKS82XVhw2nvzLg/19ClLWg0y27ulRwuP7lcyL6AbUWB5aPglXY3M21mauDQMDfRLs8cQmeT03r/+X3cZYQ==
+
+"@esbuild/linux-loong64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.16.8.tgz#6ce9f86678d8b73dfd81672ab0477cf65e5ecf51"
+  integrity sha512-P+5J/U/WwPEwcKOFTlTQBK6Gqw4OytpfBvR2V+kBRb5jujwMOQ1aG8iKX14DAwCLks1YHXrXPwXXDPNWEWC59A==
+
+"@esbuild/linux-mips64el@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-mips64el/-/linux-mips64el-0.16.8.tgz#6cf093dd9706e8f078868ffb91b602c1dc7f135e"
+  integrity sha512-RDSnljcka9UkVxcLtWv2lG5zcqkZUxIPY47ZSKytv4aoo8b05dH1gnKVWrxBZ+owp3dX48s2lXm6zp3hZHl8qw==
+
+"@esbuild/linux-ppc64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-ppc64/-/linux-ppc64-0.16.8.tgz#ed3f4aa0a835fc385554711cdc0ac785d2f3856d"
+  integrity sha512-fNGvIKXyigXYhSflraBsqR/EBhXhuH0/0r7IpU+3reh+8yX3VjowjC/dwmqHDOSQXbcj+HJb1o9kWYi+fJQ/3g==
+
+"@esbuild/linux-riscv64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-riscv64/-/linux-riscv64-0.16.8.tgz#7f1e1dee09b70041ab31ba770f9cc3cad78505f4"
+  integrity sha512-CsE1IKyVq/Y55PDnBUvm/e7XfvBgfb5kZxHbIEdmB9xt6cTcBkaVvv8EwLDZuYPkYI60WGl0UwyYYx9B2LLgkg==
+
+"@esbuild/linux-s390x@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-s390x/-/linux-s390x-0.16.8.tgz#0641fbfd9fe1b7e14172ddd9c9dd396d402d54f9"
+  integrity sha512-k8RIN4M+GWQAfJ/oGqwxZlpzOyGF8mxp5mH1A1WUJrpSUo4pe0zkq2EoP1KMQbYkjeJi45YsjwK3IOnSoueXbA==
+
+"@esbuild/linux-x64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-x64/-/linux-x64-0.16.8.tgz#50b960e728845c4e16497b6344ff49cd18e68410"
+  integrity sha512-u0hOo4E9PKyVDmPgJNeip1Tg63wxq+3KBJZKQFblqCl+d5N7n1h7pFwdN5ZzeLaaE645ep8aXzf76ndGnyOypg==
+
+"@esbuild/netbsd-x64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/netbsd-x64/-/netbsd-x64-0.16.8.tgz#c301af71797751766689460c2bd4516ead698c0e"
+  integrity sha512-wtENU7TOrnEbUes9aQuNe5PeBM4cTK5dn1W7v6XCr1LatJxAOn6Jn8yDGRsa2uKeEbAS5HeYx7uBAbTBd98OXQ==
+
+"@esbuild/openbsd-x64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/openbsd-x64/-/openbsd-x64-0.16.8.tgz#8f10f04c6c80f04c7c1ee89e2f60ef5c791a8d4d"
+  integrity sha512-Y0DRVd/PIiutCpAYvRZHkpDNN3tdSQ1oyKy6xoh5TFTElAmzdlO7CO8ABs8689gq47lJ466cQEq9adJrKXrgXg==
+
+"@esbuild/sunos-x64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/sunos-x64/-/sunos-x64-0.16.8.tgz#463cb5d29997216391eaeaca25ed8549dd464f8e"
+  integrity sha512-eKg0I3C5z4NTF396Yo9QByXA8DdRS7QiYPFf6JHcED0BanyLW/jX8csUy96wyGivTNrmU0mCOShbeLgzb0eX7w==
+
+"@esbuild/win32-arm64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/win32-arm64/-/win32-arm64-0.16.8.tgz#f69f45591a0d5c54f52c9fdc124fb3c54c823b42"
+  integrity sha512-M2BZhsa7z8kMGre96HTMXpm266cfJkbdtcZgVfAL8hY4ptkh5MwNDasl85CDo++ffW2issVT+W/xIGJOr0v2pg==
+
+"@esbuild/win32-ia32@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/win32-ia32/-/win32-ia32-0.16.8.tgz#0fd3cba945998c5907b63a2af2943b248461e272"
+  integrity sha512-mzzHVpnuHQT+IrptiW+uUswEMpVIueYuAkjwt1m4tQuVq9dGWqCA1y9EE+W3S19nMg6JvHMbaRjv3mlCcmi0rA==
+
+"@esbuild/win32-x64@0.16.8":
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.16.8.tgz#f77f4f51b1e088fd82e5dce258e83e5d255dc8ac"
+  integrity sha512-Zgzyn7njXpSSe1YGQk03eW4uei4QoZKloe/TBQZXgQHo6ul/ux0BtYdLz3MZ8WDlvqTG3QnLV4+gtV5ordM0+g==
+>>>>>>> 930f604 (package updates and better logo)
 
 "@esbuild/android-arm@0.18.20":
   version "0.18.20"
@@ -953,8 +1199,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@eslint/js@8.50.0":
   version "8.50.0"
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.50.0.tgz#9e93b850f0f3fa35f5fa59adfd03adae8488e484"
@@ -1006,6 +1255,7 @@
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.2.1.tgz#411e02a820744d3f7e0d8d9df9d82b471beaa073"
   integrity sha512-Sz07mnQrTekFWLz5BMjOzHl/+NooTdW8F8kDQxjWwbpOJcnoSg4vUDng8d/WR1wOxM0O+CY9Zw0nR054riNYtQ==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
 
@@ -1041,10 +1291,35 @@
     "@fortawesome/fontawesome-common-types" "6.4.2"
 
 <<<<<<< HEAD
+=======
+
+"@fortawesome/fontawesome-svg-core@^6.1.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.2.1.tgz#e87e905e444b5e7b715af09b64d27b53d4c8f9d9"
+  integrity sha512-HELwwbCz6C1XEcjzyT1Jugmz2NNklMrSPjZOWMlc+ZsHIVk+XOvOXLGGQtFBwSyqfJDNgRq4xBCwWOaZ/d9DEA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.2.1"
+
+"@fortawesome/free-brands-svg-icons@^6.1.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-6.2.1.tgz#04a6d6f7898f7ef392aba7a65030a584d4f4c84f"
+  integrity sha512-L8l4MfdHPmZlJ72PvzdfwOwbwcCAL0vx48tJRnI6u1PJXh+j2f3yDoKyQgO3qjEsgD5Fr2tQV/cPP8F/k6aUig==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.2.1"
+
+"@fortawesome/free-solid-svg-icons@^6.1.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.2.1.tgz#2290ea5adcf1537cbd0c43de6feb38af02141d27"
+  integrity sha512-oKuqrP5jbfEPJWTij4sM+/RvgX+RMFwx3QZCZcK9PrBDgxC35zuc7AOFsyMjMd/PIFPeB2JxyqDr5zs/DZFPPw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.2.1"
+
+>>>>>>> bf23d9a (package updates and better logo)
 "@fortawesome/vue-fontawesome@^3.0.0-5":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-3.0.2.tgz#1b2ec546caab790c38d3dcb38407485a70703dd2"
   integrity sha512-xHVtVY8ASUeEvgcA/7vULUesENhD+pi/EirRHdMBqooHlXBqK+yrV6d8tUye1m5UKQKVgYAHMhUBfOnoiwvc8Q==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 "@fortawesome/vue-fontawesome@^3.0.3":
@@ -1052,6 +1327,9 @@
   resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-3.0.3.tgz#633e2998d11f7d4ed41f0d5ea461a22ec9b9d034"
   integrity sha512-KCPHi9QemVXGMrfuwf3nNnNo129resAIQWut9QTAMXmXqL2ErABC6ohd2yY5Ipq0CLWNbKHk8TMdTXL/Zf3ZhA==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@html-validate/stylish@^4.1.0":
   version "4.2.0"
@@ -1125,21 +1403,31 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.13", "@jridgewell/sourcemap-codec@^1.4.14", "@jridgewell/sourcemap-codec@^1.4.15":
   version "1.4.15"
   resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz#d7c6e6755c78567a951e04ab52ef0fd26de59f32"
   integrity sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 "@jridgewell/sourcemap-codec@1.4.14", "@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.13":
   version "1.4.14"
   resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz#add4c98d341472a289190b424efbdb096991bb24"
   integrity sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@jridgewell/trace-mapping@^0.3.17", "@jridgewell/trace-mapping@^0.3.9":
   version "0.3.19"
@@ -1212,7 +1500,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@nuxt/content@latest":
+=======
+"@nuxt/content@^2.8.5":
+>>>>>>> bf23d9a (package updates and better logo)
   version "2.8.5"
   resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.8.5.tgz#fccc2d3f8de51fbdce57602c320a4b38e10ccea3"
   integrity sha512-sWVGoZJOjwEd8v6XYTrHYtQ7c11HR6yK9dcqruf+7WM2WJmwTSeY8B1ir6+9mE1FPQAFnqg26qSkxwafpS9o+g==
@@ -1246,6 +1538,7 @@
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.3.0.tgz#96e4c2c78b153c6769d35e909539bad5d98a704d"
   integrity sha512-7IudXOiycHXWxRDe7tWFwnIVT6bp0YG5O4wttCYYd7cvyjX3k6d3zD2j1IkjJMhfqU2PWQ/Wd+A2+oeiLNg3gA==
+<<<<<<< HEAD
 =======
 "@nuxt/content@^2.8.5":
   version "2.8.5"
@@ -1271,6 +1564,35 @@
     pathe "^1.1.1"
     scule "^1.0.0"
 <<<<<<< HEAD
+=======
+  dependencies:
+    "@nuxt/kit" v3.0.0
+    consola "^2.15.3"
+    defu "^6.1.1"
+    destr "^1.2.2"
+    detab "^3.0.2"
+    html-tags "^3.2.0"
+    json5 "^2.2.1"
+    knitwork "^1.0.0"
+    listhen "^1.0.1"
+    mdast-util-to-hast "^12.2.4"
+    mdurl "^1.0.1"
+    ohash "^1.0.0"
+    pathe "^1.0.0"
+    property-information "^6.2.0"
+    rehype-external-links "^2.0.1"
+    rehype-raw "^6.1.1"
+    rehype-slug "^5.1.0"
+    rehype-sort-attribute-values "^4.0.0"
+    rehype-sort-attributes "^4.0.0"
+    remark-emoji "^3.0.2"
+    remark-gfm "^3.0.1"
+    remark-mdc "^1.1.3"
+    remark-parse "^10.0.1"
+    remark-rehype "^10.1.0"
+    remark-squeeze-paragraphs "^5.0.1"
+    scule "^1.0.0"
+>>>>>>> bf23d9a (package updates and better logo)
     shiki-es "^0.1.2"
     slugify "^1.6.5"
     socket.io-client "^4.5.4"
@@ -1281,6 +1603,7 @@
     unist-util-visit "^4.1.1"
     unstorage "^1.0.1"
     ws "^8.11.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
     shiki-es "^0.14.0"
@@ -1291,6 +1614,9 @@
     unstorage "^1.9.0"
     ws "^8.14.2"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@nuxt/devalue@^2.0.2":
   version "2.0.2"
@@ -1453,6 +1779,7 @@
 >>>>>>> dd0891b (yarn upgrade)
 >>>>>>> 4abd07e (yarn upgrade)
   dependencies:
+<<<<<<< HEAD
     "@nuxt/schema" "3.7.4"
     c12 "^1.4.2"
     consola "^3.2.3"
@@ -1502,6 +1829,7 @@
     destr "^2.0.1"
     dotenv "^16.3.1"
     git-url-parse "^13.1.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
     inquirer "^9.1.4"
 >>>>>>> 7a89107 (package updates and better logo)
@@ -1623,9 +1951,67 @@
     node-fetch "^3.3.0"
     ohmyfetch "^0.4.21"
 =======
+=======
+=======
+    "@nuxt/schema" "3.0.0"
+    c12 "^1.0.1"
+    consola "^2.15.3"
+    defu "^6.1.1"
+    globby "^13.1.2"
+    hash-sum "^2.0.0"
+    ignore "^5.2.0"
+    jiti "^1.16.0"
+    knitwork "^1.0.0"
+    lodash.template "^4.5.0"
+    mlly "^1.0.0"
+    pathe "^1.0.0"
+    pkg-types "^1.0.1"
+    scule "^1.0.0"
+    semver "^7.3.8"
+    unctx "^2.1.0"
+    unimport "^1.0.1"
+    untyped "^1.0.0"
+
+"@nuxt/schema@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.0.0.tgz#d499fd7d8309f9bd3403411b32c19e726969cd71"
+  integrity sha512-5fwsidhs5NjFzR8sIzHMXO0WFGkI3tCH3ViANn2W4N5qCwoYZ0n1sZBkQ9Esn1VoEed6RsIlTpWrPZPVtqNkGQ==
+  dependencies:
+    c12 "^1.0.1"
+    create-require "^1.1.1"
+    defu "^6.1.1"
+    jiti "^1.16.0"
+    pathe "^1.0.0"
+    pkg-types "^1.0.1"
+    postcss-import-resolver "^2.0.0"
+    scule "^1.0.0"
+    std-env "^3.3.1"
+    ufo "^1.0.0"
+    unimport "^1.0.1"
+    untyped "^1.0.0"
+
+"@nuxt/telemetry@^2.1.8":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@nuxt/telemetry/-/telemetry-2.1.8.tgz#fb900ea2a61159ec8d81744bdfa8ed97debd9615"
+  integrity sha512-WCHRrcPKRosuHQi8CD5WfjiXGAyjOWVJpK77xS6wlg8zwziBPCqmVIQdr4QpFTGFO1Nrh4z26l1VnivKy22KFQ==
+  dependencies:
+    "@nuxt/kit" "^3.0.0-rc.14"
+    chalk "^5.1.2"
+    ci-info "^3.6.1"
+    consola "^2.15.3"
+    create-require "^1.1.1"
+    defu "^6.1.1"
+    destr "^1.2.1"
+    dotenv "^16.0.3"
+    fs-extra "^10.1.0"
+    git-url-parse "^13.1.0"
+    inquirer "^9.1.4"
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     is-docker "^3.0.0"
     jiti "^1.20.0"
     mri "^1.2.0"
+<<<<<<< HEAD
     nanoid "^4.0.2"
     ofetch "^1.3.3"
 >>>>>>> 9b953fb (package version bumbs)
@@ -1737,6 +2123,79 @@
     unified "^11.0.3"
     unist-builder "^4.0.0"
     unist-util-visit "^5.0.0"
+=======
+    nanoid "^4.0.0"
+    node-fetch "^3.3.0"
+    ohmyfetch "^0.4.21"
+    parse-git-config "^3.0.0"
+    rc9 "^2.0.0"
+    std-env "^3.3.1"
+
+"@nuxt/ui-templates@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/ui-templates/-/ui-templates-1.0.0.tgz#8d0254645991b410285b2dff27225bb14c2329b1"
+  integrity sha512-jfpVHxi1AHfNO3D6iD1RJE6fx/7cAzekvG90poIzVawp/L+I4DNdy8pCgqBScJW4bfWOpHeLYbtQQlL/hPmkjw==
+
+"@nuxt/vite-builder@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder/-/vite-builder-3.0.0.tgz#a12882587c815fbab1f51e70d654ab2bb3a1fa20"
+  integrity sha512-eMnpPpjHU8rGZcsJUksCuSX+6dpId03q8LOSStsm6rXzrNJtZIcwt0nBRTUaigckXIozX8ZNl5u2OPGUfUbMrw==
+  dependencies:
+    "@nuxt/kit" "3.0.0"
+    "@rollup/plugin-replace" "^5.0.1"
+    "@vitejs/plugin-vue" "^3.2.0"
+    "@vitejs/plugin-vue-jsx" "^2.1.1"
+    autoprefixer "^10.4.13"
+    chokidar "^3.5.3"
+    cssnano "^5.1.14"
+    defu "^6.1.1"
+    esbuild "^0.15.14"
+    escape-string-regexp "^5.0.0"
+    estree-walker "^3.0.1"
+    externality "^1.0.0"
+    fs-extra "^10.1.0"
+    get-port-please "^2.6.1"
+    h3 "^1.0.1"
+    knitwork "^1.0.0"
+    magic-string "^0.26.7"
+    mlly "^1.0.0"
+    ohash "^1.0.0"
+    pathe "^1.0.0"
+    perfect-debounce "^0.1.3"
+    pkg-types "^1.0.1"
+    postcss "^8.4.19"
+    postcss-import "^15.0.0"
+    postcss-url "^10.1.3"
+    rollup "^2.79.1"
+    rollup-plugin-visualizer "^5.8.3"
+    ufo "^1.0.0"
+    unplugin "^1.0.0"
+    vite "~3.2.4"
+    vite-node "^0.25.2"
+    vite-plugin-checker "^0.5.1"
+    vue-bundle-renderer "^1.0.0"
+
+"@nuxtjs/color-mode@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-3.2.0.tgz#b5b6a3931a6ddd9646c3aad121d357c635792eb7"
+  integrity sha512-isDR01yfadopiHQ/VEVUpyNSPrk5PCjUHS4t1qYRZwuRGefU4s9Iaxf6H9nmr1QFzoMgTm+3T0r/54jLwtpZbA==
+  dependencies:
+    "@nuxt/kit" "^3.0.0"
+    lodash.template "^4.5.0"
+    pathe "^1.0.0"
+
+"@nuxtjs/html-validator@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/html-validator/-/html-validator-1.2.3.tgz#3d411a0f68595d6ebe16d207bd20da3100792da2"
+  integrity sha512-SDoqoi3QqcaoFl8yW5Kdqon5rbAgUWZu1cDUEZR85WBl3T2BddXJazrkIg7gq0r2G/hrxSVDHUtaVYvKhq+ILw==
+  dependencies:
+    "@nuxt/kit" "^3.0.0"
+    chalk "^5.1.2"
+    html-validate "~7.10.1"
+    pathe "^1.0.0"
+    prettier "^2.7.1"
+    std-env "^3.3.1"
+>>>>>>> 930f604 (package updates and better logo)
 
 "@nuxtjs/style-resources@^1.2.1":
   version "1.2.1"
@@ -1749,8 +2208,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@parcel/watcher-android-arm64@2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@parcel/watcher-android-arm64/-/watcher-android-arm64-2.3.0.tgz#d82e74bb564ebd4d8a88791d273a3d2bd61e27ab"
@@ -1872,6 +2334,7 @@
   version "23.0.5"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-23.0.5.tgz#bf09984dceeae36ed9e28529c3ebc988025f35f5"
   integrity sha512-IwI51j5kCmLMYsErEvZAID/pg7Z1qgyVJ+QIPDDIg1AOPbIGbdTCjuHDWIBCtoF1dvMkXfQv7B2eTadjnLRbmA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -1882,6 +2345,9 @@
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-25.0.4.tgz#a7547a0c4ec3fa79818eb313e1de0023e548f4e6"
   integrity sha512-L92Vz9WUZXDnlQQl3EwbypJR4+DM2EbsO+/KOcEkP4Mc6Ct453EeDB2uH9lgRwj4w5yflgNpq9pHOiY8aoUXBQ==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@rollup/pluginutils" "^5.0.1"
     commondir "^1.0.1"
@@ -1892,21 +2358,31 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@rollup/plugin-inject@^5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-inject/-/plugin-inject-5.0.3.tgz#0783711efd93a9547d52971db73b2fb6140a67b1"
   integrity sha512-411QlbL+z2yXpRWFXSmw/teQRMkXcAAC8aYTemc15gwJRpvEVDQwoe+N/HTFD8RFG8+88Bme9DK2V9CVm7hJdA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 "@rollup/plugin-inject@^5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-inject/-/plugin-inject-5.0.2.tgz#b26c0e6e73f39c118ffc1cf07cfbfd93459b93a6"
   integrity sha512-zRthPC/sZ2OaQwPh2LvFn0A+3SyMAZR1Vqsp89mWkIuGXKswT8ty1JWj1pf7xdZvft4gHZaCuhdopuiCwjclWg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@rollup/pluginutils" "^5.0.1"
     estree-walker "^2.0.2"
@@ -1914,8 +2390,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@rollup/plugin-json@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-json/-/plugin-json-6.0.0.tgz#199fea6670fd4dfb1f4932250569b14719db234a"
@@ -1940,6 +2419,7 @@
   version "15.0.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-15.0.1.tgz#72be449b8e06f6367168d5b3cd5e2802e0248971"
   integrity sha512-ReY88T7JhJjeRVbfCyNj+NXAG3IIsVMsX9b5/9jC98dRP8/yxlZdz7mHZbHk5zHr24wZZICS5AcXsFZAXYUQEg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -1950,6 +2430,9 @@
   resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-15.2.1.tgz#a15b14fb7969229e26a30feff2816d39eff503f0"
   integrity sha512-nsbUg588+GDSu8/NS8T4UAshO6xeaOfINNuXeVHcKV02LJtoRaM1SiOacClw4kws1SFiNhdLGxlbMY9ga/zs/w==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@rollup/pluginutils" "^5.0.1"
     "@types/resolve" "1.20.2"
@@ -1960,8 +2443,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@rollup/plugin-replace@^5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-replace/-/plugin-replace-5.0.2.tgz#45f53501b16311feded2485e98419acb8448c61d"
@@ -2014,7 +2500,25 @@
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
 
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
+=======
+=======
+"@rollup/plugin-replace@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-replace/-/plugin-replace-5.0.1.tgz#49a57af3e6df111a9e75dea3f3572741f4c5c83e"
+  integrity sha512-Z3MfsJ4CK17BfGrZgvrcp/l6WXoKb0kokULO+zt/7bmcyayokDaQ2K3eDJcRLCTAlp5FPI4/gz9MHAsosz4Rag==
+  dependencies:
+    "@rollup/pluginutils" "^5.0.1"
+    magic-string "^0.26.4"
+
+"@rollup/plugin-wasm@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-wasm/-/plugin-wasm-6.0.1.tgz#3dc69aac67b6e8e44c17d0a6d8d86d5699031c3a"
+  integrity sha512-a5yRknFQG/QGhb1xGkazWXgjpsv0hhWlx34irsf5adMEo55NdpzhZLg+jx49u+bzH6ekktuFg2WKA1RAF+WEDQ==
+
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 "@rollup/pluginutils@^4.0.0":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.2.1.tgz#e6c6c3aba0744edce3fb2074922d3776c0af2a6d"
@@ -2025,21 +2529,31 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@rollup/pluginutils@^5.0.1", "@rollup/pluginutils@^5.0.2", "@rollup/pluginutils@^5.0.4":
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-5.0.4.tgz#74f808f9053d33bafec0cc98e7b835c9667d32ba"
   integrity sha512-0KJnIoRI8A+a1dqOYLxH8vBf8bphDmty5QvIm2hqm7oFCFYKCAZWWd2hXgMibaPsNDhI0AtpYfQZJG47pt/k4g==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 "@rollup/pluginutils@^5.0.1", "@rollup/pluginutils@^5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-5.0.2.tgz#012b8f53c71e4f6f9cb317e311df1404f56e7a33"
   integrity sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@types/estree" "^1.0.0"
     estree-walker "^2.0.2"
@@ -2055,18 +2569,26 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@sindresorhus/is@^3.1.2":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-3.1.2.tgz#548650de521b344e3781fbdb0ece4aa6f729afb8"
   integrity sha512-JiX9vxoKMmu8Y3Zr2RVathBL1Cdu4Nt4MuNWemt1Nc06A0RAin9c5FArkhGsyMBWfCu4zj+9b+GxtjAnE4qqLQ==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 "@socket.io/component-emitter@~3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz#96116f2a912e0c02817345b3c10751069920d553"
@@ -2135,6 +2657,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@types/node@*":
   version "20.8.2"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.2.tgz#d76fb80d87d0d8abfe334fc6d292e83e5524efc4"
@@ -2151,17 +2674,29 @@
   integrity sha512-6T7P5bDkRhqRxrQtwj7vru+bWTpelgtcETAZEUSdq0YISKz8WKdoBukQLYQQ6DFHvU9JRsbFq0JH5C51X2ZdnA==
 >>>>>>> 7a89107 (package updates and better logo)
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@types/node@*", "@types/node@^20.8.2":
   version "20.8.2"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.2.tgz#d76fb80d87d0d8abfe334fc6d292e83e5524efc4"
   integrity sha512-Vvycsc9FQdwhxE3y3DzeIxuEJbWGDsnrxvMADzTDF/lcdR9/K+AQIeAghTQsHtotg/q0j3WEOYS/jQgSdWue3w==
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+"@types/node@*", "@types/node@^18.11.16":
+  version "18.11.16"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.16.tgz#966cae211e970199559cfbd295888fca189e49af"
+  integrity sha512-6T7P5bDkRhqRxrQtwj7vru+bWTpelgtcETAZEUSdq0YISKz8WKdoBukQLYQQ6DFHvU9JRsbFq0JH5C51X2ZdnA==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@types/node@^17.0.5":
   version "17.0.45"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.45.tgz#2c0fafd78705e7a18b7906b5201a522719dc5190"
   integrity sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "@types/nodemailer@^6.4.4":
@@ -2175,11 +2710,22 @@
   integrity sha512-f5qCBGAn/f0qtRcd4SEn88c8Fp3Swct1731X4ryPKqS61/A3LmmzN8zaEz7hneJvpjFbUUgY7lru/B/7ODTazg==
 >>>>>>> 7a89107 (package updates and better logo)
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@types/nodemailer@^6.4.11":
   version "6.4.11"
   resolved "https://registry.yarnpkg.com/@types/nodemailer/-/nodemailer-6.4.11.tgz#98630b15b95f292940d27cf4f314c42c70dfdf19"
   integrity sha512-Ld2c0frwpGT4VseuoeboCXQ7UJIkK3X7Lx/4YsZEiUHtHsthWAOCYtf6PAiLhMtfwV0cWJRabLBS3+LD8x6Nrw==
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+"@types/nodemailer@^6.4.7":
+  version "6.4.7"
+  resolved "https://registry.yarnpkg.com/@types/nodemailer/-/nodemailer-6.4.7.tgz#658f4bca47c1a895b1d7e054b3b54030a5e1f5e0"
+  integrity sha512-f5qCBGAn/f0qtRcd4SEn88c8Fp3Swct1731X4ryPKqS61/A3LmmzN8zaEz7hneJvpjFbUUgY7lru/B/7ODTazg==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@types/node" "*"
 
@@ -2207,8 +2753,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@types/unist@^2", "@types/unist@^2.0.0":
   version "2.0.8"
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.8.tgz#bb197b9639aa1a04cf464a617fe800cccd92ad5c"
@@ -2336,7 +2885,46 @@
   version "0.23.1"
   resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.23.1.tgz#f17c5f9d3f3a0178ea25eb7397a14618c00529bf"
   integrity sha512-NE0xSmGWVhgHF1OIoir71XAd0W0C1UE3nzFyhpFiMr3rVhetww7NvM1kc41trBsPG37Bh+dE5FYCTMzM/gBu0w==
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+"@unhead/dom@1.0.13", "@unhead/dom@^1.0.9":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@unhead/dom/-/dom-1.0.13.tgz#76aab52c913346e248916cbf9a8c64dfd11f0c5d"
+  integrity sha512-ErfhK3Nwk3kpxnPEOrkruKAdS3/TrNlKs0nYtKgFJ1ywJYg+uNwRFDe82v4JdUMhnfmbgL/qcO3PTx3Dv09IEQ==
+  dependencies:
+    "@unhead/schema" "1.0.13"
+
+"@unhead/schema@1.0.13", "@unhead/schema@^1.0.9":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@unhead/schema/-/schema-1.0.13.tgz#f98ed4f7801091611be6d8b49a86b8a576621a82"
+  integrity sha512-K8SiAEkM8G7GaF1QvsKlthLmRqGB8R9SvZXMCucZqb2VQ6bU4IFSs/4q6dKxmV0fXb5AHdKUL9+rX/4rQ6FsZg==
+  dependencies:
+    "@zhead/schema" "^1.0.7"
+    hookable "^5.4.2"
+
+"@unhead/ssr@^1.0.0", "@unhead/ssr@^1.0.9":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@unhead/ssr/-/ssr-1.0.13.tgz#d4b14bc3d227170d15dd0e3571313873df3bfc05"
+  integrity sha512-pach3THVx8LU54M6aQ4qZeQdcLjXVnPlpHe7pQjHGvD6iBJC5bZc8TL+CHdTRxeiq2DqMA5uyfoor7VJJTi5AQ==
+  dependencies:
+    "@unhead/schema" "1.0.13"
+
+"@unhead/vue@^1.0.9":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-1.0.13.tgz#1d2df3867147794183086db3f1598c411a7637e3"
+  integrity sha512-sGl640UQqN8HUYTKXOh6gErk/vw8byPdx1+ECqX4ec7UZYktsWgfyIReYBu09Qm3O6pIYfX8HlZbDipX+wQAOQ==
+  dependencies:
+    "@unhead/schema" "1.0.13"
+    hookable "^5.4.2"
+
+"@vercel/nft@^0.22.1":
+  version "0.22.6"
+  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.22.6.tgz#edb30d300bb809c0945ea4c7b87e56f634885541"
+  integrity sha512-gTsFnnT4mGxodr4AUlW3/urY+8JKKB452LwF3m477RFUJTAaDmcz2JqFuInzvdybYIeyIv1sSONEJxsxnbQ5JQ==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.5"
     "@rollup/pluginutils" "^4.0.0"
@@ -2352,8 +2940,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@vitejs/plugin-vue-jsx@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-3.0.2.tgz#f071274f78ea8132c6731986893b7c5c5231af24"
@@ -2401,7 +2992,30 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@volar-plugins/vetur/-/vetur-2.0.0.tgz#d3a5a7db86524b318658f75beef4536f8c4f7af7"
   integrity sha512-RsubwRwnv497I8Dtru8gE/C6P+nmvmMLNnQnyLU3njTqO5Dm4KaBr6cbVl8iQOXHOxfBXzI3lmQSPWdsp3dXRA==
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+"@vitejs/plugin-vue-jsx@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-2.1.1.tgz#7c13aa4e54f5ee8c9f37937b3d8c706c14369478"
+  integrity sha512-JgDhxstQlwnHBvZ1BSnU5mbmyQ14/t5JhREc6YH5kWyu2QdAAOsLF6xgHoIWarj8tddaiwFrNzLbWJPudpXKYA==
+  dependencies:
+    "@babel/core" "^7.19.6"
+    "@babel/plugin-transform-typescript" "^7.20.0"
+    "@vue/babel-plugin-jsx" "^1.1.1"
+
+"@vitejs/plugin-vue@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-3.2.0.tgz#a1484089dd85d6528f435743f84cdd0d215bbb54"
+  integrity sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==
+
+"@volar-plugins/vetur@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@volar-plugins/vetur/-/vetur-0.1.0.tgz#4311596ca5b9f2ad0bfd61a0ff9d719eb45dca8a"
+  integrity sha512-Qaws7TI8d/kkjihSQrW/3YGqiLeLZ1dMjfxDBe4vJKhzXw82sN4+Wr8NwGf2s15KyVDPQTjkPHv6ukn4vFD9Og==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     vls "^0.8.2"
     vscode-html-languageservice "^5.0.4"
@@ -2425,18 +3039,33 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@vue/babel-helper-vue-transform-on@^1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@vue/babel-helper-vue-transform-on/-/babel-helper-vue-transform-on-1.1.5.tgz#a976486b21e108e545524fe41ffe3fc9bbc28c7f"
   integrity sha512-SgUymFpMoAyWeYWLAY+MkCK3QEROsiUnfaw5zxOVD/M64KQs8D/4oK6Q5omVA2hnvEOE0SCkH2TZxs/jnnUj7w==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 "@vscode/l10n@^0.0.10":
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/@vscode/l10n/-/l10n-0.0.10.tgz#9c513107c690c0dd16e3ec61e453743de15ebdb0"
   integrity sha512-E1OCmDcDWa0Ya7vtSjp/XfHFGqYJfh+YPC1RkATU71fTac+j1JjCcB3qwSzmlKAighx2WxhLlfhS0RwAN++PFQ==
+<<<<<<< HEAD
+=======
+
+"@vue/babel-helper-vue-transform-on@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@vue/babel-helper-vue-transform-on/-/babel-helper-vue-transform-on-1.0.2.tgz#9b9c691cd06fc855221a2475c3cc831d774bc7dc"
+  integrity sha512-hz4R8tS5jMn8lDq6iD+yWL6XNB699pGIVLk7WSJnn1dbpjaazsjZQkieJoRX6gW5zpYSCFqQ7jUquPNY65tQYA==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@vue/babel-helper-vue-transform-on@^1.0.2":
   version "1.0.2"
@@ -2464,8 +3093,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@vue/compiler-core@3.3.4", "@vue/compiler-core@^3.3.4":
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.3.4.tgz#7fbf591c1c19e1acd28ffd284526e98b4f581128"
@@ -2491,10 +3123,23 @@
   dependencies:
     "@babel/parser" "^7.21.3"
     "@vue/shared" "3.3.4"
+=======
+"@vue/compiler-core@3.2.45":
+  version "3.2.45"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.2.45.tgz#d9311207d96f6ebd5f4660be129fb99f01ddb41b"
+  integrity sha512-rcMj7H+PYe5wBV3iYeUgbCglC+pbpN8hBLTJvRiK2eKQiWqu+fG9F+8sW99JdL4LQi7Re178UOxn09puSXvn4A==
+  dependencies:
+    "@babel/parser" "^7.16.4"
+    "@vue/shared" "3.2.45"
+>>>>>>> 930f604 (package updates and better logo)
     estree-walker "^2.0.2"
     source-map-js "^1.0.2"
 
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+<<<<<<< HEAD
+>>>>>>> bf23d9a (package updates and better logo)
 "@vue/compiler-dom@3.3.4":
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.3.4.tgz#f56e09b5f4d7dc350f981784de9713d823341151"
@@ -2520,6 +3165,7 @@
   version "3.2.45"
   resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.2.45.tgz#c43cc15e50da62ecc16a42f2622d25dc5fd97dce"
   integrity sha512-tyYeUEuKqqZO137WrZkpwfPCdiiIeXYCcJ8L4gWz9vqaxzIQRccTSwSWZ/Axx5YR2z+LvpUbmPNXxuBU45lyRw==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
@@ -2532,12 +3178,24 @@
   integrity sha512-6y/d8uw+5TkCuzBkgLS0v3lSM3hJDntFEiUORM11pQ/hKvkhSKZrXW6i69UyXlJQisJxuUEJKAWEqWbWsLeNKQ==
   dependencies:
 <<<<<<< HEAD
+=======
+  dependencies:
+    "@vue/compiler-core" "3.2.45"
+    "@vue/shared" "3.2.45"
+
+"@vue/compiler-sfc@3.2.45":
+  version "3.2.45"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.2.45.tgz#7f7989cc04ec9e7c55acd406827a2c4e96872c70"
+  integrity sha512-1jXDuWah1ggsnSAOGsec8cFjT/K6TMZ0sPL3o3d84Ft2AYZi2jWJgRMjw4iaK0rBfA89L5gw427H4n1RZQBu6Q==
+  dependencies:
+>>>>>>> bf23d9a (package updates and better logo)
     "@babel/parser" "^7.16.4"
     "@vue/compiler-core" "3.2.45"
     "@vue/compiler-dom" "3.2.45"
     "@vue/compiler-ssr" "3.2.45"
     "@vue/reactivity-transform" "3.2.45"
     "@vue/shared" "3.2.45"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
     "@babel/parser" "^7.20.15"
@@ -2547,6 +3205,9 @@
     "@vue/reactivity-transform" "3.3.4"
     "@vue/shared" "3.3.4"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     estree-walker "^2.0.2"
     magic-string "^0.30.0"
     postcss "^8.1.10"
@@ -2554,8 +3215,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@vue/compiler-ssr@3.3.4":
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/@vue/compiler-ssr/-/compiler-ssr-3.3.4.tgz#9d1379abffa4f2b0cd844174ceec4a9721138777"
@@ -2583,6 +3247,7 @@
   version "3.2.45"
   resolved "https://registry.yarnpkg.com/@vue/compiler-ssr/-/compiler-ssr-3.2.45.tgz#bd20604b6e64ea15344d5b6278c4141191c983b2"
   integrity sha512-6BRaggEGqhWht3lt24CrIbQSRD5O07MTmd+LjAn5fJj568+R9eUD2F7wMQJjX859seSlrYog7sUtrZSd7feqrQ==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
@@ -2604,9 +3269,30 @@
     "@vue/compiler-core" "3.2.45"
     "@vue/shared" "3.2.45"
 >>>>>>> 7a89107 (package updates and better logo)
+=======
+  dependencies:
+    "@vue/compiler-dom" "3.2.45"
+    "@vue/shared" "3.2.45"
+
+"@vue/devtools-api@^6.4.5":
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.4.5.tgz#d54e844c1adbb1e677c81c665ecef1a2b4bb8380"
+  integrity sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==
+
+"@vue/reactivity-transform@3.2.45":
+  version "3.2.45"
+  resolved "https://registry.yarnpkg.com/@vue/reactivity-transform/-/reactivity-transform-3.2.45.tgz#07ac83b8138550c83dfb50db43cde1e0e5e8124d"
+  integrity sha512-BHVmzYAvM7vcU5WmuYqXpwaBHjsS8T63jlKGWVtHxAHIoMIlmaMyurUSEs1Zcg46M4AYT5MtB1U274/2aNzjJQ==
+  dependencies:
+    "@babel/parser" "^7.16.4"
+    "@vue/compiler-core" "3.2.45"
+    "@vue/shared" "3.2.45"
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     estree-walker "^2.0.2"
     magic-string "^0.30.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     "@babel/parser" "^7.20.15"
@@ -2616,6 +3302,8 @@
     magic-string "^0.30.0"
 
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@vue/reactivity@3.3.4":
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.3.4.tgz#a27a29c6cd17faba5a0e99fbb86ee951653e2253"
@@ -2658,6 +3346,7 @@
   version "3.2.45"
   resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.2.45.tgz#412a45b574de601be5a4a5d9a8cbd4dee4662ff0"
   integrity sha512-PRvhCcQcyEVohW0P8iQ7HDcIOXRjZfAsOds3N99X/Dzewy8TVhTCT4uXpAHfoKjVTJRA0O0K+6QNkDIZAxNi3A==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
@@ -2689,10 +3378,41 @@
     "@vue/shared" "3.3.4"
 
 <<<<<<< HEAD
+=======
+  dependencies:
+    "@vue/shared" "3.2.45"
+
+"@vue/runtime-core@3.2.45":
+  version "3.2.45"
+  resolved "https://registry.yarnpkg.com/@vue/runtime-core/-/runtime-core-3.2.45.tgz#7ad7ef9b2519d41062a30c6fa001ec43ac549c7f"
+  integrity sha512-gzJiTA3f74cgARptqzYswmoQx0fIA+gGYBfokYVhF8YSXjWTUA2SngRzZRku2HbGbjzB6LBYSbKGIaK8IW+s0A==
+  dependencies:
+    "@vue/reactivity" "3.2.45"
+    "@vue/shared" "3.2.45"
+
+"@vue/runtime-dom@3.2.45":
+  version "3.2.45"
+  resolved "https://registry.yarnpkg.com/@vue/runtime-dom/-/runtime-dom-3.2.45.tgz#1a2ef6ee2ad876206fbbe2a884554bba2d0faf59"
+  integrity sha512-cy88YpfP5Ue2bDBbj75Cb4bIEZUMM/mAkDMfqDTpUYVgTf/kuQ2VQ8LebuZ8k6EudgH8pYhsGWHlY0lcxlvTwA==
+  dependencies:
+    "@vue/runtime-core" "3.2.45"
+    "@vue/shared" "3.2.45"
+    csstype "^2.6.8"
+
+"@vue/server-renderer@3.2.45":
+  version "3.2.45"
+  resolved "https://registry.yarnpkg.com/@vue/server-renderer/-/server-renderer-3.2.45.tgz#ca9306a0c12b0530a1a250e44f4a0abac6b81f3f"
+  integrity sha512-ebiMq7q24WBU1D6uhPK//2OTR1iRIyxjF5iVq/1a5I1SDMDyDu4Ts6fJaMnjrvD3MqnaiFkKQj+LKAgz5WIK3g==
+  dependencies:
+    "@vue/compiler-ssr" "3.2.45"
+    "@vue/shared" "3.2.45"
+
+>>>>>>> bf23d9a (package updates and better logo)
 "@vue/shared@3.2.45", "@vue/shared@^3.2.45":
   version "3.2.45"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.45.tgz#a3fffa7489eafff38d984e23d0236e230c818bc2"
   integrity sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 "@vue/shared@3.3.4", "@vue/shared@^3.3.4":
@@ -2700,6 +3420,9 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.4.tgz#06e83c5027f464eef861c329be81454bc8b70780"
   integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 "@vuelidate/core@^2.0.3":
   version "2.0.3"
@@ -2717,8 +3440,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "@vueuse/head@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-2.0.0.tgz#a4570c0933368a436796c2f737d56e169a8f0864"
@@ -2744,6 +3470,7 @@
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@zhead/schema/-/schema-1.0.7.tgz#229d03af31025a02b2de02a7b065542d7121e0df"
   integrity sha512-jN2ipkz39YrHd8uulgw/Y7x8iOxvR/cTkin/E9zRQVP5JBIrrJMiGyFFj6JBW4Q029xJ5dKtpwy/3RZWpz+dkQ==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -2752,6 +3479,9 @@
     "@unhead/ssr" "^1.7.0"
     "@unhead/vue" "^1.7.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 abbrev@1:
   version "1.1.1"
@@ -2775,15 +3505,22 @@ acorn@^7.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 acorn@^8.5.0, acorn@^8.6.0, acorn@^8.8.0, acorn@^8.8.1:
   version "8.8.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.1.tgz#0a3f9cbecc4ec3bea6f0a80b66ae8dd2da250b73"
   integrity sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==
 
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 agent-base@6:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
@@ -2803,21 +3540,31 @@ ajv@^6.12.4:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 ajv@^8.0.0:
   version "8.12.0"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.12.0.tgz#d1a0527323e22f53562c567c00991577dfbe19d1"
   integrity sha512-sRu1kpcO9yLtYxBKvqfTeh9KzZEwO3STyX1HT+4CaDzC6HpTGYhIhPIzj9XuKU7KYDwnaeh5hcOwjy1QuJzBPA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 ajv@^8.0.0, ajv@^8.0.1:
   version "8.11.2"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.11.2.tgz#aecb20b50607acf2569b6382167b65a96008bb78"
   integrity sha512-E4bfmKAhGiSTvMfL1Myyycaub+cUEU2/IvpylXkUu7CHBkBj1f/ikdzbD7YQ6FKUbixDxeYvB/xY4fvyroDlQg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     fast-deep-equal "^3.1.1"
     json-schema-traverse "^1.0.0"
@@ -2838,6 +3585,9 @@ ansi-escapes@^4.3.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 ansi-escapes@^6.0.0:
   version "6.0.0"
@@ -2846,9 +3596,13 @@ ansi-escapes@^6.0.0:
   dependencies:
     type-fest "^3.0.0"
 
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
@@ -2880,6 +3634,7 @@ ansi-styles@^6.1.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 anymatch@^3.1.3, anymatch@~3.1.2:
 =======
 anymatch@^3.1.2, anymatch@~3.1.2:
@@ -2887,6 +3642,12 @@ anymatch@^3.1.2, anymatch@~3.1.2:
 =======
 anymatch@^3.1.3, anymatch@~3.1.2:
 >>>>>>> 9b953fb (package version bumbs)
+=======
+anymatch@^3.1.3, anymatch@~3.1.2:
+=======
+anymatch@^3.1.2, anymatch@~3.1.2:
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-3.1.3.tgz#790c58b19ba1720a84205b57c618d5ad8524973e"
   integrity sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==
@@ -2992,8 +3753,11 @@ async@^3.2.3, async@^3.2.4:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 autoprefixer@^10.4.16:
   version "10.4.16"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.16.tgz#fad1411024d8670880bdece3970aa72e3572feb8"
@@ -3012,6 +3776,7 @@ autoprefixer@^10.4.13:
     browserslist "^4.21.4"
     caniuse-lite "^1.0.30001426"
     fraction.js "^4.2.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -3019,6 +3784,9 @@ autoprefixer@^10.4.13:
     caniuse-lite "^1.0.30001538"
     fraction.js "^4.3.6"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     normalize-range "^0.1.2"
     picocolors "^1.0.0"
     postcss-value-parser "^4.2.0"
@@ -3056,6 +3824,10 @@ bindings@^1.4.0:
     file-uri-to-path "1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 bl@^4.0.3:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/bl/-/bl-4.1.0.tgz#451535264182bec2fbbc83a62ab98cf11d9f7b3a"
@@ -3066,7 +3838,10 @@ bl@^4.0.3:
     readable-stream "^3.4.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 bl@^5.0.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/bl/-/bl-5.1.0.tgz#183715f678c7188ecef9fe475d90209400624273"
@@ -3076,9 +3851,13 @@ bl@^5.0.0:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 boolbase@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
@@ -3108,21 +3887,31 @@ braces@^3.0.2, braces@~3.0.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 browserslist@^4.0.0, browserslist@^4.21.10, browserslist@^4.21.4, browserslist@^4.21.9:
   version "4.22.1"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.22.1.tgz#ba91958d1a59b87dab6fed8dfbcb3da5e2e9c619"
   integrity sha512-FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 browserslist@^4.0.0, browserslist@^4.16.6, browserslist@^4.21.3, browserslist@^4.21.4:
   version "4.21.4"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.21.4.tgz#e7496bbc67b9e39dd0f98565feccdcb0d4ff6987"
   integrity sha512-CBHJJdDmgjl3daYjN5Cp5kbTf1mUhZoS+beLklHIvkOWscs83YAhLlF3Wsh/lciQYAcbBJgTOD44VtG31ZM4Hw==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     caniuse-lite "^1.0.30001541"
     electron-to-chromium "^1.4.535"
@@ -3179,13 +3968,19 @@ c12@^1.4.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 cac@^6.7.14:
   version "6.7.14"
   resolved "https://registry.yarnpkg.com/cac/-/cac-6.7.14.tgz#804e1e6f506ee363cb0e3ccbb09cad5dd9870959"
   integrity sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 c12@^1.0.1:
   version "1.1.0"
@@ -3200,9 +3995,13 @@ c12@^1.0.1:
     pathe "^1.0.0"
     pkg-types "^1.0.1"
     rc9 "^2.0.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 call-bind@^1.0.2:
   version "1.0.2"
@@ -3239,21 +4038,31 @@ caniuse-api@^3.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001538, caniuse-lite@^1.0.30001541:
   version "1.0.30001543"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001543.tgz#478a3e9dddbb353c5ab214b0ecb0dbed529ed1d8"
   integrity sha512-qxdO8KPWPQ+Zk6bvNpPeQIOH47qZSYdFZd6dXQzb2KzhnSXju4Kd7H1PkSJx6NICSMgo/IhRZRhhfPTHYpJUCA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
   version "1.0.30001439"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001439.tgz#ab7371faeb4adff4b74dad1718a6fd122e45d9cb"
   integrity sha512-1MgUzEkoMO6gKfXflStpYgZDlFM7M/ck/bgfVCACO5vnAf0fXoNVHdWtqGU+MYca+4bL9Z5bpOVmR33cWW9G2A==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 ccount@^2.0.0:
   version "2.0.1"
@@ -3279,8 +4088,11 @@ chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 chalk@^5.1.2, chalk@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.3.0.tgz#67c20a7ebef70e7f3970a01f90fa210cb6860385"
@@ -3291,14 +4103,21 @@ char-regex@^1.0.2:
   resolved "https://registry.yarnpkg.com/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 chalk@^5.0.0, chalk@^5.1.2:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.2.0.tgz#249623b7d66869c673699fb66d65723e54dfcfb3"
   integrity sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 character-entities-html4@^2.0.0:
   version "2.1.0"
@@ -3366,21 +4185,31 @@ chownr@^2.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 ci-info@^3.8.0:
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.8.0.tgz#81408265a5380c929f0bc665d62256628ce9ef91"
   integrity sha512-eXTggHWSooYhq49F2opQhuHWgzucfF2YgODK4e1566GQs5BIfP30B0oenwBJHfWxAs2fyPB1s7Mg949zLf61Yw==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 ci-info@^3.6.1:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.7.0.tgz#6d01b3696c59915b6ce057e4aa4adfc2fa25f5ef"
   integrity sha512-2CpRNYmImPx+RXKLq6jko/L07phmS9I02TyqkcNU20GCF/GgaWvc58hPtjxDX8lPpkdwc9sNh72V9k00S7ezog==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 citty@^0.1.3, citty@^0.1.4:
   version "0.1.4"
@@ -3581,6 +4410,9 @@ cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
 css-declaration-sorter@^6.3.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/css-declaration-sorter/-/css-declaration-sorter-6.4.1.tgz#28beac7c20bad7f1775be3a7129d7eae409a3a71"
   integrity sha512-rtdthzxKuyq6IzqX6jEcIzQF/YqccluefyCYheovBOLhFT/drQA9zj/UbRAa9J7C0o6EG6u3E6g+vKkay7/k3g==
@@ -3588,12 +4420,16 @@ css-declaration-sorter@^6.3.1:
   version "6.3.1"
   resolved "https://registry.yarnpkg.com/css-declaration-sorter/-/css-declaration-sorter-6.3.1.tgz#be5e1d71b7a992433fb1c542c7a1b835e45682ec"
   integrity sha512-fBffmak0bPAnyqc/HO8C3n2sHrp9wcqQz6ES9koRF2/mLOVAx9zIQ3Y7R29sYCteTPqMCwns4WYQoCX91Xl3+w==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/css-declaration-sorter/-/css-declaration-sorter-6.4.1.tgz#28beac7c20bad7f1775be3a7129d7eae409a3a71"
   integrity sha512-rtdthzxKuyq6IzqX6jEcIzQF/YqccluefyCYheovBOLhFT/drQA9zj/UbRAa9J7C0o6EG6u3E6g+vKkay7/k3g==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 css-select@^5.1.0:
   version "5.1.0"
@@ -3660,6 +4496,7 @@ cssnano-preset-default@^5.2.12:
 >>>>>>> 4abd07e (yarn upgrade)
   dependencies:
     css-declaration-sorter "^6.3.1"
+<<<<<<< HEAD
     cssnano-utils "^4.0.0"
     postcss-calc "^9.0.0"
     postcss-colormin "^6.0.0"
@@ -3689,12 +4526,15 @@ cssnano-preset-default@^5.2.12:
     postcss-svgo "^6.0.0"
     postcss-unique-selectors "^6.0.0"
 =======
+<<<<<<< HEAD
 cssnano-preset-default@^5.2.13:
   version "5.2.13"
   resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-5.2.13.tgz#e7353b0c57975d1bdd97ac96e68e5c1b8c68e990"
   integrity sha512-PX7sQ4Pb+UtOWuz8A1d+Rbi+WimBIxJTRyBdgGp1J75VU0r/HFQeLnMYgHiCAp6AR4rqrc7Y4R+1Rjk3KJz6DQ==
   dependencies:
     css-declaration-sorter "^6.3.1"
+=======
+>>>>>>> bf23d9a (package updates and better logo)
     cssnano-utils "^3.1.0"
     postcss-calc "^8.2.3"
     postcss-colormin "^5.3.0"
@@ -3723,6 +4563,7 @@ cssnano-preset-default@^5.2.13:
     postcss-reduce-transforms "^5.1.0"
     postcss-svgo "^5.1.0"
     postcss-unique-selectors "^5.1.1"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -3756,6 +4597,9 @@ cssnano-preset-default@^5.2.13:
     postcss-svgo "^6.0.0"
     postcss-unique-selectors "^6.0.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 cssnano-utils@^4.0.0:
   version "4.0.0"
@@ -3764,8 +4608,11 @@ cssnano-utils@^4.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 cssnano@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-6.0.1.tgz#87c38c4cd47049c735ab756d7e77ac3ca855c008"
@@ -3783,12 +4630,16 @@ cssnano@^5.1.14:
     cssnano-preset-default "^5.2.13"
     lilconfig "^2.0.3"
     yaml "^1.10.2"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
     cssnano-preset-default "^6.0.1"
     lilconfig "^2.1.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 csso@^5.0.5:
   version "5.0.5"
@@ -3816,6 +4667,7 @@ debug@2.6.9:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, debug@^4.3.4, debug@~4.3.1, debug@~4.3.2:
 =======
 debug@4, debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.4, debug@~4.3.1, debug@~4.3.2:
@@ -3823,6 +4675,12 @@ debug@4, debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.4, d
 =======
 debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, debug@^4.3.4, debug@~4.3.1, debug@~4.3.2:
 >>>>>>> 9b953fb (package version bumbs)
+=======
+debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, debug@^4.3.4, debug@~4.3.1, debug@~4.3.2:
+=======
+debug@4, debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.4, debug@~4.3.1, debug@~4.3.2:
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -3870,6 +4728,7 @@ define-lazy-prop@^2.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 defu@^6.0.0, defu@^6.1.0, defu@^6.1.2:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/defu/-/defu-6.1.2.tgz#1217cba167410a1765ba93893c6dbac9ed9d9e5c"
@@ -3881,11 +4740,22 @@ defu@^6.0.0, defu@^6.1.1:
   integrity sha512-aA964RUCsBt0FGoNIlA3uFgo2hO+WWC0fiC6DBps/0SFzkKcYoM/3CzVLIa5xSsrFjdioMdYgAIbwo80qp2MoA==
 >>>>>>> 7a89107 (package updates and better logo)
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 defu@^6.0.0, defu@^6.1.1, defu@^6.1.2:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/defu/-/defu-6.1.2.tgz#1217cba167410a1765ba93893c6dbac9ed9d9e5c"
   integrity sha512-+uO4+qr7msjNNWKYPHqN/3+Dx3NFkmIzayk2L1MyZQlvgZb/J1A0fo410dpKrN2SnqFjt8n4JL8fDJE0wIgjFQ==
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+defu@^6.0.0, defu@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/defu/-/defu-6.1.1.tgz#a12c712349197c545dc61d3cd3b607b4cc7ef0c1"
+  integrity sha512-aA964RUCsBt0FGoNIlA3uFgo2hO+WWC0fiC6DBps/0SFzkKcYoM/3CzVLIa5xSsrFjdioMdYgAIbwo80qp2MoA==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -3909,21 +4779,31 @@ dequal@^2.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 destr@^2.0.0, destr@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/destr/-/destr-2.0.1.tgz#2fc7bddc256fed1183e03f8d148391dde4023cb2"
   integrity sha512-M1Ob1zPSIvlARiJUkKqvAZ3VAqQY6Jcuth/pBKQ2b1dX/Qx0OnJ8Vux6J2H5PTMQeRzWrrbTu70VxBfv/OPDJA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 destr@^1.2.0, destr@^1.2.1, destr@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/destr/-/destr-1.2.2.tgz#7ba9befcafb645a50e76b260449c63927b51e22f"
   integrity sha512-lrbCJwD9saUQrqUfXvl6qoM+QN3W7tLV5pAOs+OqOmopCCz/JkE05MHedJR1xfk4IAnZuJXPVuN5+7jNA2ZCiA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 destroy@1.2.0:
   version "1.2.0"
@@ -4033,21 +4913,31 @@ dot-prop@^8.0.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 dotenv@^16.3.1:
   version "16.3.1"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
   integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 dotenv@^16.0.3:
   version "16.0.3"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
   integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 duplexer@^0.1.2:
   version "0.1.2"
@@ -4066,21 +4956,31 @@ ee-first@1.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 electron-to-chromium@^1.4.535:
   version "1.4.540"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.540.tgz#c685f2f035e93eb21dd6a9cfe2c735bad8f77401"
   integrity sha512-aoCqgU6r9+o9/S7wkcSbmPRFi7OWZWiXS9rtjEd+Ouyu/Xyw5RSq2XN8s5Qp8IaFOLiRrhQCphCIjAxgG3eCAg==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 electron-to-chromium@^1.4.251:
   version "1.4.284"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz#61046d1e4cab3a25238f6bf7413795270f125592"
   integrity sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -4178,6 +5078,22 @@ engine.io-parser@~5.2.1:
   integrity sha512-9JktcM3u18nU9N2Lz3bWeBgxVgOKpw7yhRaoxQA3FUDZzzw+9WlA6p4G4u0RixNkg14fH7EfEc/RhpurtiROTQ==
 >>>>>>> 9b953fb (package version bumbs)
 
+engine.io-client@~6.2.3:
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/engine.io-client/-/engine.io-client-6.2.3.tgz#a8cbdab003162529db85e9de31575097f6d29458"
+  integrity sha512-aXPtgF1JS3RuuKcpSrBtimSjYvrbhKW9froICH4s0F3XQWLxsKNxqzG39nnvQZQnva4CMvUK63T7shevxRyYHw==
+  dependencies:
+    "@socket.io/component-emitter" "~3.1.0"
+    debug "~4.3.1"
+    engine.io-parser "~5.0.3"
+    ws "~8.2.3"
+    xmlhttprequest-ssl "~2.0.0"
+
+engine.io-parser@~5.0.3:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/engine.io-parser/-/engine.io-parser-5.0.4.tgz#0b13f704fa9271b3ec4f33112410d8f3f41d0fc0"
+  integrity sha512-+nVFp+5z1E3HcToEnO7ZIj3g+3k9389DvWtvJZz0T6/eOCPIyyxehFcedoYrZQrp0LgQbD9pPXhpMBKMd5QURg==
+
 enhanced-resolve@^4.1.1:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.5.0.tgz#2f3cfd84dbe3b487f18f2db2ef1e064a571ca5ec"
@@ -4189,21 +5105,31 @@ enhanced-resolve@^4.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 enhanced-resolve@^5.14.1:
   version "5.15.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.15.0.tgz#1af946c7d93603eb88e9896cee4904dc012e9c35"
   integrity sha512-LXYT42KJ7lpIKECr2mAXIaMldcNCh/7E0KBKOu4KSfkHmP+mZmSs+8V5gBAqisWBy0OO4W5Oyys0GO1Y8KtdKg==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 enhanced-resolve@^5.10.0:
   version "5.12.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.12.0.tgz#300e1c90228f5b570c4d35babf263f6da7155634"
   integrity sha512-QHTXI/sZQmko1cbDoNAa3mJ5qhWUUNAq3vR0/YiD379fWQrcfuoX1+HW2S0MTt7XmoPLapdaDKUtelUSPic7hQ==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
@@ -4222,8 +5148,11 @@ errno@^0.1.3:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 esbuild@^0.18.10:
   version "0.18.20"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.18.20.tgz#4709f5a34801b43b799ab7d6d82f7284a9b7a7a6"
@@ -4463,7 +5392,167 @@ esbuild@^0.19.2, esbuild@^0.19.3:
     "@esbuild/win32-arm64" "0.19.4"
     "@esbuild/win32-ia32" "0.19.4"
     "@esbuild/win32-x64" "0.19.4"
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+esbuild-android-64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.15.18.tgz#20a7ae1416c8eaade917fb2453c1259302c637a5"
+  integrity sha512-wnpt3OXRhcjfIDSZu9bnzT4/TNTDsOUvip0foZOUBG7QbSt//w3QV4FInVJxNhKc/ErhUxc5z4QjHtMi7/TbgA==
+
+esbuild-android-arm64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-android-arm64/-/esbuild-android-arm64-0.15.18.tgz#9cc0ec60581d6ad267568f29cf4895ffdd9f2f04"
+  integrity sha512-G4xu89B8FCzav9XU8EjsXacCKSG2FT7wW9J6hOc18soEHJdtWu03L3TQDGf0geNxfLTtxENKBzMSq9LlbjS8OQ==
+
+esbuild-darwin-64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-darwin-64/-/esbuild-darwin-64-0.15.18.tgz#428e1730ea819d500808f220fbc5207aea6d4410"
+  integrity sha512-2WAvs95uPnVJPuYKP0Eqx+Dl/jaYseZEUUT1sjg97TJa4oBtbAKnPnl3b5M9l51/nbx7+QAEtuummJZW0sBEmg==
+
+esbuild-darwin-arm64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.15.18.tgz#b6dfc7799115a2917f35970bfbc93ae50256b337"
+  integrity sha512-tKPSxcTJ5OmNb1btVikATJ8NftlyNlc8BVNtyT/UAr62JFOhwHlnoPrhYWz09akBLHI9nElFVfWSTSRsrZiDUA==
+
+esbuild-freebsd-64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-freebsd-64/-/esbuild-freebsd-64-0.15.18.tgz#4e190d9c2d1e67164619ae30a438be87d5eedaf2"
+  integrity sha512-TT3uBUxkteAjR1QbsmvSsjpKjOX6UkCstr8nMr+q7zi3NuZ1oIpa8U41Y8I8dJH2fJgdC3Dj3CXO5biLQpfdZA==
+
+esbuild-freebsd-arm64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-freebsd-arm64/-/esbuild-freebsd-arm64-0.15.18.tgz#18a4c0344ee23bd5a6d06d18c76e2fd6d3f91635"
+  integrity sha512-R/oVr+X3Tkh+S0+tL41wRMbdWtpWB8hEAMsOXDumSSa6qJR89U0S/PpLXrGF7Wk/JykfpWNokERUpCeHDl47wA==
+
+esbuild-linux-32@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-32/-/esbuild-linux-32-0.15.18.tgz#9a329731ee079b12262b793fb84eea762e82e0ce"
+  integrity sha512-lphF3HiCSYtaa9p1DtXndiQEeQDKPl9eN/XNoBf2amEghugNuqXNZA/ZovthNE2aa4EN43WroO0B85xVSjYkbg==
+
+esbuild-linux-64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-64/-/esbuild-linux-64-0.15.18.tgz#532738075397b994467b514e524aeb520c191b6c"
+  integrity sha512-hNSeP97IviD7oxLKFuii5sDPJ+QHeiFTFLoLm7NZQligur8poNOWGIgpQ7Qf8Balb69hptMZzyOBIPtY09GZYw==
+
+esbuild-linux-arm64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-arm64/-/esbuild-linux-arm64-0.15.18.tgz#5372e7993ac2da8f06b2ba313710d722b7a86e5d"
+  integrity sha512-54qr8kg/6ilcxd+0V3h9rjT4qmjc0CccMVWrjOEM/pEcUzt8X62HfBSeZfT2ECpM7104mk4yfQXkosY8Quptug==
+
+esbuild-linux-arm@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-arm/-/esbuild-linux-arm-0.15.18.tgz#e734aaf259a2e3d109d4886c9e81ec0f2fd9a9cc"
+  integrity sha512-UH779gstRblS4aoS2qpMl3wjg7U0j+ygu3GjIeTonCcN79ZvpPee12Qun3vcdxX+37O5LFxz39XeW2I9bybMVA==
+
+esbuild-linux-mips64le@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.15.18.tgz#c0487c14a9371a84eb08fab0e1d7b045a77105eb"
+  integrity sha512-Mk6Ppwzzz3YbMl/ZZL2P0q1tnYqh/trYZ1VfNP47C31yT0K8t9s7Z077QrDA/guU60tGNp2GOwCQnp+DYv7bxQ==
+
+esbuild-linux-ppc64le@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.15.18.tgz#af048ad94eed0ce32f6d5a873f7abe9115012507"
+  integrity sha512-b0XkN4pL9WUulPTa/VKHx2wLCgvIAbgwABGnKMY19WhKZPT+8BxhZdqz6EgkqCLld7X5qiCY2F/bfpUUlnFZ9w==
+
+esbuild-linux-riscv64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-riscv64/-/esbuild-linux-riscv64-0.15.18.tgz#423ed4e5927bd77f842bd566972178f424d455e6"
+  integrity sha512-ba2COaoF5wL6VLZWn04k+ACZjZ6NYniMSQStodFKH/Pu6RxzQqzsmjR1t9QC89VYJxBeyVPTaHuBMCejl3O/xg==
+
+esbuild-linux-s390x@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-s390x/-/esbuild-linux-s390x-0.15.18.tgz#21d21eaa962a183bfb76312e5a01cc5ae48ce8eb"
+  integrity sha512-VbpGuXEl5FCs1wDVp93O8UIzl3ZrglgnSQ+Hu79g7hZu6te6/YHgVJxCM2SqfIila0J3k0csfnf8VD2W7u2kzQ==
+
+esbuild-netbsd-64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-netbsd-64/-/esbuild-netbsd-64-0.15.18.tgz#ae75682f60d08560b1fe9482bfe0173e5110b998"
+  integrity sha512-98ukeCdvdX7wr1vUYQzKo4kQ0N2p27H7I11maINv73fVEXt2kyh4K4m9f35U1K43Xc2QGXlzAw0K9yoU7JUjOg==
+
+esbuild-openbsd-64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-openbsd-64/-/esbuild-openbsd-64-0.15.18.tgz#79591a90aa3b03e4863f93beec0d2bab2853d0a8"
+  integrity sha512-yK5NCcH31Uae076AyQAXeJzt/vxIo9+omZRKj1pauhk3ITuADzuOx5N2fdHrAKPxN+zH3w96uFKlY7yIn490xQ==
+
+esbuild-sunos-64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-sunos-64/-/esbuild-sunos-64-0.15.18.tgz#fd528aa5da5374b7e1e93d36ef9b07c3dfed2971"
+  integrity sha512-On22LLFlBeLNj/YF3FT+cXcyKPEI263nflYlAhz5crxtp3yRG1Ugfr7ITyxmCmjm4vbN/dGrb/B7w7U8yJR9yw==
+
+esbuild-windows-32@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-32/-/esbuild-windows-32-0.15.18.tgz#0e92b66ecdf5435a76813c4bc5ccda0696f4efc3"
+  integrity sha512-o+eyLu2MjVny/nt+E0uPnBxYuJHBvho8vWsC2lV61A7wwTWC3jkN2w36jtA+yv1UgYkHRihPuQsL23hsCYGcOQ==
+
+esbuild-windows-64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-64/-/esbuild-windows-64-0.15.18.tgz#0fc761d785414284fc408e7914226d33f82420d0"
+  integrity sha512-qinug1iTTaIIrCorAUjR0fcBk24fjzEedFYhhispP8Oc7SFvs+XeW3YpAKiKp8dRpizl4YYAhxMjlftAMJiaUw==
+
+esbuild-windows-arm64@0.15.18:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.15.18.tgz#5b5bdc56d341d0922ee94965c89ee120a6a86eb7"
+  integrity sha512-q9bsYzegpZcLziq0zgUi5KqGVtfhjxGbnksaBFYmWLxeV/S1fK4OLdq2DFYnXcLMjlZw2L0jLsk1eGoB522WXQ==
+
+esbuild@^0.15.14, esbuild@^0.15.9:
+  version "0.15.18"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.15.18.tgz#ea894adaf3fbc036d32320a00d4d6e4978a2f36d"
+  integrity sha512-x/R72SmW3sSFRm5zrrIjAhCeQSAWoni3CmHEqfQrZIQTM3lVCdehdwuIqaOtfC2slvpdlLa62GYoN8SxT23m6Q==
+  optionalDependencies:
+    "@esbuild/android-arm" "0.15.18"
+    "@esbuild/linux-loong64" "0.15.18"
+    esbuild-android-64 "0.15.18"
+    esbuild-android-arm64 "0.15.18"
+    esbuild-darwin-64 "0.15.18"
+    esbuild-darwin-arm64 "0.15.18"
+    esbuild-freebsd-64 "0.15.18"
+    esbuild-freebsd-arm64 "0.15.18"
+    esbuild-linux-32 "0.15.18"
+    esbuild-linux-64 "0.15.18"
+    esbuild-linux-arm "0.15.18"
+    esbuild-linux-arm64 "0.15.18"
+    esbuild-linux-mips64le "0.15.18"
+    esbuild-linux-ppc64le "0.15.18"
+    esbuild-linux-riscv64 "0.15.18"
+    esbuild-linux-s390x "0.15.18"
+    esbuild-netbsd-64 "0.15.18"
+    esbuild-openbsd-64 "0.15.18"
+    esbuild-sunos-64 "0.15.18"
+    esbuild-windows-32 "0.15.18"
+    esbuild-windows-64 "0.15.18"
+    esbuild-windows-arm64 "0.15.18"
+
+esbuild@^0.16.3:
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.16.8.tgz#e6a383ad7b321421a299b7bd66cb0a96eac6d70d"
+  integrity sha512-RKxRaLYAI5b/IVJ5k8jK3bO2G7cch2ZIZFbfKHbBzpwsWt9+VChcBEndNISBBZ5c3WwekFfkfl11/2QfIGHgDw==
+  optionalDependencies:
+    "@esbuild/android-arm" "0.16.8"
+    "@esbuild/android-arm64" "0.16.8"
+    "@esbuild/android-x64" "0.16.8"
+    "@esbuild/darwin-arm64" "0.16.8"
+    "@esbuild/darwin-x64" "0.16.8"
+    "@esbuild/freebsd-arm64" "0.16.8"
+    "@esbuild/freebsd-x64" "0.16.8"
+    "@esbuild/linux-arm" "0.16.8"
+    "@esbuild/linux-arm64" "0.16.8"
+    "@esbuild/linux-ia32" "0.16.8"
+    "@esbuild/linux-loong64" "0.16.8"
+    "@esbuild/linux-mips64el" "0.16.8"
+    "@esbuild/linux-ppc64" "0.16.8"
+    "@esbuild/linux-riscv64" "0.16.8"
+    "@esbuild/linux-s390x" "0.16.8"
+    "@esbuild/linux-x64" "0.16.8"
+    "@esbuild/netbsd-x64" "0.16.8"
+    "@esbuild/openbsd-x64" "0.16.8"
+    "@esbuild/sunos-x64" "0.16.8"
+    "@esbuild/win32-arm64" "0.16.8"
+    "@esbuild/win32-ia32" "0.16.8"
+    "@esbuild/win32-x64" "0.16.8"
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -4566,6 +5655,9 @@ espree@^9.3.1, espree@^9.6.0, espree@^9.6.1:
   dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
     acorn "^8.9.0"
 =======
     acorn "^7.1.1"
@@ -4587,10 +5679,14 @@ espree@^9.0.0:
   integrity sha512-XwctdmTO6SIvCzd9810yyNzIrOrqNYV9Koizx4C/mRhf9uq0o4yHoCEU/670pOxOL/MSraektvSAji79kX90Vg==
   dependencies:
     acorn "^8.8.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
     acorn "^8.9.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     acorn-jsx "^5.3.2"
     eslint-visitor-keys "^3.4.1"
 
@@ -4625,8 +5721,11 @@ estree-walker@2.0.2, estree-walker@^2.0.1, estree-walker@^2.0.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 estree-walker@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-3.0.3.tgz#67c3e549ec402a487b4fc193d1953a524752340d"
@@ -4634,14 +5733,21 @@ estree-walker@^3.0.3:
   dependencies:
     "@types/estree" "^1.0.0"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 estree-walker@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-3.0.1.tgz#c2a9fb4a30232f5039b7c030b37ead691932debd"
   integrity sha512-woY0RUD87WzMBUiZLx8NsYr23N5BKsOMZHhu2hoNRVh6NXGfoiT1KOL8G3UHlJAnEDGmfa5ubNA/AacfG+Kb0g==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 esutils@^2.0.2:
   version "2.0.3"
@@ -4710,13 +5816,19 @@ externality@^1.0.2:
   dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
     enhanced-resolve "^5.14.1"
     mlly "^1.3.0"
     pathe "^1.1.1"
     ufo "^1.1.2"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
     chardet "^0.7.0"
     iconv-lite "^0.4.24"
@@ -4731,9 +5843,13 @@ externality@^1.0.0:
     mlly "^1.0.0"
     pathe "^1.0.0"
     ufo "^1.0.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
@@ -4769,6 +5885,9 @@ fast-levenshtein@^2.0.6:
 fastq@^1.6.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.15.0.tgz#d04d07c6a2a68fe4599fea8d2e103a937fae6b3a"
   integrity sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==
@@ -4776,12 +5895,16 @@ fastq@^1.6.0:
   version "1.14.0"
   resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.14.0.tgz#107f69d7295b11e0fccc264e1fc6389f623731ce"
   integrity sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.15.0.tgz#d04d07c6a2a68fe4599fea8d2e103a937fae6b3a"
   integrity sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     reusify "^1.0.4"
 
@@ -4876,15 +5999,22 @@ fs-extra@^11.1.0, fs-extra@^11.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 fs-memo@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/fs-memo/-/fs-memo-1.2.0.tgz#a2ec3be606b902077adbb37ec529c5ec5fb2e037"
   integrity sha512-YEexkCpL4j03jn5SxaMHqcO6IuWuqm8JFUYhyCep7Ao89JIYmB8xoKhK7zXXJ9cCaNXpyNH5L3QtAmoxjoHW2w==
 
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 fs-minipass@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/fs-minipass/-/fs-minipass-2.1.0.tgz#7f5036fdbf12c63c169190cbe4199c852271f9fb"
@@ -4954,8 +6084,11 @@ get-stream@^6.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 get-stream@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-8.0.1.tgz#def9dfd71742cd7754a7761ed43749a27d02eca2"
@@ -4979,6 +6112,7 @@ giget@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/giget/-/giget-1.0.0.tgz#fdd7e61a84996b19e00d2d4a6a65c60cc1f61c3d"
   integrity sha512-KWELZn3Nxq5+0So485poHrFriK9Bn3V/x9y+wgqrHkbmnGbjfLmZ685/SVA/ovW+ewoqW0gVI47pI4yW/VNobQ==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
@@ -4996,6 +6130,17 @@ giget@^1.0.0:
     pathe "^1.1.0"
     tar "^6.1.13"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+  dependencies:
+    colorette "^2.0.19"
+    defu "^6.1.1"
+    https-proxy-agent "^5.0.1"
+    mri "^1.2.0"
+    node-fetch-native "^1.0.1"
+    pathe "^1.0.0"
+    tar "^6.1.12"
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 git-config-path@^2.0.0:
   version "2.0.0"
@@ -5069,8 +6214,11 @@ glob-parent@^5.1.2, glob-parent@~5.1.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 glob-parent@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-6.0.2.tgz#6d237d99083950c79290f24c7642a3de9a28f9e3"
@@ -5091,11 +6239,17 @@ glob@^10.0.0:
 
 glob@^7.1.1, glob@^7.1.3, glob@^7.1.6, glob@^7.2.3:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 glob@^7.1.1, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.2.3:
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+glob@^7.1.1, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.2.3:
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
@@ -5125,8 +6279,11 @@ globals@^11.1.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 globals@^13.19.0:
   version "13.22.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-13.22.0.tgz#0c9fcb9c48a2494fbb5edbfee644285543eba9d8"
@@ -5151,6 +6308,7 @@ globby@^13.1.2:
   version "13.1.3"
   resolved "https://registry.yarnpkg.com/globby/-/globby-13.1.3.tgz#f62baf5720bcb2c1330c8d4ef222ee12318563ff"
   integrity sha512-8krCNHXvlCgHDpegPzleMq07yMYTO2sXKASmZmquEYWEmCx6J5UTRbp5RwMJkTJGtcQ44YpiUYUiN0b9mzy8Bw==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -5161,6 +6319,9 @@ globby@^13.2.2:
   resolved "https://registry.yarnpkg.com/globby/-/globby-13.2.2.tgz#63b90b1bf68619c2135475cbd4e71e66aa090592"
   integrity sha512-Y1zNGV+pzQdh7H39l9zgB4PJqjRNqydvdYCDG4HFXM4XuvSaQQlEc91IU1yALL8gUTDomgBAfz3XJdmUS+oo0w==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     dir-glob "^3.0.1"
     fast-glob "^3.3.0"
@@ -5240,6 +6401,7 @@ h3@^0.7.12, h3@^0.7.21:
   integrity sha512-F/qdr3JKh8zBLiZyiprH5kuzG6vjoTK3nFnIYFUIQPLsw755GI5JezAFc3HJxbgYlzawcGeJlmsw4xu2t/0n/Q==
 >>>>>>> dd0891b (yarn upgrade)
   dependencies:
+<<<<<<< HEAD
     cookie-es "^1.0.0"
     defu "^6.1.2"
     destr "^2.0.1"
@@ -5248,7 +6410,16 @@ h3@^0.7.12, h3@^0.7.21:
     ufo "^1.3.0"
     uncrypto "^0.1.3"
     unenv "^1.7.4"
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+    cookie-es "^0.5.0"
+    destr "^1.2.2"
+    radix3 "^1.0.0"
+    ufo "^1.0.1"
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -5453,8 +6624,11 @@ hastscript@^7.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 hastscript@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/hastscript/-/hastscript-8.0.0.tgz#4ef795ec8dee867101b9f23cc830d4baf4fd781a"
@@ -5466,14 +6640,21 @@ hastscript@^8.0.0:
     property-information "^6.0.0"
     space-separated-tokens "^2.0.0"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 hookable@^5.4.2:
   version "5.4.2"
   resolved "https://registry.yarnpkg.com/hookable/-/hookable-5.4.2.tgz#6a1d3c4b3cb5b4262f99b3070ce0ee92c9c78049"
   integrity sha512-6rOvaUiNKy9lET1X0ECnyZ5O5kSV0PJbtA5yZUgdEF7fGJEVwSLSislltyt7nFwVVALYHQJtfGeAR2Y0A0uJkg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 hookable@^5.5.3:
   version "5.5.3"
@@ -5482,8 +6663,11 @@ hookable@^5.5.3:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 html-tags@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.3.1.tgz#a04026a18c882e4bba8a01a3d39cfe465d40b5ce"
@@ -5494,14 +6678,21 @@ html-validate@~8.0.5:
   resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-8.0.5.tgz#f28432aa254acf5dc98c1c82b8c9a3bea0440da9"
   integrity sha512-8IBayugyDTiH49JjxSEq+A0UFQzuyG9m0382aHMrPoHVNQcr3IypjuKcjn150ahAwAqO0o4NgMbkC1LezQU1mw==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 html-validate@~7.10.1:
   version "7.10.1"
   resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-7.10.1.tgz#8ac955e1f93206164822225c9b4772dae08d303e"
   integrity sha512-2MjthTcMfqAZ8V1YyXshINGsdmPKc3RW9IKJ3kgfjXq59BuvSVM+vBhfOu0dJvlpRVH117vZ5JImYNsMfca3nA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@babel/code-frame" "^7.10.0"
     "@html-validate/stylish" "^4.1.0"
@@ -5569,6 +6760,7 @@ human-signals@^5.0.0:
   integrity sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ieee754@^1.1.13:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
@@ -5576,10 +6768,13 @@ ieee754@^1.1.13:
 
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 ignore@^5.0.0, ignore@^5.2.0, ignore@^5.2.4:
   version "5.2.4"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
   integrity sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -5588,13 +6783,30 @@ image-meta@^0.1.1:
   resolved "https://registry.yarnpkg.com/image-meta/-/image-meta-0.1.1.tgz#a84dc7d5f61c7d60e85ec0c3ac81beee8646039b"
   integrity sha512-+oXiHwOEPr1IE5zY0tcBLED/CYcre15J4nwL50x3o0jxWqEkyjrusiKP3YSU+tr9fvJp33ZcP5Gpj2295g3aEw==
 =======
+=======
+=======
+ieee754@^1.1.13, ieee754@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
+  integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
+
+ignore@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
+  integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
+
+>>>>>>> bf23d9a (package updates and better logo)
 ignore@^5.0.0, ignore@^5.2.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.1.tgz#c2b1f76cb999ede1502f3a226a9310fdfe88d46c"
   integrity sha512-d2qQLzTJ9WxQftPAuEQpSPmKqzxePjzVbpAVv62AQ64NTL+wR4JkrVqR/LqFsFEUsHDAiId52mJteHDFuDkElA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 image-meta@^0.1.1:
   version "0.1.1"
@@ -5639,13 +6851,19 @@ ini@^1.3.5, ini@~1.3.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 ioredis@^5.3.2:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-5.3.2.tgz#9139f596f62fc9c72d873353ac5395bcf05709f7"
   integrity sha512-1DKMMzlIHM02eBBVOFQ1+AolGjs6+xEcM4PDL7NqOS6szq7H9jSaEkIUH6/a5Hl241LzW6JLSiAbNvTQjUupUA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 inline-style-parser@0.1.1:
   version "0.1.1"
@@ -5677,9 +6895,13 @@ ioredis@^5.2.4:
   version "5.2.4"
   resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-5.2.4.tgz#9e262a668bc29bae98f2054c1e0d7efd86996b96"
   integrity sha512-qIpuAEt32lZJQ0XyrloCRdlEdUUNGG9i0UOk6zgzK6igyudNWqEBxfH6OlbnOOoBBvr1WB02mm8fR55CnikRng==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@ioredis/commands" "^1.1.1"
     cluster-key-slot "^1.1.0"
@@ -5780,21 +7002,31 @@ is-builtin-module@^3.2.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 is-core-module@^2.13.0:
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.13.0.tgz#bb52aa6e2cbd49a30c2ba68c42bf3435ba6072db"
   integrity sha512-Z7dk6Qo8pOCp3l4tsX2C5ZVas4V+UxwQodwZhLopL91TX8UyyHEXafPcyoeeWuLrwzHcr3igO78wNLwHJHsMCQ==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 is-core-module@^2.9.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.11.0.tgz#ad4cb3e3863e814523c96f3f58d26cc570ff0144"
   integrity sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     has "^1.0.3"
 
@@ -5933,21 +7165,31 @@ jackspeak@^2.3.5:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 jiti@^1.18.2, jiti@^1.19.1, jiti@^1.20.0:
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.20.0.tgz#2d823b5852ee8963585c8dd8b7992ffc1ae83b42"
   integrity sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 jiti@^1.16.0:
   version "1.16.0"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.16.0.tgz#f72065954446ad1866fa8d6bcc3bed3cc1cebdaa"
   integrity sha512-L3BJStEf5NAqNuzrpfbN71dp43mYIcBUlCRea/vdyv5dW/AYa1d4bpelko4SHdY3I6eN9Wzyasxirj1/vv5kmg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -5996,21 +7238,31 @@ json-stable-stringify-without-jsonify@^1.0.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 json5@^2.1.2, json5@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 json5@^2.1.2, json5@^2.2.1:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.2.tgz#64471c5bdcc564c18f7c1d4df2e2297f2457c5ab"
   integrity sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 jsonc-parser@^3.2.0:
   version "3.2.0"
@@ -6075,6 +7327,7 @@ lilconfig@^2.1.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 listhen@^1.2.2, listhen@^1.5.5:
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/listhen/-/listhen-1.5.5.tgz#58915512af70f770aa3e9fb19367adf479bb58c4"
@@ -6086,11 +7339,22 @@ listhen@^1.0.0, listhen@^1.0.1:
   integrity sha512-RBzBGHMCc5wP8J5Vf8WgF4CAJH8dWHi9LaKB7vfzZt54CiH/0dp01rudy2hFD9wCrTM+UfxFVnn5wTIiY+Qhiw==
 >>>>>>> 7a89107 (package updates and better logo)
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 listhen@^1.2.2, listhen@^1.4.8, listhen@^1.5.5:
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/listhen/-/listhen-1.5.5.tgz#58915512af70f770aa3e9fb19367adf479bb58c4"
   integrity sha512-LXe8Xlyh3gnxdv4tSjTjscD1vpr/2PRpzq8YIaMJgyKzRG8wdISlWVWnGThJfHnlJ6hmLt2wq1yeeix0TEbuoA==
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+listhen@^1.0.0, listhen@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/listhen/-/listhen-1.0.1.tgz#31054d08d850ad21473768085a50a8b34a635070"
+  integrity sha512-RBzBGHMCc5wP8J5Vf8WgF4CAJH8dWHi9LaKB7vfzZt54CiH/0dp01rudy2hFD9wCrTM+UfxFVnn5wTIiY+Qhiw==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@parcel/watcher" "^2.3.0"
     "@parcel/watcher-wasm" "2.3.0"
@@ -6098,8 +7362,11 @@ listhen@^1.2.2, listhen@^1.4.8, listhen@^1.5.5:
     clipboardy "^3.0.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
     consola "^3.2.3"
     defu "^6.1.2"
     get-port-please "^3.1.1"
@@ -6118,6 +7385,7 @@ listhen@^1.2.2, listhen@^1.4.8, listhen@^1.5.5:
     colorette "^2.0.19"
     defu "^6.1.1"
     get-port-please "^2.6.1"
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
     http-shutdown "^1.2.2"
@@ -6134,6 +7402,13 @@ listhen@^1.2.2, listhen@^1.4.8, listhen@^1.5.5:
     untun "^0.1.2"
     uqr "^0.1.2"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+    http-shutdown "^1.2.2"
+    ip-regex "^5.0.0"
+    node-forge "^1.3.1"
+    ufo "^1.0.0"
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 loader-utils@^2.0.0:
   version "2.0.4"
@@ -6228,6 +7503,7 @@ longest-streak@^3.0.0:
   resolved "https://registry.yarnpkg.com/longest-streak/-/longest-streak-3.1.0.tgz#62fa67cd958742a1574af9f39866364102d90cd4"
   integrity sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 lru-cache@^10.0.0, "lru-cache@^9.1.1 || ^10.0.0":
   version "10.0.1"
@@ -6242,6 +7518,8 @@ lru-cache@^5.1.1:
     yallist "^3.0.2"
 =======
 >>>>>>> 7a89107 (package updates and better logo)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 
 lru-cache@^10.0.0, "lru-cache@^9.1.1 || ^10.0.0":
   version "10.0.1"
@@ -6254,6 +7532,8 @@ lru-cache@^5.1.1:
   integrity sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==
   dependencies:
     yallist "^3.0.2"
+=======
+>>>>>>> 930f604 (package updates and better logo)
 
 lru-cache@^6.0.0:
   version "6.0.0"
@@ -6293,10 +7573,17 @@ magic-string@^0.30.0, magic-string@^0.30.2, magic-string@^0.30.3, magic-string@^
 =======
 >>>>>>> 9b953fb (package version bumbs)
 
+<<<<<<< HEAD
 magic-string@^0.27.0:
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.27.0.tgz#e4a3413b4bab6d98d2becffd48b4a257effdbbf3"
   integrity sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==
+=======
+magic-string@^0.26.4, magic-string@^0.26.7:
+  version "0.26.7"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.7.tgz#caf7daf61b34e9982f8228c4527474dac8981d6f"
+  integrity sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==
+>>>>>>> 930f604 (package updates and better logo)
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.13"
 
@@ -6306,6 +7593,13 @@ magic-string@^0.30.0, magic-string@^0.30.2, magic-string@^0.30.3:
   integrity sha512-Q/TKtsC5BPm0kGqgBIF9oXAs/xEf2vRKiIB4wCRQTJOQIByZ1d+NnUOotvJOvNpi5RNIgVOMC3pOuaP1ZTDlVg==
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.15"
+
+magic-string@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.27.0.tgz#e4a3413b4bab6d98d2becffd48b4a257effdbbf3"
+  integrity sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==
+  dependencies:
+    "@jridgewell/sourcemap-codec" "^1.4.13"
 
 make-dir@^3.1.0, make-dir@~3.1.0:
   version "3.1.0"
@@ -6320,6 +7614,18 @@ markdown-table@^3.0.0:
   integrity sha512-Z1NL3Tb1M9wH4XESsCDEksWoKTdlUafKc4pt0GRwjUyXaCFZ+dc3g2erqB6zm3szA2IUSi7VnPI+o/9jnxh9hw==
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+
+mdast-squeeze-paragraphs@^5.0.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-5.2.0.tgz#23440cea3586a1cb70771f98971d4f8bf1dbb36b"
+  integrity sha512-uqPZ2smyXe0gNjweQaDkm7eK/KgvcS0u9X9yu28Yj/UOmK6CN6JRs/puzAGQw72vZcxWxs05LxkUTwZIsQZvrw==
+  dependencies:
+    "@types/mdast" "^3.0.0"
+    unist-util-remove "^3.0.0"
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 <<<<<<< HEAD
 mdast-squeeze-paragraphs@^5.0.0:
@@ -6420,6 +7726,9 @@ mdast-util-gfm-footnote@^1.0.0:
 mdast-util-gfm-strikethrough@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/mdast-util-gfm-strikethrough/-/mdast-util-gfm-strikethrough-1.0.3.tgz#5470eb105b483f7746b8805b9b989342085795b7"
   integrity sha512-DAPhYzTYrRcXdMjUtUjKvW9z/FNAMTdU0ORyMcbmkwYNbKocDpdk+PX1L1dQgOID/+vVs1uBQ7ElrBQfZ0cuiQ==
@@ -6427,12 +7736,16 @@ mdast-util-gfm-strikethrough@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/mdast-util-gfm-strikethrough/-/mdast-util-gfm-strikethrough-1.0.2.tgz#6b4fa4ae37d449ccb988192ac0afbb2710ffcefd"
   integrity sha512-T/4DVHXcujH6jx1yqpcAYYwd+z5lAYMw4Ls6yhTfbMMtCt0PHY4gEfhW9+lKsLBtyhUGKRIzcUA2FATVqnvPDA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/mdast-util-gfm-strikethrough/-/mdast-util-gfm-strikethrough-1.0.3.tgz#5470eb105b483f7746b8805b9b989342085795b7"
   integrity sha512-DAPhYzTYrRcXdMjUtUjKvW9z/FNAMTdU0ORyMcbmkwYNbKocDpdk+PX1L1dQgOID/+vVs1uBQ7ElrBQfZ0cuiQ==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@types/mdast" "^3.0.0"
     mdast-util-to-markdown "^1.3.0"
@@ -6470,8 +7783,11 @@ mdast-util-gfm@^2.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 mdast-util-phrasing@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/mdast-util-phrasing/-/mdast-util-phrasing-3.0.1.tgz#c7c21d0d435d7fb90956038f02e8702781f95463"
@@ -6493,14 +7809,21 @@ mdast-util-to-hast@^12.1.0:
   resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-12.3.0.tgz#045d2825fb04374e59970f5b3f279b5700f6fb49"
   integrity sha512-pits93r8PhnIoU4Vy9bjW39M2jJ6/tdHyja9rrot9uujkN7UTU9SDnE6WNJz/IGyQk3XHX6yNNtrBH6cQzm8Hw==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 mdast-util-to-hast@^12.1.0, mdast-util-to-hast@^12.2.4:
   version "12.2.4"
   resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-12.2.4.tgz#34c1ef2b6cf01c27b3e3504e2c977c76f722e7e1"
   integrity sha512-a21xoxSef1l8VhHxS1Dnyioz6grrJkoaCUgGzMD/7dWHvboYX3VW53esRUfB5tgTyz4Yos1n25SPcj35dJqmAg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@types/hast" "^2.0.0"
     "@types/mdast" "^3.0.0"
@@ -6528,6 +7851,9 @@ mdast-util-to-hast@^13.0.0, mdast-util-to-hast@^13.0.2:
 mdast-util-to-markdown@^1.0.0, mdast-util-to-markdown@^1.3.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/mdast-util-to-markdown/-/mdast-util-to-markdown-1.5.0.tgz#c13343cb3fc98621911d33b5cd42e7d0731171c6"
   integrity sha512-bbv7TPv/WC49thZPg3jXuqzuvI45IL2EVAr/KxF0BSdHsU0ceFHOmwQn6evxAh1GaoK/6GQ1wp4R4oW2+LFL/A==
@@ -6535,12 +7861,16 @@ mdast-util-to-markdown@^1.0.0, mdast-util-to-markdown@^1.3.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/mdast-util-to-markdown/-/mdast-util-to-markdown-1.4.0.tgz#bb0153a865dbc022975f403a156fb6399c494ddf"
   integrity sha512-IjXARf/O8VGx/pc5SZ7syfydq1DYL9vd92orsG5U0b4GNCmAvXzu+n7sbzfIKrXwB0AVrYk3NV2kXl0AIi9LCA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/mdast-util-to-markdown/-/mdast-util-to-markdown-1.5.0.tgz#c13343cb3fc98621911d33b5cd42e7d0731171c6"
   integrity sha512-bbv7TPv/WC49thZPg3jXuqzuvI45IL2EVAr/KxF0BSdHsU0ceFHOmwQn6evxAh1GaoK/6GQ1wp4R4oW2+LFL/A==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@types/mdast" "^3.0.0"
     "@types/unist" "^2.0.0"
@@ -7030,8 +8360,11 @@ micromark-util-types@^1.0.0, micromark-util-types@^1.0.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 micromark-util-types@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/micromark-util-types/-/micromark-util-types-2.0.0.tgz#63b4b7ffeb35d3ecf50d1ca20e68fc7caa36d95e"
@@ -7042,14 +8375,21 @@ micromark@^3.0.0:
   resolved "https://registry.yarnpkg.com/micromark/-/micromark-3.2.0.tgz#1af9fef3f995ea1ea4ac9c7e2f19c48fd5c006e9"
   integrity sha512-uD66tJj54JLYq0De10AhWycZWGQNUvDI55xPgk2sQM5kn1JYlhbCMTtEeT27+vAhW2FBQxLlOmS3pmA7/2z4aA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 micromark@^3.0.0, micromark@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/micromark/-/micromark-3.1.0.tgz#eeba0fe0ac1c9aaef675157b52c166f125e89f62"
   integrity sha512-6Mj0yHLdUZjHnOPgr5xfWIMqMWS12zDN6iws9SLuSz76W8jTtAv24MN4/CL7gJrl5vtxGInkkqDv/JIoRsQOvA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@types/debug" "^4.0.0"
     debug "^4.0.0"
@@ -7152,8 +8492,11 @@ minimatch@^3.0.4, minimatch@^3.1.1:
 minimatch@^5.0.1, minimatch@^5.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.6.tgz#1cfcb8cf5522ea69952cd2af95ae09477f122a96"
   integrity sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==
@@ -7165,13 +8508,20 @@ minimatch@^9.0.1:
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.3.tgz#a6e00c3de44c3a542bfaae70abfc22420a6da825"
   integrity sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.1.tgz#6c9dffcf9927ff2a31e74b5af11adf8b9604b022"
   integrity sha512-362NP+zlprccbEt/SkxKfRMHnNY85V74mVnpUpNyr3F35covl09Kec7/sEFLt3RA4oXmewtoaanoIf67SE5Y5g==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     brace-expansion "^2.0.1"
 
@@ -7210,6 +8560,7 @@ minimist@^1.2.0, minimist@^1.2.3, minimist@^1.2.6:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
   integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
+<<<<<<< HEAD
 minipass@^2.6.0, minipass@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-2.9.0.tgz#e713762e7d3e32fed803115cf93e04bca9fcc9a6"
@@ -7220,6 +8571,8 @@ minipass@^2.6.0, minipass@^2.9.0:
 >>>>>>> dd0891b (yarn upgrade)
 >>>>>>> 4abd07e (yarn upgrade)
 
+=======
+>>>>>>> 930f604 (package updates and better logo)
 minipass@^3.0.0:
   version "3.3.6"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.3.6.tgz#7bba384db3a1520d18c9c0e5251c3444e95dd94a"
@@ -7229,8 +8582,11 @@ minipass@^3.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 minipass@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-5.0.0.tgz#3e9788ffb90b694a5d0ec94479a45b5d8738133d"
@@ -7241,6 +8597,9 @@ minipass@^5.0.0:
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-7.0.4.tgz#dbce03740f50a4786ba994c1fb908844d27b038c"
   integrity sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 minipass@^4.0.0:
   version "4.0.0"
@@ -7248,9 +8607,13 @@ minipass@^4.0.0:
   integrity sha512-g2Uuh2jEKoht+zvO6vJqXmYpflPqzRBT+Th2h01DKh5z7wbY/AZ2gCQ78cP70YoHPyFdY30YBV5WxgLOEwOykw==
   dependencies:
     yallist "^4.0.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 minizlib@^2.1.1:
   version "2.1.2"
@@ -7300,8 +8663,11 @@ mkdirp@^1.0.3:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 mlly@^1.2.0, mlly@^1.3.0, mlly@^1.4.0, mlly@^1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/mlly/-/mlly-1.4.2.tgz#7cf406aa319ff6563d25da6b36610a93f2a8007e"
@@ -7322,6 +8688,7 @@ mlly@^1.0.0:
     pathe "^1.0.0"
     pkg-types "^1.0.0"
     ufo "^1.0.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -7330,6 +8697,9 @@ mlly@^1.0.0:
     pkg-types "^1.0.3"
     ufo "^1.3.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 mri@^1.1.0, mri@^1.2.0:
   version "1.2.0"
@@ -7391,6 +8761,7 @@ neo-async@^2.6.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "nitropack@npm:nitropack-edge@latest":
   version "2.6.4-28272477.f5bb6b4"
   resolved "https://registry.yarnpkg.com/nitropack-edge/-/nitropack-edge-2.6.4-28272477.f5bb6b4.tgz#a12e25a271f488176b36dc5d584a44a7fd11edbe"
@@ -7426,6 +8797,8 @@ nitropack@^1.0.0:
   resolved "https://registry.yarnpkg.com/nitropack/-/nitropack-1.0.0.tgz#78356cd875a331116863bc6d7091c0a4539e7342"
   integrity sha512-788lHgNgC+NKqecwFgMkAQTuTXwuh2hEgOk2sLwV3qPVUogxrl6P3m5eKdt6Mtzx+mlXIw0G/P90B5TNWEqDSQ==
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 nitropack@^2.6.3:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/nitropack/-/nitropack-2.6.3.tgz#b7578c1c5e015708dcbad82ec1ffd070ce6576cf"
@@ -7465,12 +8838,44 @@ nitropack@^2.6.3:
     destr "^2.0.1"
     dot-prop "^8.0.2"
     esbuild "^0.19.2"
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+nitropack@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nitropack/-/nitropack-1.0.0.tgz#78356cd875a331116863bc6d7091c0a4539e7342"
+  integrity sha512-788lHgNgC+NKqecwFgMkAQTuTXwuh2hEgOk2sLwV3qPVUogxrl6P3m5eKdt6Mtzx+mlXIw0G/P90B5TNWEqDSQ==
+  dependencies:
+    "@cloudflare/kv-asset-handler" "^0.2.0"
+    "@netlify/functions" "^1.3.0"
+    "@rollup/plugin-alias" "^4.0.2"
+    "@rollup/plugin-commonjs" "^23.0.2"
+    "@rollup/plugin-inject" "^5.0.2"
+    "@rollup/plugin-json" "^5.0.1"
+    "@rollup/plugin-node-resolve" "^15.0.1"
+    "@rollup/plugin-replace" "^5.0.1"
+    "@rollup/plugin-wasm" "^6.0.1"
+    "@rollup/pluginutils" "^5.0.2"
+    "@vercel/nft" "^0.22.1"
+    archiver "^5.3.1"
+    c12 "^1.0.1"
+    chalk "^5.1.2"
+    chokidar "^3.5.3"
+    consola "^2.15.3"
+    cookie-es "^0.5.0"
+    defu "^6.1.1"
+    destr "^1.2.1"
+    dot-prop "^7.2.0"
+    esbuild "^0.15.14"
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     escape-string-regexp "^5.0.0"
     etag "^1.8.1"
     fs-extra "^11.1.1"
     globby "^13.2.2"
     gzip-size "^7.0.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     h3 "npm:h3-nightly@latest"
@@ -7512,6 +8917,8 @@ nitropack@^2.6.3:
     hookable "^5.4.2"
     http-proxy "^1.18.1"
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
     h3 "^1.8.1"
     hookable "^5.5.3"
     httpxy "^0.1.4"
@@ -7585,6 +8992,40 @@ node-emoji@^2.1.0:
     unenv "^1.7.4"
     unimport "^3.3.0"
     unstorage "^1.9.0"
+=======
+    h3 "^1.0.1"
+    hookable "^5.4.2"
+    http-proxy "^1.18.1"
+    is-primitive "^3.0.1"
+    jiti "^1.16.0"
+    klona "^2.0.5"
+    knitwork "^1.0.0"
+    listhen "^1.0.0"
+    mime "^3.0.0"
+    mlly "^1.0.0"
+    mri "^1.2.0"
+    node-fetch-native "^1.0.1"
+    ofetch "^1.0.0"
+    ohash "^1.0.0"
+    pathe "^1.0.0"
+    perfect-debounce "^0.1.3"
+    pkg-types "^1.0.1"
+    pretty-bytes "^6.0.0"
+    radix3 "^1.0.0"
+    rollup "^2.79.1"
+    rollup-plugin-terser "^7.0.2"
+    rollup-plugin-visualizer "^5.8.3"
+    scule "^1.0.0"
+    semver "^7.3.8"
+    serve-placeholder "^2.0.1"
+    serve-static "^1.15.0"
+    source-map-support "^0.5.21"
+    std-env "^3.3.1"
+    ufo "^1.0.0"
+    unenv "^1.0.0"
+    unimport "^1.0.0"
+    unstorage "^1.0.1"
+>>>>>>> 930f604 (package updates and better logo)
 
 <<<<<<< HEAD
 node-addon-api@^7.0.0:
@@ -7620,25 +9061,39 @@ node-emoji@^2.1.0:
     emojilib "^2.4.0"
     skin-tone "^2.0.0"
 
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+<<<<<<< HEAD
+>>>>>>> bf23d9a (package updates and better logo)
 node-fetch-native@^1.0.2, node-fetch-native@^1.2.0, node-fetch-native@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-1.4.0.tgz#fbe8ac033cb6aa44bd106b5e4fd2b6277ba70fa1"
   integrity sha512-F5kfEj95kX8tkDhUCYdV8dg3/8Olx/94zB8+ZNthFs6Bz31UpUi8Xh40TN3thLwXgrwXry1pEg9lJ++tLWTcqA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 node-fetch-native@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-0.1.8.tgz#19e2eaf6d86ac14e711ebd2612f40517c3468f2a"
   integrity sha512-ZNaury9r0NxaT2oL65GvdGDy+5PlSaHTovT6JV5tOW07k1TQmgC0olZETa4C9KZg0+6zBr99ctTYa3Utqj9P/Q==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 node-fetch-native@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-1.0.1.tgz#1dfe78f57545d07e07016b7df4c0cb9d2ff416c7"
   integrity sha512-VzW+TAk2wE4X9maiKMlT+GsPU4OMmR1U9CrHSmd3DFLn2IcZ9VJ6M6BBugGfYUnPCLSYxXdZy17M0BEJyhUTwg==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 
 node-fetch@^2.6.7:
   version "2.7.0"
@@ -7649,6 +9104,9 @@ node-fetch@^2.6.7:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 node-fetch@^3.3.0:
   version "3.3.0"
@@ -7659,9 +9117,13 @@ node-fetch@^3.3.0:
     fetch-blob "^3.1.4"
     formdata-polyfill "^4.0.10"
 
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 node-forge@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-1.3.1.tgz#be8da2af243b2417d5f646a770663a92b7e9ded3"
@@ -7674,8 +9136,11 @@ node-gyp-build@^4.2.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 node-releases@^2.0.13:
   version "2.0.13"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.13.tgz#d5ed1627c23e3461e819b02e57b75e4899b1c81d"
@@ -7696,6 +9161,7 @@ nodemailer@^6.8.0:
   version "6.8.0"
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.8.0.tgz#804bcc5256ee5523bc914506ee59f8de8f0b1cd5"
   integrity sha512-EjYvSmHzekz6VNkNd12aUqAco+bOkRe3Of5jVhltqKhEsjw/y0PYPJfp83+s9Wzh1dspYAkUW/YNQ350NATbSQ==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 
@@ -7704,6 +9170,9 @@ nodemailer@^6.9.5:
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.5.tgz#eaeae949c62ec84ef1e9128df89fc146a1017aca"
   integrity sha512-/dmdWo62XjumuLc5+AYQZeiRj+PRR8y8qKtFCOyuOl1k/hckZd8durUUHs/ucKx6/8kN+wFxqKJlQ/LK/qR5FA==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 nopt@^5.0.0:
   version "5.0.0"
@@ -7760,6 +9229,7 @@ nth-check@^2.0.1, nth-check@^2.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "nuxi@npm:nuxi-edge@latest":
   version "3.9.1-1696342776.a6acb6a"
   resolved "https://registry.yarnpkg.com/nuxi-edge/-/nuxi-edge-3.9.1-1696342776.a6acb6a.tgz#7b52e43c46f20c9bfc8e333c96499d723775c870"
@@ -7771,11 +9241,22 @@ nuxi@3.0.0:
   integrity sha512-VWh1kKFffxD2yadZWcQSd6eTf9okXRr7d3HsjLiI4B3Q1/8iKdIUiodGo7X71OZ+gPVnX6Oh/XFzcb7mr+8TbQ==
 >>>>>>> 7a89107 (package updates and better logo)
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 nuxi@^3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/nuxi/-/nuxi-3.9.0.tgz#1f463977eeacaeb7195100286dcef432ed1ef71b"
   integrity sha512-roCfCnQsp/oaHm6PL3HFvvGrwm1d2y1n7G9KzIx+i91eiO4P7fBuaVKibB2e8uqEJBgTwN52KxFha6MJnDykJQ==
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+nuxi@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/nuxi/-/nuxi-3.0.0.tgz#09e5951f2ecc561df4fb410d9e21952c2f161f34"
+  integrity sha512-VWh1kKFffxD2yadZWcQSd6eTf9okXRr7d3HsjLiI4B3Q1/8iKdIUiodGo7X71OZ+gPVnX6Oh/XFzcb7mr+8TbQ==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   optionalDependencies:
     fsevents "~2.3.3"
 
@@ -7788,6 +9269,7 @@ nuxt-turnstile@^0.1.1:
     defu "^6.1.1"
     pathe "^1.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "nuxt@npm:nuxt3@latest":
@@ -7865,6 +9347,8 @@ nuxt@^3.0.0:
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.0.0.tgz#0909e6566d79805f3a4ed6229573817cbde12e89"
   integrity sha512-RNlD78uv04ZiXWmlx9f1tnJfrqsYAWHU+4gbgOTQpIBmQzHWPWiox+fm/1m93iKfEd5sJi9TJUoXX5yBObVZYw==
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 nuxt@^3.7.4:
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.7.4.tgz#281a596f84730869e14e231de376f1ec55553f1d"
@@ -7939,7 +9423,61 @@ nypm@^0.3.3:
     execa "^8.0.1"
     pathe "^1.1.1"
     ufo "^1.3.0"
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+nuxt@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.0.0.tgz#0909e6566d79805f3a4ed6229573817cbde12e89"
+  integrity sha512-RNlD78uv04ZiXWmlx9f1tnJfrqsYAWHU+4gbgOTQpIBmQzHWPWiox+fm/1m93iKfEd5sJi9TJUoXX5yBObVZYw==
+  dependencies:
+    "@nuxt/devalue" "^2.0.0"
+    "@nuxt/kit" "3.0.0"
+    "@nuxt/schema" "3.0.0"
+    "@nuxt/telemetry" "^2.1.8"
+    "@nuxt/ui-templates" "^1.0.0"
+    "@nuxt/vite-builder" "3.0.0"
+    "@unhead/ssr" "^1.0.0"
+    "@vue/reactivity" "^3.2.45"
+    "@vue/shared" "^3.2.45"
+    "@vueuse/head" "^1.0.15"
+    chokidar "^3.5.3"
+    cookie-es "^0.5.0"
+    defu "^6.1.1"
+    destr "^1.2.1"
+    escape-string-regexp "^5.0.0"
+    estree-walker "^3.0.1"
+    fs-extra "^10.1.0"
+    globby "^13.1.2"
+    h3 "^1.0.1"
+    hash-sum "^2.0.0"
+    hookable "^5.4.2"
+    knitwork "^1.0.0"
+    magic-string "^0.26.7"
+    mlly "^1.0.0"
+    nitropack "^1.0.0"
+    nuxi "3.0.0"
+    ofetch "^1.0.0"
+    ohash "^1.0.0"
+    pathe "^1.0.0"
+    perfect-debounce "^0.1.3"
+    scule "^1.0.0"
+    strip-literal "^1.0.0"
+    ufo "^1.0.0"
+    ultrahtml "^1.0.0"
+    unctx "^2.1.0"
+    unenv "^1.0.0"
+    unhead "^1.0.0"
+    unimport "^1.0.1"
+    unplugin "^1.0.0"
+    untyped "^1.0.0"
+    vue "^3.2.45"
+    vue-bundle-renderer "^1.0.0"
+    vue-devtools-stub "^0.1.0"
+    vue-router "^4.1.6"
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 object-assign@^4.1.1:
   version "4.1.1"
@@ -7948,8 +9486,11 @@ object-assign@^4.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 ofetch@^1.1.1, ofetch@^1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/ofetch/-/ofetch-1.3.3.tgz#588cb806a28e5c66c2c47dd8994f9059a036d8c0"
@@ -7969,6 +9510,7 @@ ofetch@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ofetch/-/ofetch-1.0.0.tgz#5a2604cdcb33349900e4f73ffe44de449a61101a"
   integrity sha512-d40aof8czZFSQKJa4+F7Ch3UC5D631cK1TTUoK+iNEut9NoiCL+u0vykl/puYVUS2df4tIQl5upQcolIcEzQjQ==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
@@ -7977,6 +9519,13 @@ ofetch@^1.0.0:
     ufo "^1.3.0"
 
 <<<<<<< HEAD
+=======
+  dependencies:
+    destr "^1.2.1"
+    node-fetch-native "^1.0.1"
+    ufo "^1.0.0"
+
+>>>>>>> bf23d9a (package updates and better logo)
 ohash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ohash/-/ohash-1.0.0.tgz#e6ab04851ef9a479beb6e8a2457ff0d3ccf77371"
@@ -7991,6 +9540,7 @@ ohmyfetch@^0.4.21:
     node-fetch-native "^0.1.8"
     ufo "^0.8.6"
     undici "^5.12.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 ohash@^1.1.2, ohash@^1.1.3:
@@ -7998,6 +9548,9 @@ ohash@^1.1.2, ohash@^1.1.3:
   resolved "https://registry.yarnpkg.com/ohash/-/ohash-1.1.3.tgz#f12c3c50bfe7271ce3fd1097d42568122ccdcf07"
   integrity sha512-zuHHiGTYTA1sYJ/wZN+t5HKZaH23i4yI1HMwbuXm24Nid7Dv0KcuRlKoNKS9UNfAVSBlnGLcuQrnOKWOZoEGaw==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 on-finished@2.4.1:
   version "2.4.1"
@@ -8236,12 +9789,24 @@ pathe@^1.0.0, pathe@^1.1.0, pathe@^1.1.1:
   resolved "https://registry.yarnpkg.com/pathe/-/pathe-1.1.1.tgz#1dd31d382b974ba69809adc9a7a347e65d84829a"
   integrity sha512-d+RQGp0MAYTIaDBIMmOfMwz3E+LOZnxx1HZd5R18mmCZY0QBlK0LDZfPc8FW8Ed2DlvsuE6PRjroDY+wg4+j/Q==
 
+<<<<<<< HEAD
 perfect-debounce@^1.0.0:
   version "1.0.0"
 =======
 >>>>>>> 9b953fb (package version bumbs)
   resolved "https://registry.yarnpkg.com/perfect-debounce/-/perfect-debounce-1.0.0.tgz#9c2e8bc30b169cc984a58b7d5b28049839591d2a"
   integrity sha512-xCy9V055GLEqoFaHoC1SoLIaLmWctgCUaBaWxDZ7/Zx4CTyX7cJQLJOok/orfjZAh9kEYpjJa4d0KcJmCbctZA==
+=======
+pathe@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/pathe/-/pathe-1.0.0.tgz#135fc11464fc57c84ef93d5c5ed21247e24571df"
+  integrity sha512-nPdMG0Pd09HuSsr7QOKUXO2Jr9eqaDiZvDwdyIhNG5SHYujkQHYKDfGQkulBxvbDHz8oHLsTgKN86LSwYzSHAg==
+
+perfect-debounce@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/perfect-debounce/-/perfect-debounce-0.1.3.tgz#ff6798ea543a3ba1f0efeeaf97c0340f5c8871ce"
+  integrity sha512-NOT9AcKiDGpnV/HBhI22Str++XWcErO/bALvHCuhv33owZW/CjH8KAFLZDCmu3727sihe0wTxpDhyGc6M8qacQ==
+>>>>>>> 930f604 (package updates and better logo)
 
 picocolors@^1.0.0:
   version "1.0.0"
@@ -8260,8 +9825,11 @@ pify@^2.3.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 pkg-types@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/pkg-types/-/pkg-types-1.0.3.tgz#988b42ab19254c01614d13f4f65a2cfc7880f868"
@@ -8280,6 +9848,7 @@ pkg-types@^1.0.0, pkg-types@^1.0.1:
     jsonc-parser "^3.2.0"
     mlly "^1.0.0"
     pathe "^1.0.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -8287,6 +9856,9 @@ pkg-types@^1.0.0, pkg-types@^1.0.1:
     mlly "^1.2.0"
     pathe "^1.1.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 postcss-calc@^9.0.0:
   version "9.0.1"
@@ -8308,21 +9880,31 @@ postcss-colormin@^6.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 postcss-convert-values@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-6.0.0.tgz#ec94a954957e5c3f78f0e8f65dfcda95280b8996"
   integrity sha512-U5D8QhVwqT++ecmy8rnTb+RL9n/B806UVaS3m60lqle4YDFcpbS3ae5bTQIh3wOGUSDHSEtMYLs/38dNG7EYFw==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 postcss-convert-values@^5.1.3:
   version "5.1.3"
   resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-5.1.3.tgz#04998bb9ba6b65aa31035d669a6af342c5f9d393"
   integrity sha512-82pC1xkJZtcJEfiLw6UXnXVXScgtBrjlO5CBmuDQc+dlb88ZYheFsjTn40+zBVi3DkfF7iezO0nJUPLcJK3pvA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     browserslist "^4.21.4"
     postcss-value-parser "^4.2.0"
@@ -8356,6 +9938,7 @@ postcss-import-resolver@^2.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 postcss-import@^15.1.0:
 =======
 postcss-import@^15.0.0:
@@ -8363,6 +9946,12 @@ postcss-import@^15.0.0:
 =======
 postcss-import@^15.1.0:
 >>>>>>> 9b953fb (package version bumbs)
+=======
+postcss-import@^15.1.0:
+=======
+postcss-import@^15.0.0:
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   version "15.1.0"
   resolved "https://registry.yarnpkg.com/postcss-import/-/postcss-import-15.1.0.tgz#41c64ed8cc0e23735a9698b3249ffdbf704adc70"
   integrity sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==
@@ -8373,8 +9962,11 @@ postcss-import@^15.1.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 postcss-merge-longhand@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-6.0.0.tgz#6f627b27db939bce316eaa97e22400267e798d69"
@@ -8393,6 +9985,7 @@ postcss-merge-longhand@^5.1.7:
   version "5.1.7"
   resolved "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-5.1.7.tgz#24a1bdf402d9ef0e70f568f39bdc0344d568fb16"
   integrity sha512-YCI9gZB+PLNskrK0BB3/2OzPnGhPkBEwmwhfYk1ilBHYVAZB7/tkTHFBAnCrvBBOmeYyMYw3DMjT55SyxMBzjQ==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
@@ -8400,10 +9993,17 @@ postcss-merge-longhand@^5.1.7:
     stylehacks "^6.0.0"
 
 <<<<<<< HEAD
+=======
+  dependencies:
+    postcss-value-parser "^4.2.0"
+    stylehacks "^5.1.1"
+
+>>>>>>> bf23d9a (package updates and better logo)
 postcss-merge-rules@^5.1.3:
   version "5.1.3"
   resolved "https://registry.yarnpkg.com/postcss-merge-rules/-/postcss-merge-rules-5.1.3.tgz#8f97679e67cc8d08677a6519afca41edf2220894"
   integrity sha512-LbLd7uFC00vpOuMvyZop8+vvhnfRGpp2S+IMQKeuOZZapPRY4SMq5ErjQeHbHsjCUgJkRNrlU+LmxsKIqPKQlA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 postcss-merge-rules@^6.0.1:
@@ -8411,6 +10011,9 @@ postcss-merge-rules@^6.0.1:
   resolved "https://registry.yarnpkg.com/postcss-merge-rules/-/postcss-merge-rules-6.0.1.tgz#39f165746404e646c0f5c510222ccde4824a86aa"
   integrity sha512-a4tlmJIQo9SCjcfiCcCMg/ZCEe0XTkl/xK0XHBs955GWg9xDX3NwP9pwZ78QUOWB8/0XCjZeJn98Dae0zg6AAw==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     browserslist "^4.21.4"
     caniuse-api "^3.0.0"
@@ -8435,8 +10038,11 @@ postcss-minify-gradients@^6.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 postcss-minify-params@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-6.0.0.tgz#2b3a85a9e3b990d7a16866f430f5fd1d5961b539"
@@ -8453,12 +10059,16 @@ postcss-minify-params@^5.1.4:
   dependencies:
     browserslist "^4.21.4"
     cssnano-utils "^3.1.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
     browserslist "^4.21.4"
     cssnano-utils "^4.0.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     postcss-value-parser "^4.2.0"
 
 postcss-minify-selectors@^6.0.0:
@@ -8510,21 +10120,31 @@ postcss-normalize-timing-functions@^6.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 postcss-normalize-unicode@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/postcss-normalize-unicode/-/postcss-normalize-unicode-6.0.0.tgz#741b3310f874616bdcf07764f5503695d3604730"
   integrity sha512-ui5crYkb5ubEUDugDc786L/Me+DXp2dLg3fVJbqyAl0VPkAeALyAijF2zOsnZyaS1HyfPuMH0DwyY18VMFVNkg==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 postcss-normalize-unicode@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/postcss-normalize-unicode/-/postcss-normalize-unicode-5.1.1.tgz#f67297fca3fea7f17e0d2caa40769afc487aa030"
   integrity sha512-qnCL5jzkNUmKVhZoENp1mJiGNPcsJCs1aaRmURmeJGES23Z/ajaln+EPTD+rBeNkSryI+2WTdW+lwcVdOikrpA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     browserslist "^4.21.4"
     postcss-value-parser "^4.2.0"
@@ -8545,8 +10165,11 @@ postcss-normalize-whitespace@^6.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 postcss-ordered-values@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/postcss-ordered-values/-/postcss-ordered-values-6.0.0.tgz#374704cdff25560d44061d17ba3c6308837a3218"
@@ -8566,10 +10189,15 @@ postcss-reduce-initial@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/postcss-reduce-initial/-/postcss-reduce-initial-5.1.1.tgz#c18b7dfb88aee24b1f8e4936541c29adbd35224e"
   integrity sha512-//jeDqWcHPuXGZLoolFrUXBDyuEGbr9S2rMo19bkTIjBQ4PqkaO+oI8wua5BOUxpfi97i3PCoInsiFIEBfkm9w==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
 >>>>>>> 7a89107 (package updates and better logo)
+=======
+  dependencies:
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     browserslist "^4.21.4"
     caniuse-api "^3.0.0"
 
@@ -8582,21 +10210,31 @@ postcss-reduce-transforms@^6.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 postcss-selector-parser@^6.0.11, postcss-selector-parser@^6.0.13, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.5:
   version "6.0.13"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.13.tgz#d05d8d76b1e8e173257ef9d60b706a8e5e99bf1b"
   integrity sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.5, postcss-selector-parser@^6.0.9:
   version "6.0.11"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.11.tgz#2e41dc39b7ad74046e1615185185cd0b17d0c8dc"
   integrity sha512-zbARubNdogI9j7WY4nQJBiNqQf3sLS3wCP4WfOidu+p28LofJqDH1tcXypGrcmMHhDk2t9wGhCsYe/+szLTy1g==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
@@ -8633,6 +10271,7 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.2.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 postcss@^8.1.10, postcss@^8.4.27, postcss@^8.4.31:
   version "8.4.31"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
@@ -8644,11 +10283,22 @@ postcss@^8.1.10, postcss@^8.4.18, postcss@^8.4.19, postcss@^8.4.20:
   integrity sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==
 >>>>>>> 7a89107 (package updates and better logo)
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 postcss@^8.1.10, postcss@^8.4.27, postcss@^8.4.30:
   version "8.4.31"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
   integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+postcss@^8.1.10, postcss@^8.4.18, postcss@^8.4.19, postcss@^8.4.20:
+  version "8.4.20"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.20.tgz#64c52f509644cecad8567e949f4081d98349dc56"
+  integrity sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
@@ -8679,21 +10329,31 @@ prelude-ls@^1.2.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 prettier@^2.8.4:
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 prettier@^2.4.1, prettier@^2.7.1:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.1.tgz#4e1fd11c34e2421bc1da9aea9bd8127cd0a35efc"
   integrity sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 prettier@^3.0.0:
   version "3.0.3"
@@ -8720,21 +10380,31 @@ prompts@^2.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 property-information@^6.0.0, property-information@^6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/property-information/-/property-information-6.3.0.tgz#ba4a06ec6b4e1e90577df9931286953cdf4282c3"
   integrity sha512-gVNZ74nqhRMiIUYWGQdosYetaKc83x8oT41a0LlV3AAFCAZwCpg4vmGkq8t34+cUhp3cnM4XDiU/7xlgK7HGrg==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 property-information@^6.0.0, property-information@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/property-information/-/property-information-6.2.0.tgz#b74f522c31c097b5149e3c3cb8d7f3defd986a1d"
   integrity sha512-kma4U7AFCTwpqq5twzC1YVIDXSqg6qQK6JN0smOw8fgRy1OkMi0CYSzFmsy6dnqSenamAtj0CyXMUJ1Mf6oROg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 protocols@^2.0.0, protocols@^2.0.1:
   version "2.0.1"
@@ -8780,8 +10450,11 @@ queue-microtask@^1.2.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 queue-tick@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/queue-tick/-/queue-tick-1.0.1.tgz#f6f07ac82c1fd60f82e098b417a80e52f1f4c142"
@@ -8792,14 +10465,21 @@ radix3@^1.1.0:
   resolved "https://registry.yarnpkg.com/radix3/-/radix3-1.1.0.tgz#9745df67a49c522e94a33d0a93cf743f104b6e0d"
   integrity sha512-pNsHDxbGORSvuSScqNJ+3Km6QAVqk8CfsCBIEoDgpqLrkD2f3QM4I7d1ozJJ172OmIcoUcerZaNWqtLkRXTV3A==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 radix3@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/radix3/-/radix3-1.0.0.tgz#d1c760b850206a6bd5dfd26820c25903cb20eccc"
   integrity sha512-6n3AEXth91ASapMVKiEh2wrbFJmI+NBilrWE0AbiGgfm0xet0QXC8+a3K19r1UVYjUjctUgB053c3V/J6V0kCQ==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 randombytes@^2.1.0:
   version "2.1.0"
@@ -8815,8 +10495,11 @@ range-parser@~1.2.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 rc9@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/rc9/-/rc9-2.1.1.tgz#6614c32db7731b44cd48641ce68f373c3ee212a9"
@@ -8825,6 +10508,15 @@ rc9@^2.1.1:
   dependencies:
     defu "^6.1.2"
     destr "^2.0.0"
+=======
+rc9@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/rc9/-/rc9-2.0.0.tgz#932d6f398f901529b4cc6c2037af3e4ba220d82b"
+  integrity sha512-yVeYJHOpJLOhs3V6RKwz7RPPwPurrx3JjwK264sPgvo/lFdhuUrLien7iSvAO6STVkN0gSMk/MehQNHQhflqZw==
+  dependencies:
+    defu "^6.1.1"
+    destr "^1.2.1"
+>>>>>>> 930f604 (package updates and better logo)
     flat "^5.0.2"
 
 rc@^1.2.7:
@@ -8934,8 +10626,11 @@ rehype-raw@^6.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 rehype-slug@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/rehype-slug/-/rehype-slug-6.0.0.tgz#1d21cf7fc8a83ef874d873c15e6adaee6344eaf1"
@@ -8952,23 +10647,33 @@ rehype-slug@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/rehype-slug/-/rehype-slug-5.1.0.tgz#1f7e69be7ea1a2067bcc4cfe58e74c881d5c047e"
   integrity sha512-Gf91dJoXneiorNEnn+Phx97CO7oRMrpi+6r155tTxzGuLtm+QrI4cTwCa9e1rtePdL4i9tSO58PeSS6HWfgsiw==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
     "@types/hast" "^3.0.0"
     github-slugger "^2.0.0"
 <<<<<<< HEAD
+=======
+  dependencies:
+    "@types/hast" "^2.0.0"
+    github-slugger "^2.0.0"
+>>>>>>> bf23d9a (package updates and better logo)
     hast-util-has-property "^2.0.0"
     hast-util-heading-rank "^2.0.0"
     hast-util-to-string "^2.0.0"
     unified "^10.0.0"
     unist-util-visit "^4.0.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
     hast-util-heading-rank "^3.0.0"
     hast-util-to-string "^3.0.0"
     unist-util-visit "^5.0.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 rehype-sort-attribute-values@^5.0.0:
   version "5.0.0"
@@ -9008,21 +10713,31 @@ remark-gfm@^3.0.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 remark-mdc@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/remark-mdc/-/remark-mdc-2.0.0.tgz#2c5dec6f4f20dbbac765a1999c509dc376c1c325"
   integrity sha512-zBonqJya1254h84GRLjJc1fU4aXng2cKaie5qk0T1edUIkP4lVY1kJD4TP+uoFaUziTeyR6LSvkmRcHDZiWtoA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 remark-mdc@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/remark-mdc/-/remark-mdc-1.1.3.tgz#590d9b47b69d0a54b278f2c1c5618e4dfb84afc7"
   integrity sha512-ilYSkkQJhu5cUCEE2CJEncoMDoarP32ugfJpFWghXbnv3sWI3j2HtJuArc9tZzxN4ID6fngio3d8N87QfQAnRQ==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@types/mdast" "^4.0.0"
     "@types/unist" "^3.0.0"
@@ -9030,8 +10745,11 @@ remark-mdc@^1.1.3:
     js-yaml "^4.1.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
     mdast-util-from-markdown "^2.0.0"
     mdast-util-to-markdown "^2.1.0"
     micromark "^4.0.0"
@@ -9060,6 +10778,7 @@ remark-mdc@^1.1.3:
     stringify-entities "^4.0.3"
     unist-util-visit "^4.1.1"
     unist-util-visit-parents "^5.1.1"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
     scule "^1.0.0"
@@ -9068,6 +10787,9 @@ remark-mdc@^1.1.3:
     unist-util-visit "^5.0.0"
     unist-util-visit-parents "^6.0.1"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 remark-parse@^10.0.2:
   version "10.0.2"
@@ -9136,13 +10858,19 @@ rimraf@^3.0.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 rollup-plugin-visualizer@^5.9.2:
   version "5.9.2"
   resolved "https://registry.yarnpkg.com/rollup-plugin-visualizer/-/rollup-plugin-visualizer-5.9.2.tgz#f1aa2d9b1be8ebd6869223c742324897464d8891"
   integrity sha512-waHktD5mlWrYFrhOLbti4YgQCn1uR24nYsNuXxg7LkPH8KdTXVWR9DNY1WU0QqokyMixVXJS4J04HNrVTMP01A==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 rollup-plugin-terser@^7.0.2:
   version "7.0.2"
@@ -9158,15 +10886,20 @@ rollup-plugin-visualizer@^5.8.3:
   version "5.8.3"
   resolved "https://registry.yarnpkg.com/rollup-plugin-visualizer/-/rollup-plugin-visualizer-5.8.3.tgz#2f002d6e1e38f4d4fb8638fd8d23ec799c3a2060"
   integrity sha512-QGJk4Bqe4AOat5AjipOh8esZH1nck5X2KFpf4VytUdSUuuuSwvIQZjMGgjcxe/zXexltqaXp5Vx1V3LmnQH15Q==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     open "^8.4.0"
     picomatch "^2.3.1"
     source-map "^0.7.4"
     yargs "^17.5.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 rollup@^3.27.1, rollup@^3.29.4:
@@ -9198,6 +10931,8 @@ run-async@^2.4.0:
 
 >>>>>>> 7a89107 (package updates and better logo)
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 rollup@^3.27.1, rollup@^3.29.0:
   version "3.29.4"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.29.4.tgz#4d70c0f9834146df8705bfb69a9a19c9e1109981"
@@ -9205,7 +10940,31 @@ rollup@^3.27.1, rollup@^3.29.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+rollup@^2.79.1:
+  version "2.79.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.79.1.tgz#bedee8faef7c9f93a2647ac0108748f497f081c7"
+  integrity sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+rollup@^3.7.0:
+  version "3.7.5"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.7.5.tgz#db580f8eda50237b0721ddea301fb981cd992933"
+  integrity sha512-z0ZbqHBtS/et2EEUKMrAl2CoSdwN7ZPzL17UMiKN9RjjqHShTlv7F9J6ZJZJNREYjBh3TvBrdfjkFDIXFNeuiQ==
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+run-async@^2.4.0:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
+  integrity sha512-tvVnVv01b8c1RrA6Ep7JkStj85Guv/YrMcwqYQnwjsAS2cTmmPGBBjAjpCW7RrSodNSoE2/qg9O4bceNvUuDgQ==
+
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 run-parallel@^1.1.9:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/run-parallel/-/run-parallel-1.2.0.tgz#66d1368da7bdf921eb9d95bd1a9229e7f21a43ee"
@@ -9215,6 +10974,9 @@ run-parallel@^1.1.9:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 rxjs@^7.5.7:
   version "7.8.0"
@@ -9223,9 +10985,13 @@ rxjs@^7.5.7:
   dependencies:
     tslib "^2.1.0"
 
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 sade@^1.7.3:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/sade/-/sade-1.8.1.tgz#0a78e81d658d394887be57d2a409bf703a3b2701"
@@ -9256,6 +11022,7 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 sass-loader@^13.0.2:
   version "13.3.2"
   resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.3.2.tgz#460022de27aec772480f03de17f5ba88fa7e18c6"
@@ -9272,11 +11039,27 @@ sass-loader@^13.2.0:
   integrity sha512-JWEp48djQA4nbZxmgC02/Wh0eroSUutulROUusYJO9P9zltRbNN80JCBHqRGzjd4cmZCa/r88xgfkjGD0TXsHg==
 >>>>>>> 7a89107 (package updates and better logo)
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 sass-loader@^13.3.2:
   version "13.3.2"
   resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.3.2.tgz#460022de27aec772480f03de17f5ba88fa7e18c6"
   integrity sha512-CQbKl57kdEv+KDLquhC+gE3pXt74LEAzm+tzywcA0/aHZuub8wTErbjAoNI57rPUWRYRNC5WUnNl8eGJNbDdwg==
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+"safer-buffer@>= 2.1.2 < 3":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+  integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+sass-loader@^13.2.0:
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.2.0.tgz#80195050f58c9aac63b792fa52acb6f5e0f6bdc3"
+  integrity sha512-JWEp48djQA4nbZxmgC02/Wh0eroSUutulROUusYJO9P9zltRbNN80JCBHqRGzjd4cmZCa/r88xgfkjGD0TXsHg==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     neo-async "^2.6.2"
 
@@ -9292,6 +11075,7 @@ sass-resources-loader@^2.2.4:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 sass@^1.54.0:
   version "1.68.0"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.68.0.tgz#0034b0cc9a50248b7d1702ac166fd25990023669"
@@ -9303,11 +11087,22 @@ sass@^1.57.0:
   integrity sha512-IZNEJDTK1cF5B1cGA593TPAV/1S0ysUDxq9XHjX/+SMy0QfUny+nfUsq5ZP7wWSl4eEf7wDJcEZ8ABYFmh3m/w==
 >>>>>>> 7a89107 (package updates and better logo)
 =======
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 sass@^1.68.0:
   version "1.68.0"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.68.0.tgz#0034b0cc9a50248b7d1702ac166fd25990023669"
   integrity sha512-Lmj9lM/fef0nQswm1J2HJcEsBUba4wgNx2fea6yJHODREoMFnwRpZydBnX/RjyXw2REIwdkbqE4hrTo4qfDBUA==
+<<<<<<< HEAD
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+sass@^1.57.0:
+  version "1.57.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.57.0.tgz#64c4144ed4e1c0ccb96dc18aef2c424cdbc0c12b"
+  integrity sha512-IZNEJDTK1cF5B1cGA593TPAV/1S0ysUDxq9XHjX/+SMy0QfUny+nfUsq5ZP7wWSl4eEf7wDJcEZ8ABYFmh3m/w==
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
@@ -9335,21 +11130,31 @@ semver@^6.0.0, semver@^6.3.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 semver@^7.0.0, semver@^7.3.4, semver@^7.3.5, semver@^7.3.6, semver@^7.5.0, semver@^7.5.4:
   version "7.5.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 semver@^7.0.0, semver@^7.2.1, semver@^7.3.4, semver@^7.3.5, semver@^7.3.8:
   version "7.3.8"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.8.tgz#07a78feafb3f7b32347d725e33de7e2a2df67798"
   integrity sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     lru-cache "^6.0.0"
 
@@ -9579,6 +11384,7 @@ socket.io-client@^4.5.4:
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/socket.io-client/-/socket.io-client-4.5.4.tgz#d3cde8a06a6250041ba7390f08d2468ccebc5ac9"
   integrity sha512-ZpKteoA06RzkD32IbqILZ+Cnst4xewU7ZYK12aS1mzHftFFjpoMz69IuhP/nL25pJfao/amoPI527KnuhFm01g==
+<<<<<<< HEAD
 =======
 
 smob@^1.0.0:
@@ -9601,16 +11407,33 @@ socket.io-parser@~4.2.4:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-4.2.4.tgz#c806966cf7270601e47469ddeec30fbdfda44c83"
   integrity sha512-/GbIKmo8ioc+NIWIhwdecY0ge+qVBSMdgxGygevmdHj24bsfgtCmcUUcQ5ZzcylGFHsN3k4HB4Cgkl96KVnuew==
+=======
+  dependencies:
+    "@socket.io/component-emitter" "~3.1.0"
+    debug "~4.3.2"
+    engine.io-client "~6.2.3"
+    socket.io-parser "~4.2.1"
+
+socket.io-parser@~4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-4.2.1.tgz#01c96efa11ded938dcb21cbe590c26af5eff65e5"
+  integrity sha512-V4GrkLy+HeF1F/en3SpUaM+7XxYXpuMUWLGde1kSSh5nQMN4hLrbPIkD+otwh6q9R6NOQBN4AMaOZ2zVjui82g==
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@socket.io/component-emitter" "~3.1.0"
     debug "~4.3.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.1, source-map-js@^1.0.2:
 >>>>>>> 9b953fb (package version bumbs)
+=======
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
@@ -9655,21 +11478,31 @@ statuses@2.0.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 std-env@^3.3.1, std-env@^3.4.3:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.4.3.tgz#326f11db518db751c83fd58574f449b7c3060910"
   integrity sha512-f9aPhy8fYBuMN+sNfakZV18U39PbalgjXG3lLB9WkaYTxijru61wb57V9wxxNthXM5Sd88ETBWi29qLAsHO52Q==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 std-env@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.1.tgz#93a81835815e618c8aa75e7c8a4dc04f7c314e29"
   integrity sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 streamx@^2.15.0:
   version "2.15.1"
@@ -9713,6 +11546,7 @@ string_decoder@~1.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 stringify-entities@^4.0.0, stringify-entities@^4.0.3:
 =======
 stringify-entities@^4.0.3:
@@ -9720,6 +11554,12 @@ stringify-entities@^4.0.3:
 =======
 stringify-entities@^4.0.0, stringify-entities@^4.0.3:
 >>>>>>> 9b953fb (package version bumbs)
+=======
+stringify-entities@^4.0.0, stringify-entities@^4.0.3:
+=======
+stringify-entities@^4.0.3:
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/stringify-entities/-/stringify-entities-4.0.3.tgz#cfabd7039d22ad30f3cc435b0ca2c1574fc88ef8"
   integrity sha512-BP9nNHMhhfcMbiuQKCqMjhDP5yBCAxsPu4pHFFzJ6Alo9dZgY4VLDPutXqIjpRiMoKdp7Av85Gr73Q5uH9k7+g==
@@ -9790,7 +11630,11 @@ strip-literal@^0.4.2:
   integrity sha512-pv48ybn4iE1O9RLgCAN0iU4Xv7RlBTiit6DKmMiErbs9x1wH6vXBs45tWc0H5wUIF6TLTrKweqkmYF/iraQKNw==
 >>>>>>> dd0891b (yarn upgrade)
   dependencies:
+<<<<<<< HEAD
     acorn "^8.10.0"
+=======
+    acorn "^8.8.1"
+>>>>>>> 930f604 (package updates and better logo)
 
 <<<<<<< HEAD
 =======
@@ -9816,6 +11660,16 @@ stylehacks@^5.1.1:
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
+<<<<<<< HEAD
+=======
+    inline-style-parser "0.1.1"
+
+stylehacks@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-5.1.1.tgz#7934a34eb59d7152149fa69d6e9e56f2fc34bcc9"
+  integrity sha512-sBpcd5Hx7G6seo7b1LkpttvTz7ikD0LlH5RmdcBNb6fFR0Fl7LQwHDFr300q4cwUqi+IYrFGmsIHieMBfnN/Bw==
+  dependencies:
+>>>>>>> 930f604 (package updates and better logo)
     browserslist "^4.21.4"
     postcss-selector-parser "^6.0.4"
 
@@ -9861,6 +11715,9 @@ svgo@^3.0.2:
     picocolors "^1.0.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
     stable "^0.1.8"
 
@@ -9874,9 +11731,13 @@ table@^6.0.9:
     slice-ansi "^4.0.0"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 tapable@^1.0.0:
   version "1.1.3"
@@ -9956,8 +11817,12 @@ tar-stream@^2.1.4, tar-stream@^2.2.0:
     fast-fifo "^1.2.0"
     streamx "^2.15.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+<<<<<<< HEAD
+>>>>>>> bf23d9a (package updates and better logo)
 tar@^6.1.11, tar@^6.1.13:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/tar/-/tar-6.2.0.tgz#b14ce49a79cb1cd23bc9b016302dea5474493f73"
@@ -9976,6 +11841,7 @@ tar@^6.1.11, tar@^6.1.12:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
     minipass "^4.0.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -9983,27 +11849,40 @@ tar@^6.1.11, tar@^6.1.12:
     fs-minipass "^2.0.0"
     minipass "^5.0.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     minizlib "^2.1.1"
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 terser@^5.17.4:
   version "5.21.0"
   resolved "https://registry.yarnpkg.com/terser/-/terser-5.21.0.tgz#d2b27e92b5e56650bc83b6defa00a110f0b124b2"
   integrity sha512-WtnFKrxu9kaoXuiZFSGrcAvvBqAdmKx0SFNmVNYdJamMu9yyN3I/QF0FbH4QcqJQ+y1CJnzxGIKH0cSj+FGYRw==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 terser@^5.0.0:
   version "5.16.1"
   resolved "https://registry.yarnpkg.com/terser/-/terser-5.16.1.tgz#5af3bc3d0f24241c7fb2024199d5c461a1075880"
   integrity sha512-xvQfyfA1ayT0qdK47zskQgRZeWLoOQ8JQ6mIgRGVNwZKdQMU+5FkCBjmv4QjcrTzyZquRw2FVtlJSRUmMKQslw==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@jridgewell/source-map" "^0.3.3"
     acorn "^8.8.2"
@@ -10059,15 +11938,22 @@ tslib@^1.13.0, tslib@^1.8.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 tslib@^2.1.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
   integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
 
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 tslint@6.1.3:
   version "6.1.3"
   resolved "https://registry.yarnpkg.com/tslint/-/tslint-6.1.3.tgz#5c23b2eccc32487d5523bd3a470e9aa31789d904"
@@ -10120,8 +12006,11 @@ type-fest@^0.21.3:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 type-fest@^3.8.0:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.13.1.tgz#bb744c1f0678bea7543a2d1ec24e83e68e8c8706"
@@ -10167,6 +12056,7 @@ type-fest@^2.11.2:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.19.0.tgz#88068015bb33036a598b952e55e9311a60fd3a9b"
   integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
 
@@ -10201,14 +12091,57 @@ unctx@^2.3.1:
     unplugin "^1.3.1"
 
 <<<<<<< HEAD
+=======
+
+type-fest@^3.0.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.4.0.tgz#64a35b7748ab4a96b3e0c324475ea66643c5f9df"
+  integrity sha512-PEPg6RHlB9cFwoTMNENNrQFL0cXX04voWr2UPwQBJ3pVs7Mt8Y1oLWdUeMdGEwZE8HFFlujq8gS9enmyiQ8pLg==
+
+typescript@^4.4.4:
+  version "4.9.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.4.tgz#a2a3d2756c079abda241d75f149df9d561091e78"
+  integrity sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==
+
+ufo@^0.8.6:
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.8.6.tgz#c0ec89bc0e0c9fa59a683680feb0f28b55ec323b"
+  integrity sha512-fk6CmUgwKCfX79EzcDQQpSCMxrHstvbLswFChHS0Vump+kFkw7nJBfTZoC1j0bOGoY9I7R3n2DGek5ajbcYnOw==
+
+ufo@^1.0.0, ufo@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.0.1.tgz#64ed43b530706bda2e4892f911f568cf4cf67d29"
+  integrity sha512-boAm74ubXHY7KJQZLlXrtMz52qFvpsbOxDcZOnw/Wf+LS4Mmyu7JxmzD4tDLtUQtmZECypJ0FrCz4QIe6dvKRA==
+
+ultrahtml@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ultrahtml/-/ultrahtml-1.2.0.tgz#169583f2a069d6de3b9686bd994c19811d95a0d6"
+  integrity sha512-vxZM2yNvajRmCj/SknRYGNXk2tqiy6kRNvZjJLaleG3zJbSh/aNkOqD1/CVzypw8tyHyhpzYuwQgMMhUB4ZVNQ==
+
+unctx@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/unctx/-/unctx-2.1.1.tgz#415b07cf6ce42fad59ae1e4fa42ace2e71f4372d"
+  integrity sha512-RffJlpvLOtolWsn0fxXsuSDfwiWcR6cyuykw2e0+zAggvGW1SesXt9WxIWlWpJhwVCZD/WlxxLqKLS50Q0CkWA==
+  dependencies:
+    acorn "^8.8.1"
+    estree-walker "^3.0.1"
+    magic-string "^0.26.7"
+    unplugin "^1.0.0"
+
+>>>>>>> bf23d9a (package updates and better logo)
 undici@^5.12.0:
   version "5.14.0"
   resolved "https://registry.yarnpkg.com/undici/-/undici-5.14.0.tgz#1169d0cdee06a4ffdd30810f6228d57998884d00"
   integrity sha512-yJlHYw6yXPPsuOH0x2Ib1Km61vu4hLiRRQoafs+WUgX1vO64vgnxiCEN9dpIrhZyHFsai3F0AEj4P9zy19enEQ==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@fastify/busboy" "^2.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 undici@^5.23.0:
@@ -10219,6 +12152,8 @@ undici@^5.23.0:
     "@fastify/busboy" "^2.0.0"
 
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 unenv@^1.7.4:
   version "1.7.4"
   resolved "https://registry.yarnpkg.com/unenv/-/unenv-1.7.4.tgz#a0e5a78de2c7c3c4563c06ba9763c96c59db3333"
@@ -10243,6 +12178,26 @@ unenv@^1.0.0:
     mime "^3.0.0"
     node-fetch-native "^1.4.0"
     pathe "^1.1.1"
+=======
+unenv@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/unenv/-/unenv-1.0.0.tgz#135cccd36f3d819cc46baabfa3bc2bdf425def0a"
+  integrity sha512-vlyi2Rzj4CNlA1JsEXufX+ItkGr3Z5DfLzKniYEneMlBVtuxS+57f1LwTPj2eiBPSPaGHMUVzEnjSCGE7l8JQg==
+  dependencies:
+    defu "^6.1.1"
+    mime "^3.0.0"
+    node-fetch-native "^1.0.1"
+    pathe "^1.0.0"
+
+unhead@^1.0.0:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/unhead/-/unhead-1.0.13.tgz#7a350afef016413f6c996a0271818740133966e2"
+  integrity sha512-stWC9VawHWq27WiAsgNPLFXI61LaNy1E3Zs/0cSgPTvz4ti8fYuqLOz930pzVRIKrWnxQVGndw8UZLSEcK7ikA==
+  dependencies:
+    "@unhead/dom" "1.0.13"
+    "@unhead/schema" "1.0.13"
+    hookable "^5.4.2"
+>>>>>>> 930f604 (package updates and better logo)
 
 unhead@1.7.4:
   version "1.7.4"
@@ -10292,8 +12247,11 @@ unified@^10.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 unified@^11.0.2, unified@^11.0.3:
   version "11.0.3"
   resolved "https://registry.yarnpkg.com/unified/-/unified-11.0.3.tgz#e141be0fe466a2d28b2160f62712bc9cbc08fdd4"
@@ -10336,6 +12294,24 @@ unimport@^3.3.0, unimport@^3.4.0:
     is-plain-obj "^4.0.0"
     trough "^2.0.0"
     vfile "^6.0.0"
+=======
+unimport@^1.0.0, unimport@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/unimport/-/unimport-1.0.2.tgz#3d250dea0a441010f7e710c2031d6e334c7705ef"
+  integrity sha512-DcYkDwl1XMZNmyEKUFzVzHAul0FZcj9m0OM/WRfaAtg6Gw1waYlypYJl6qAg31k57TnNPwGDCAxYPodYC5qomQ==
+  dependencies:
+    "@rollup/pluginutils" "^5.0.2"
+    escape-string-regexp "^5.0.0"
+    fast-glob "^3.2.12"
+    local-pkg "^0.4.2"
+    magic-string "^0.27.0"
+    mlly "^1.0.0"
+    pathe "^1.0.0"
+    pkg-types "^1.0.1"
+    scule "^1.0.0"
+    strip-literal "^1.0.0"
+    unplugin "^1.0.1"
+>>>>>>> 930f604 (package updates and better logo)
 
 unimport@^3.3.0:
 >>>>>>> 9b953fb (package version bumbs)
@@ -10404,8 +12380,11 @@ unist-util-stringify-position@^3.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 unist-util-stringify-position@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/unist-util-stringify-position/-/unist-util-stringify-position-4.0.0.tgz#449c6e21a880e0855bf5aabadeb3a740314abac2"
@@ -10423,6 +12402,7 @@ unist-util-visit-parents@^5.0.0, unist-util-visit-parents@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-5.1.1.tgz#868f353e6fce6bf8fa875b251b0f4fec3be709bb"
   integrity sha512-gks4baapT/kNRaWxuGkl5BIhoanZo7sC/cUT/JToSRNL1dYoXRFl75d++NkjYk4TAu2uv2Px+l8guMajogeuiw==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 unist-util-visit-parents@^5.0.0, unist-util-visit-parents@^5.1.1:
@@ -10430,6 +12410,9 @@ unist-util-visit-parents@^5.0.0, unist-util-visit-parents@^5.1.1:
   resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-5.1.3.tgz#b4520811b0ca34285633785045df7a8d6776cfeb"
   integrity sha512-x6+y8g7wWMyQhL1iZfhIPhDAs7Xwbn9nRosDXl7qoPTSCy0yNxnKc+hWokFifWQIDGi154rdUqKvbCa4+1kLhg==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
@@ -10467,8 +12450,11 @@ universalify@^2.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 unplugin-vue-router@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/unplugin-vue-router/-/unplugin-vue-router-0.7.0.tgz#27bd250c7dc698366cce70c5b72b97c3b3766c26"
@@ -10502,6 +12488,7 @@ unplugin@^1.0.0, unplugin@^1.0.1:
   integrity sha512-aqrHaVBWW1JVKBHmGo33T5TxeL0qWzfvjWokObHA9bYmN7eNDkwOxmLjhioHl9878qDFMAaT51XNroRyuz7WxA==
   dependencies:
     acorn "^8.8.1"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -10526,34 +12513,50 @@ unplugin@^1.3.1, unplugin@^1.5.0:
   dependencies:
     acorn "^8.10.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
     chokidar "^3.5.3"
     webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.5.0"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 unstorage@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/unstorage/-/unstorage-1.9.0.tgz#0c1977f4e769a48344339ac97ec3f2feea94d43d"
   integrity sha512-VpD8ZEYc/le8DZCrny3bnqKE4ZjioQxBRnWE+j5sGNvziPjeDlaS1NaFFHzl/kkXaO3r7UaF8MGQrs14+1B4pQ==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 unstorage@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/unstorage/-/unstorage-1.0.1.tgz#8cac09e435e727f68ac8ffdac10caa1a5b35883d"
   integrity sha512-J1c4b8K2KeihHrQtdgl/ybIapArUbPaPb+TyJy/nGSauDwDYqciZsEKdkee568P3c8SSH4TIgnGRHDWMPGw+Lg==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     anymatch "^3.1.3"
     chokidar "^3.5.3"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   dependencies:
     anymatch "^3.1.3"
     chokidar "^3.5.3"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
     destr "^2.0.1"
     h3 "^1.7.1"
     ioredis "^5.3.2"
@@ -10594,6 +12597,27 @@ untun@^0.1.2:
     citty "^0.1.3"
     consola "^3.2.3"
     pathe "^1.1.1"
+=======
+    destr "^1.2.1"
+    h3 "^1.0.1"
+    ioredis "^5.2.4"
+    listhen "^1.0.0"
+    mkdir "^0.0.2"
+    mri "^1.2.0"
+    ofetch "^1.0.0"
+    ufo "^1.0.0"
+    ws "^8.11.0"
+
+untyped@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/untyped/-/untyped-1.2.0.tgz#0421ed67880b2e3b3f5786ebe068ae9f0f46cb5d"
+  integrity sha512-nG0A55YEhUU5UCEM+nhIhCVkA8a4L1spIVtzO0937WDjEA6jrKpu184O2K9iv5UuJNHnwhu+Q3TXiSJh/JrjlQ==
+  dependencies:
+    "@babel/core" "^7.20.5"
+    "@babel/standalone" "^7.20.6"
+    "@babel/types" "^7.20.5"
+    scule "^1.0.0"
+>>>>>>> 930f604 (package updates and better logo)
 
 untyped@^1.4.0:
   version "1.4.0"
@@ -10684,6 +12708,9 @@ vfile-location@^5.0.0:
 vfile-message@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/vfile-message/-/vfile-message-3.1.4.tgz#15a50816ae7d7c2d1fa87090a7f9f96612b59dea"
   integrity sha512-fa0Z6P8HUrQN4BZaX05SIVXic+7kE3b05PWAtPuYP9QLHsLKYR7/AlLW3NtOrpXRLeawpDLMsVkmk5DG0NXgWw==
@@ -10691,12 +12718,16 @@ vfile-message@^3.0.0:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/vfile-message/-/vfile-message-3.1.3.tgz#1360c27a99234bebf7bddbbbca67807115e6b0dd"
   integrity sha512-0yaU+rj2gKAyEk12ffdSbBfjnnj+b1zqTBv3OQCTn8yEB02bsPizwdBPrLJjHnK+cU9EMMcUnNv938XcZIkmdA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/vfile-message/-/vfile-message-3.1.4.tgz#15a50816ae7d7c2d1fa87090a7f9f96612b59dea"
   integrity sha512-fa0Z6P8HUrQN4BZaX05SIVXic+7kE3b05PWAtPuYP9QLHsLKYR7/AlLW3NtOrpXRLeawpDLMsVkmk5DG0NXgWw==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-stringify-position "^3.0.0"
@@ -10712,6 +12743,9 @@ vfile-message@^4.0.0:
 vfile@^5.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
   version "5.3.7"
   resolved "https://registry.yarnpkg.com/vfile/-/vfile-5.3.7.tgz#de0677e6683e3380fafc46544cfe603118826ab7"
   integrity sha512-r7qlzkgErKjobAmyNIkkSpizsFPYiUPuJb5pNW1RB4JcYVZhs4lIbVqk8XPk033CV/1z8ss5pkax8SuhGpcG8g==
@@ -10719,12 +12753,16 @@ vfile@^5.0.0:
   version "5.3.6"
   resolved "https://registry.yarnpkg.com/vfile/-/vfile-5.3.6.tgz#61b2e70690cc835a5d0d0fd135beae74e5a39546"
   integrity sha512-ADBsmerdGBs2WYckrLBEmuETSPyTD4TuLxTrw0DvjirxW1ra4ZwkbzG8ndsv3Q57smvHxo677MHaQrY9yxH8cA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   version "5.3.7"
   resolved "https://registry.yarnpkg.com/vfile/-/vfile-5.3.7.tgz#de0677e6683e3380fafc46544cfe603118826ab7"
   integrity sha512-r7qlzkgErKjobAmyNIkkSpizsFPYiUPuJb5pNW1RB4JcYVZhs4lIbVqk8XPk033CV/1z8ss5pkax8SuhGpcG8g==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@types/unist" "^2.0.0"
     is-buffer "^2.0.0"
@@ -10733,8 +12771,11 @@ vfile@^5.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 vfile@^6.0.0:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/vfile/-/vfile-6.0.1.tgz#1e8327f41eac91947d4fe9d237a2dd9209762536"
@@ -10766,6 +12807,7 @@ vite-node@^0.25.2:
   version "0.25.8"
   resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-0.25.8.tgz#b1477e9d84b9e86dddc559542179ae3d34a264e9"
   integrity sha512-o1GsPZcq4ce7ZUUALnOfYP/bjaHQYtLDLuirOMvYCdsuvDMb2tggib2RZRfHIhTEF2QnIgyQEoyaOjAMHGPRiw==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
@@ -10786,10 +12828,21 @@ vite-node@^0.33.0:
     vite "^3.0.0 || ^4.0.0"
 
 <<<<<<< HEAD
+=======
+  dependencies:
+    debug "^4.3.4"
+    mlly "^1.0.0"
+    pathe "^0.2.0"
+    source-map "^0.6.1"
+    source-map-support "^0.5.21"
+    vite "^3.0.0 || ^4.0.0"
+
+>>>>>>> bf23d9a (package updates and better logo)
 vite-plugin-checker@^0.5.1:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/vite-plugin-checker/-/vite-plugin-checker-0.5.2.tgz#02c3969e6206f1ec8c8e41e3147758a50ee641e2"
   integrity sha512-RtpoXS1+A31HcXcNiuHyVDU3SlH1tU/ufOZEBlBrKclNsE+P9BdVsXiO5AWpczZCM6G2k/7GeH/BRi9lDvvakQ==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 vite-plugin-checker@^0.6.2:
@@ -10797,6 +12850,9 @@ vite-plugin-checker@^0.6.2:
   resolved "https://registry.yarnpkg.com/vite-plugin-checker/-/vite-plugin-checker-0.6.2.tgz#3790381734440033e6cb3cee9d92fcfdd69a4d71"
   integrity sha512-YvvvQ+IjY09BX7Ab+1pjxkELQsBd4rPhWNw8WLBeFVxu/E7O+n6VYAqNsKdK/a2luFlX/sMpoWdGFfg4HvwdJQ==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     "@babel/code-frame" "^7.12.13"
     ansi-escapes "^4.3.0"
@@ -10818,8 +12874,11 @@ vite-plugin-checker@^0.6.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 "vite@^3.0.0 || ^4.0.0", vite@^4.4.9:
   version "4.4.10"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.4.10.tgz#3794639cc433f7cb33ad286930bf0378c86261c8"
@@ -10854,6 +12913,36 @@ vls@^0.8.2:
   version "0.8.5"
   resolved "https://registry.yarnpkg.com/vls/-/vls-0.8.5.tgz#083ac88bea52bab47180bc001d85890edf771246"
   integrity sha512-61kbdO2COZWBMC4wq59QfDdev9ruXd0226f57DFJTFpFXv85S+qnHakQlAmbSYFFLGKcx95HB2UjnuQh4YRwFA==
+=======
+"vite@^3.0.0 || ^4.0.0":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-4.0.1.tgz#e0a54d818c28ae47fd27bcac6a4a952c6a658502"
+  integrity sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==
+  dependencies:
+    esbuild "^0.16.3"
+    postcss "^8.4.20"
+    resolve "^1.22.1"
+    rollup "^3.7.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+vite@~3.2.4:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-3.2.5.tgz#dee5678172a8a0ab3e547ad4148c3d547f90e86a"
+  integrity sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==
+  dependencies:
+    esbuild "^0.15.9"
+    postcss "^8.4.18"
+    resolve "^1.22.1"
+    rollup "^2.79.1"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+vls@^0.8.0:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/vls/-/vls-0.8.2.tgz#58d8143737edecd67618780c2db80166af5dd07d"
+  integrity sha512-esrJmf7yRY5rlG7d5Jmucp7P2ZeWHOi7p1aADwxbPiN69SgNUq1Tp24YJ0vUXiEU8mgOW0tf0dL4f6LlSu6K/g==
+>>>>>>> 930f604 (package updates and better logo)
   dependencies:
 <<<<<<< HEAD
     esbuild "^0.15.9"
@@ -10880,8 +12969,11 @@ vls@^0.8.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 vscode-html-languageservice@^5.0.4:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/vscode-html-languageservice/-/vscode-html-languageservice-5.1.0.tgz#ba4f302eda5d8c248bcf5d173d862f241c4b48d3"
@@ -10902,6 +12994,7 @@ vscode-html-languageservice@^5.0.0:
     vscode-languageserver-textdocument "^1.0.7"
     vscode-languageserver-types "^3.17.2"
     vscode-uri "^3.0.6"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
@@ -10910,6 +13003,9 @@ vscode-html-languageservice@^5.0.0:
     vscode-languageserver-types "^3.17.3"
     vscode-uri "^3.0.7"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 vscode-jsonrpc@6.0.0:
   version "6.0.0"
@@ -10935,13 +13031,19 @@ vscode-languageserver-protocol@3.16.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 vscode-languageserver-textdocument@^1.0.1, vscode-languageserver-textdocument@^1.0.8:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.11.tgz#0822a000e7d4dc083312580d7575fe9e3ba2e2bf"
   integrity sha512-X+8T3GoiwTVlJbicx/sIAF+yuJAqz8VvwJyoMVhwEMoEKE/fkDmrqUgDMyBECcM2A2frVZIUj5HI/ErRXCfOeA==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 vscode-languageserver-protocol@^3.17.1:
   version "3.17.2"
@@ -10955,9 +13057,13 @@ vscode-languageserver-textdocument@^1.0.1, vscode-languageserver-textdocument@^1
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.8.tgz#9eae94509cbd945ea44bca8dcfe4bb0c15bb3ac0"
   integrity sha512-1bonkGqQs5/fxGT5UchTgjGVnfysL0O8v1AYMBjqTbWQTFn721zaPGDYFkOKtfDgFiSgXM3KwaG3FMGfW4Ed9Q==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 vscode-languageserver-types@3.16.0:
   version "3.16.0"
@@ -10978,6 +13084,7 @@ vscode-languageserver@^7.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 vscode-uri@^3.0.2, vscode-uri@^3.0.7:
 =======
 vscode-uri@^3.0.2, vscode-uri@^3.0.3, vscode-uri@^3.0.6:
@@ -10985,14 +13092,23 @@ vscode-uri@^3.0.2, vscode-uri@^3.0.3, vscode-uri@^3.0.6:
 =======
 vscode-uri@^3.0.2, vscode-uri@^3.0.7:
 >>>>>>> 9b953fb (package version bumbs)
+=======
+vscode-uri@^3.0.2, vscode-uri@^3.0.7:
+=======
+vscode-uri@^3.0.2, vscode-uri@^3.0.3, vscode-uri@^3.0.6:
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/vscode-uri/-/vscode-uri-3.0.7.tgz#6d19fef387ee6b46c479e5fb00870e15e58c1eb8"
   integrity sha512-eOpPHogvorZRobNqJGhapa0JdwaxpjVvyBp0QIUMRMSf8ZAlqOdEquKuRmw9Qwu0qXtJIWqFtMkmvJjUZmMjVA==
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 vue-bundle-renderer@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vue-bundle-renderer/-/vue-bundle-renderer-2.0.0.tgz#ecab5c9b2803ab2454ba212afef502e684ddbb8e"
@@ -11007,11 +13123,15 @@ vue-bundle-renderer@^1.0.0:
   integrity sha512-43vCqTgaMXfHhtR8/VcxxWD1DgtzyvNc4wNyG5NKCIH19O1z5G9ZCRXTGEA2wifVec5PU82CkRLD2sTK9NkTdA==
   dependencies:
     ufo "^1.0.0"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   dependencies:
     ufo "^1.2.0"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 vue-demi@^0.13.11:
   version "0.13.11"
@@ -11038,8 +13158,11 @@ vue-eslint-parser@^9.3.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 vue-router@^4.2.5:
   version "4.2.5"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.2.5.tgz#b9e3e08f1bd9ea363fdd173032620bc50cf0e98a"
@@ -11063,6 +13186,7 @@ vue-router@^4.1.6:
   version "4.1.6"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.1.6.tgz#b70303737e12b4814578d21d68d21618469375a1"
   integrity sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
   dependencies:
@@ -11074,6 +13198,16 @@ vue@^3.3.4:
   integrity sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw==
   dependencies:
 <<<<<<< HEAD
+=======
+  dependencies:
+    "@vue/devtools-api" "^6.4.5"
+
+vue@^3.2.45:
+  version "3.2.45"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.45.tgz#94a116784447eb7dbd892167784619fef379b3c8"
+  integrity sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA==
+  dependencies:
+>>>>>>> bf23d9a (package updates and better logo)
     "@vue/compiler-dom" "3.2.45"
     "@vue/compiler-sfc" "3.2.45"
     "@vue/runtime-dom" "3.2.45"
@@ -11086,6 +13220,7 @@ wcwidth@^1.0.1:
   integrity sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==
   dependencies:
     defaults "^1.0.3"
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
     "@vue/compiler-dom" "3.3.4"
@@ -11094,6 +13229,9 @@ wcwidth@^1.0.1:
     "@vue/server-renderer" "3.3.4"
     "@vue/shared" "3.3.4"
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 web-namespaces@^2.0.0:
   version "2.0.1"
@@ -11183,8 +13321,11 @@ wrappy@1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 ws@^8.14.2:
   version "8.14.2"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.14.2.tgz#6c249a806eb2db7a20d26d51e7709eab7b2e6c7f"
@@ -11192,32 +13333,48 @@ ws@^8.14.2:
 
 ws@~8.11.0:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ws@^8.11.0:
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+ws@^8.11.0:
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   version "8.11.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.11.0.tgz#6a0d36b8edfd9f96d8b25683db2f8d7de6e8e143"
   integrity sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 xml-name-validator@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-4.0.0.tgz#79a006e2e63149a8600f15430f0a4725d1524835"
   integrity sha512-ICP2e+jsHvAj2E2lIHxa5tjXRlKDJo4IdvPvCXbXQGdzSfmSpNVyIKMvoZHjDY9DP0zV17iI85o90vRFXNccRw==
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 =======
 ws@~8.2.3:
   version "8.2.3"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.3.tgz#63a56456db1b04367d0b721a0b80cae6d8becbba"
   integrity sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 
 xmlhttprequest-ssl@~2.0.0:
   version "2.0.0"
@@ -11251,18 +13408,26 @@ y18n@^5.0.5:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> bf23d9a (package updates and better logo)
 yallist@^3.0.2:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.1.1.tgz#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
   integrity sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7a89107 (package updates and better logo)
 =======
 >>>>>>> 9b953fb (package version bumbs)
+=======
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
 yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
@@ -11306,6 +13471,9 @@ yargs@^15.3.1:
 yargs@^17.5.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf23d9a (package updates and better logo)
   version "17.7.2"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.7.2.tgz#991df39aca675a192b816e1e0363f9d75d2aa269"
   integrity sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==
@@ -11313,12 +13481,16 @@ yargs@^17.5.1:
   version "17.6.2"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.6.2.tgz#2e23f2944e976339a1ee00f18c77fedee8332541"
   integrity sha512-1/9UrdHjDZc0eOU0HxOHoS78C69UD3JRMvzlJ7S79S2nTaWRA/whGCTV8o9e/N/1Va9YIV7Q4sOxD8VV4pCWOw==
+<<<<<<< HEAD
 >>>>>>> 7a89107 (package updates and better logo)
 =======
   version "17.7.2"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.7.2.tgz#991df39aca675a192b816e1e0363f9d75d2aa269"
   integrity sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==
 >>>>>>> 9b953fb (package version bumbs)
+=======
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   dependencies:
     cliui "^8.0.1"
     escalade "^3.1.1"
@@ -11349,6 +13521,7 @@ zip-stream@^5.0.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 zwitch@^2.0.0, zwitch@^2.0.4:
 =======
 zwitch@^2.0.0:
@@ -11356,6 +13529,12 @@ zwitch@^2.0.0:
 =======
 zwitch@^2.0.0, zwitch@^2.0.4:
 >>>>>>> 9b953fb (package version bumbs)
+=======
+zwitch@^2.0.0, zwitch@^2.0.4:
+=======
+zwitch@^2.0.0:
+>>>>>>> 930f604 (package updates and better logo)
+>>>>>>> bf23d9a (package updates and better logo)
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/zwitch/-/zwitch-2.0.4.tgz#c827d4b0acb76fc3e685a4c6ec2902d51070e9d7"
   integrity sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==

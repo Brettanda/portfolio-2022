@@ -11,14 +11,14 @@
           v-if="$colorMode.value == 'dark' && !$colorMode.unknown"
           height="50"
           width="50"
-          src="/logo-light.png"
+          src="/logo-light.svg"
           alt="Brett Anda's logo"
         />
         <img
           v-else
           height="50"
           width="50"
-          src="/logo.png"
+          src="/logo-dark.svg"
           alt="Brett Anda's logo"
         />
       </NuxtLink>

@@ -21,28 +21,18 @@
       href="/logo.ico"
     />
     <Link
-      v-for="x in sizes"
-      :key="x"
       rel="icon"
-      type="image/png"
-      :sizes="x + 'x' + x"
-      media="(prefers-color-scheme: light)"
-      href="/logo-light.png"
+      v-if="$colorMode.value == 'dark' && !$colorMode.unknown"
+      type="image/svg+xml"
+      media="(prefers-color-scheme: dark)"
+      href="/logo-light.svg"
     />
     <Link
-      v-for="x in sizes"
-      :key="x"
       rel="icon"
-      type="image/png"
-      :sizes="x + 'x' + x"
-      media="(prefers-color-scheme: dark)"
-      href="/logo.png"
+      v-else
+      type="image/svg+xml"
+      media="(prefers-color-scheme: light),(prefers-color-scheme: no-prefrence)"
+      href="/logo-dark.svg"
     />
   </Head>
 </template>
-
-<script setup lang="ts">
-// <!-- :href="$img(`/logo-light.png`, { height: x, width: x })" -->
-// <!-- :href="$img(`/logo.png`, { height: x, width: x })" -->
-const sizes: number[] = [16, 32, 64, 192];
-</script>

@@ -89,18 +89,21 @@
 
 <script setup>
 const appConfig = useAppConfig();
-const industry = queryContent("industry").where({
-  _path: { $contains: "/projects" },
-  category: "Work",
-});
-const personal = queryContent("personal").where({
-  _path: { $contains: "/projects" },
-  category: "Personal",
-});
-const educational = queryContent("educational").where({
-  _path: { $contains: "/projects" },
-  category: "School",
-});
+const industry = {
+  where: [{ _path: /^\/projects/ }, { category: "Work" }],
+};
+const personal = {
+  where: [
+    { _path: { $contains: "/projects" } },
+  {category: "Personal"}
+  ]
+};
+const educational = {
+  where: [
+    {_path: { $contains: "/projects" }},
+    {category: "School"},
+  ]
+};
 definePageMeta({
   layout: false,
 });

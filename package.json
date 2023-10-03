@@ -9,16 +9,16 @@
     "test": "nuxt build && npx wrangler dev --local"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.3.0",
-    "@nuxtjs/color-mode": "^3.2.0",
-    "@nuxtjs/html-validator": "^1.2.3",
-    "@types/node": "^18.11.16",
-    "@types/nodemailer": "^6.4.7",
-    "@volar-plugins/vetur": "^0.1.0",
-    "nuxt": "^3.0.0",
+    "@nuxt/content": "^2.8.5",
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/html-validator": "^1.5.2",
+    "@types/node": "^20.8.2",
+    "@types/nodemailer": "^6.4.11",
+    "@volar-plugins/vetur": "^2.0.0",
+    "nuxt": "^3.7.4",
     "nuxt-turnstile": "^0.1.1",
-    "sass": "^1.57.0",
-    "sass-loader": "^13.2.0",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2",
     "sitemap": "^7.1.1"
   },
   "dependencies": {

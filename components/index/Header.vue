@@ -34,6 +34,15 @@
         <li>PHP</li>
         <li>MySQL</li>
         <li>PostgreSQL</li>
+        <li>Elementor</li>
+        <li>Woo Commerce</li>
+        <li>Next.js</li>
+        <li>Docker</li>
+        <li>Ubuntu</li>
+        <li>Windows</li>
+        <li>MacOS</li>
+        <li>WSL2</li>
+        <li>Unraid</li>
       </template>
     </ul>
   </div>
@@ -147,7 +156,7 @@ a {
 }
 
 $item-width: 200px;
-$item-count: 14 * 4;
+$item-count: 23 * 4;
 
 @keyframes scroll {
   0% {

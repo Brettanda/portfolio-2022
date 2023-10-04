@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxtjs/color-mode',
-    '@nuxt/image-edge',
+    '@nuxt/image',
     '@nuxtjs/html-validator',
     // 'nuxt-turnstile',
   ],
@@ -32,9 +32,9 @@ export default defineNuxtConfig({
   },
 
   // https://image.nuxtjs.org
-  // image: {
-  //   // Options
-  // },
+  image: {
+    // none: {}
+  },
 
   colorMode: {
     preference: "system",

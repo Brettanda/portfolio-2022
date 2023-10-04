@@ -20,23 +20,26 @@
       sizes="48x48"
       href="/logo.ico"
     />
-    <Link
-      rel="icon"
-      type="image/png"
-      :sizes="x + 'x' + x"
-      media="(prefers-color-scheme: light)"
-      :href="$img(`/logo-light.png`, { height: x, width: x })"
-    />
-    <Link
-      rel="icon"
-      type="image/png"
-      :sizes="x + 'x' + x"
-      media="(prefers-color-scheme: dark)"
-      :href="$img(`/logo.png`, { height: x, width: x })"
-    />
+    <template v-for="x in sizes" :key="x">
+      <Link
+        rel="icon"
+        type="image/png"
+        :sizes="x + 'x' + x"
+        media="(prefers-color-scheme: light)"
+        :href="img(`/logo-light.png`, { height: x, width: x })"
+      />
+      <Link
+        rel="icon"
+        type="image/png"
+        :sizes="x + 'x' + x"
+        media="(prefers-color-scheme: dark)"
+        :href="img(`/logo.png`, { height: x, width: x })"
+      />
+    </template>
   </Head>
 </template>
 
 <script setup lang="ts">
+const img = useImage()
 const sizes: number[] = [16, 32, 64, 192];
 </script>

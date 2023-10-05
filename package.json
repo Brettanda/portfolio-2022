@@ -2,11 +2,11 @@
   "name": "portfolio-2022",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt build —-max-old-space-size=800",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "test": "nuxt build && npx wrangler dev --local"
+    "test": "nuxt build —-max-old-space-size=800 && npx wrangler dev --local"
   },
   "devDependencies": {
     "@nuxt/content": "^2.8.5",

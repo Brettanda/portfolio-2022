@@ -30,7 +30,9 @@
     "@vuelidate/validators": "^2.0.4",
     "nodemailer": "^6.9.5",
     "normalize.css": "^8.0.1",
-    "volar-service-vetur": "^0.0.14"
+    "volar-service-vetur": "^0.0.14",
+    "vue": "^3.3.4",
+    "webpack": "^5.88.2"
   },
   "engines": {
     "node": "^16.11.0 || ^17.0.0 || ^18.0.0"

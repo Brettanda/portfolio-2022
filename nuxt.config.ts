@@ -65,7 +65,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'vercel',
+    preset: 'vercel_edge',
     prerender: {
       routes: ['/sitemap.xml', '/robots.txt']
     }

@@ -2,6 +2,7 @@
   <header class="header canvas-home">
     <ClientOnly>
       <IndexHeaderCanvas />
+      <!-- <IndexHeaderCanvasThree /> -->
     </ClientOnly>
     <div class="text">
       <div>

@@ -11,7 +11,6 @@
 </template>
 
 <script setup lang="ts">
-import { Ref } from "vue";
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 

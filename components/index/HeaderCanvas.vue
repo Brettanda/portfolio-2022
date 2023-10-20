@@ -11,8 +11,6 @@
 </template>
 
 <script setup lang="ts">
-import { Ref } from "vue";
-
 // @ts-ignore
 let backface: Ref<HTMLCanvasElement>;
 // @ts-ignore

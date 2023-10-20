@@ -18,7 +18,7 @@
       </nav>
     </div>
   </header>
-  <div class="knowledge-slider">
+  <div class="knowledge-slider" title="My amazing skills">
     <ul class="knowledge-track">
       <template v-for="i in 4" :key="i">
         <li>HTML</li>

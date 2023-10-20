@@ -6,7 +6,7 @@
       </h3>
       <p v-text="item.description"></p>
     </div>
-    <img
+    <nuxt-picture
       v-if="item.image != null"
       class="image loaded"
       :imgAttrs="{

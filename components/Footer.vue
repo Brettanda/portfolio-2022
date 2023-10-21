@@ -88,7 +88,7 @@
       </div>
       <div class="bottom">
         <p>
-          2022 &copy;
+          2023 &copy;
           <span itemprop="name" itemid="#brettanda">Brett Anda</span>. All
           Rights Reserved.
         </p>

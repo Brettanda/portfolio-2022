@@ -20,6 +20,8 @@ These are the major things I learned while taking NMPD:
 
 ## My work history
 
+### True Market
+
 My first job in web development was right after my time at SAIT for the company True Market, and started as a practicum for my last semester at SAIT. During my time with True Market I was tasked with developing WordPress themes for clients. For clients that needed a new wesbite, I would be given a pre-approved design mockup and content, and build out the WordPress theme. Making themes for WordPress makes it easy to go back and change the content of the site within the WordPress back end if needed in the future. To see the projects I worked on during my time with True Market check out my [industry projects](/#industry-projects).
 
 These are the major things I learned during my time with True Market:
@@ -32,6 +34,10 @@ These are the major things I learned during my time with True Market:
 - jQuery
 - SEO standards and better HTML structure for SEO
 - Twig templating language
+
+### Conquest Outback Productions
+
+I am currently working for Conquest Outback Productions as a WordPress Developer where I use WordPress and Elementor to build new and modify existing client websites.
 
 ## Personal Learnings
 

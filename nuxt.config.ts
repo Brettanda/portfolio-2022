@@ -7,8 +7,13 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxt/image',
     '@nuxtjs/html-validator',
+    '@zadigetvoltaire/nuxt-gtm',
     // 'nuxt-turnstile',
   ],
+
+  gtm: {
+    id: 'GTM-5TZJ7JJ',
+  },
 
   runtimeConfig: {
     captchaKey: '',

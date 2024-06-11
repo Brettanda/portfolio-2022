@@ -24,7 +24,7 @@
       </NuxtLink>
       <NuxtLink itemprop="url" to="/"><span itemprop="name">Home</span></NuxtLink>
       <NuxtLink itemprop="url" to="/about-me"><span itemprop="name">About</span></NuxtLink>
-      <NuxtLink itemprop="url" to="/contact-me"><span itemprop="name">Contact</span></NuxtLink>
+      <NuxtLink itemprop="url" to="/contact-me" onclick="javascript:gtag('event', 'contact-me')"><span itemprop="name">Contact</span></NuxtLink>
       <button
         class="colour-mode"
         type="button"

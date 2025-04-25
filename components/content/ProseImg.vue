@@ -44,5 +44,15 @@ defineProps({
   float: right;
   padding: 2rem 3rem;
   // background-color: var(--background-accent);
+
+  @include break(md) {
+    padding: 2rem;
+  }
+
+  @include break(sm) {
+    padding: 1rem;
+    max-width: 100%;
+    float: none;
+  }
 }
 </style>

@@ -54,6 +54,7 @@ defineProps({
     padding: 1rem;
     max-width: 100%;
     float: none;
+    margin: 1rem 0;
   }
 }
 </style>

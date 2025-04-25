@@ -46,7 +46,7 @@
           <ul class="my-container">
             <ContentNavigation v-slot="{ navigation }" :query="industry">
               <template v-for="p of navigation[0].children.reverse()" :key="p._path">
-                <IndexProjectCard tag="li" v-bind:item="p" />
+                <IndexProjectCard tag="li" v-bind:item="p" v-inview/>
               </template>
             </ContentNavigation>
           </ul>
@@ -63,7 +63,7 @@
           <ul>
             <ContentNavigation v-slot="{ navigation }" :query="personal">
               <template v-for="p of navigation[0].children" :key="p._path">
-                <IndexProjectCard tag="li" v-bind:item="p" />
+                <IndexProjectCard tag="li" v-bind:item="p" v-inview/>
               </template>
             </ContentNavigation>
           </ul>
@@ -79,7 +79,7 @@
           <ul>
             <ContentNavigation v-slot="{ navigation }" :query="educational">
               <template v-for="p of navigation[0].children" :key="p._path">
-                <IndexProjectCard tag="li" v-bind:item="p" />
+                <IndexProjectCard tag="li" v-bind:item="p" v-inview/>
               </template>
             </ContentNavigation>
           </ul>

@@ -1,5 +1,6 @@
 <template>
-  <component v-bind:is="tag" class="card" v-inview>
+  <!--  v-inview -->
+  <component v-bind:is="tag" class="card">
     <div class="content">
       <h3 class="title">
         <NuxtLink v-bind:to="item._path" v-text="item.title" />
@@ -15,6 +16,7 @@
       }"
       v-bind:src="item.image"
       v-bind:alt="item.description"
+      format="webp,png,jpeg"
       loading="lazy"
       width="200px"
       fit="inside"
@@ -40,6 +42,28 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@supports ((animation-timeline: scroll()) and (animation-range: 0% 100%)) {
+  /* Scroll-Driven Animations related styles go here */
+  /* This check excludes Firefox Nightly which only has a partial implementation at the moment of posting (mid-September 2024). */
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transition: 0.4s;
+      transition-delay: 0.1s;
+      translate: 0 5rem;
+    }
+    to {
+      opacity: 1;
+      // filter: blur(0);
+      translate: 0;
+    }
+  }
+
+  .card {
+    animation: slide-up 2s linear forwards;
+    animation-timeline: scroll();
+  }
+}
 .card {
   max-width: 700px;
   min-width: 400px;
@@ -68,7 +92,9 @@ export default {
   }
 
   &.loaded {
-    opacity: 0.6;
+    // opacity: 0.6;
+    filter: brightness(60%);
+    // background: var(--background-colour);
   }
 }
 .content {

@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="footer container"
+    class="my-footer my-container"
     itemscope
     itemtype="https://schema.org/Person"
   >
@@ -88,7 +88,7 @@
       </div>
       <div class="bottom">
         <p>
-          2023 &copy;
+          2025 &copy;
           <span itemprop="name" itemid="#brettanda">Brett Anda</span>. All
           Rights Reserved.
         </p>
@@ -125,7 +125,7 @@ useHead({
 </script>
 
 <style lang="scss" scoped>
-.footer {
+.my-footer {
   background-color: var(--background-secondary);
   color: var(--text-colour);
   padding: var(--padding-full);

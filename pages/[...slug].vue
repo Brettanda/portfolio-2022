@@ -1,5 +1,5 @@
 <template>
-  <main class="container">
+  <main class="my-container">
     <Head>
       <Title v-if="data">{{
         data.head && data.head.title ? data.head.title : data.title
@@ -35,6 +35,8 @@
         {{ data.title }}
       </template>
       <template #header v-else> Content failed to load </template>
+      <!-- <template #year v-if="data">{{ data.year }}</template>
+      <template #tech_stack v-if="data">{{ data.tech_stack.join(", ") }}</template> -->
       <ContentRenderer v-if="data" :value="data">
         <template #empty>No content found</template>
         <template #not-found>Document not found</template>

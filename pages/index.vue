@@ -26,8 +26,14 @@
         content="Brett, Anda, Web, Website, Developer, Calgary, Alberta, Canada, Portfolio, NuxtJS"
       />
     </Head>
+    <!-- <Teleport to="body"> -->
+      <ClientOnly>
+        <!-- <IndexHeaderCanvasThree /> -->
+        <IndexHeaderCanvas />
+      </ClientOnly>
+    <!-- </Teleport> -->
     <IndexHeader />
-    <div class="container">
+    <div class="my-container">
       <div class="subcontainer">
         <section class="section spacer">
           <div class="section">
@@ -37,7 +43,7 @@
               industry.
             </p>
           </div>
-          <ul class="container">
+          <ul class="my-container">
             <ContentNavigation v-slot="{ navigation }" :query="industry">
               <template v-for="p of navigation[0].children" :key="p._path">
                 <IndexProjectCard tag="li" v-bind:item="p" />
@@ -141,7 +147,7 @@ useHead({
 h2 {
   text-transform: uppercase;
   text-align: center;
-  font-size: 2.5rem;
+  // font-size: 2.5rem;
   margin-right: auto;
   margin-left: auto;
 }

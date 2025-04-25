@@ -4,27 +4,29 @@ description: "I am a Calgary based web developer interested In making fluid Webs
 head.title: "Developer in Training"
 ---
 
-My name is Brett Anda. I am a Full Stack (Web) Developer. I add the parenthesis because I develop websites and other non-web-related projects, including building WordPress websites with custom themes and Python applications like Discord bots. I took my post-secondary schooling at the Southern Alberta Institute of Technology, where I learned about the basics of building websites and WordPress theming and other new media operations to do with the Adobe suite.
+## About Me
 
-## My academic history
+Hello, my name is Brett Anda, and I am a Full Stack Web Developer. My expertise extends beyond web development to include building custom WordPress themes and Python applications, such as Discord bots. I received my post-secondary education at the Southern Alberta Institute of Technology (SAIT), where I gained a solid foundation in website development, WordPress theming, and various new media operations involving the Adobe suite.
 
-My academic history starts at the Southern Alberta Institute of Technology (SAIT) with the [New Media Production and Design (NMPD)](https://saitnewmedia.ca/showcase/showcase-2019/) course, where I learned many things like video editing, photo editing, business card design, logo design, the basics of website development and design, WordPress theming, and more. All of these were taught alongside learning Adobe products like Photoshop, Illustrator, Premiere, etc. To see some of the projects that I made while at SAIT checkout my [academic projects](/#academic-projects).
+## Academic History
 
-These are the major things I learned while taking NMPD:
-- E-Commerce Sites With HTML, PHP, CSS, and JavaScript
-- How to manipulate DataBases with MySQL
-- Use a green screen in Adobe Premiere and After Effects
-- Websites/Themes using WordPress.
-- Build Login pages with PHP sessions
-- Landing Pages with HTML,CSS, & JavaScript
+I began my academic journey at SAIT, where I enrolled in the [New Media Production and Design (NMPD)](https://saitnewmedia.ca/showcase/showcase-2019/) program. This comprehensive course covered a wide range of skills, including video and photo editing, business card and logo design, and the fundamentals of website development and design. I also learned to use Adobe products such as Photoshop, Illustrator, and Premiere. For examples of my academic projects, please visit my [academic projects](/#academic-projects) section.
 
-## My work history
+### Key Skills Acquired at SAIT:
+- E-commerce development using HTML, PHP, CSS, and JavaScript
+- Database manipulation with MySQL
+- Green screen techniques in Adobe Premiere and After Effects
+- WordPress website and theme development
+- PHP session-based login pages
+- HTML, CSS, and JavaScript landing pages
+
+## Professional Experience
 
 ### True Market
 
-My first job in web development was right after my time at SAIT for the company True Market, and started as a practicum for my last semester at SAIT. During my time with True Market I was tasked with developing WordPress themes for clients. For clients that needed a new wesbite, I would be given a pre-approved design mockup and content, and build out the WordPress theme. Making themes for WordPress makes it easy to go back and change the content of the site within the WordPress back end if needed in the future. To see the projects I worked on during my time with True Market check out my [industry projects](/#industry-projects).
+My career in web development began at True Market immediately after completing my studies at SAIT. Initially, I joined the company as part of a practicum during my final semester. At True Market, I specialized in developing WordPress themes for clients. I would receive pre-approved design mockups and content, which I then used to build out WordPress themes. This approach facilitated future content updates through the WordPress backend. To view the projects I worked on at True Market, visit my [industry projects](/#industry-projects) section.
 
-These are the major things I learned during my time with True Market:
+#### Key Skills Developed at True Market:
 - Composer
 - Yarn/NPM
 - SASS/SCSS
@@ -32,21 +34,26 @@ These are the major things I learned during my time with True Market:
 - Laravel Mix
 - Vue.js
 - jQuery
-- SEO standards and better HTML structure for SEO
+- SEO best practices and HTML structure optimization
 - Twig templating language
 
 ### Conquest Outback Productions
 
-I am currently working for Conquest Outback Productions as a WordPress Developer where I use WordPress and Elementor to build new and modify existing client websites.
+I am currently employed at Conquest Outback Productions as a WordPress Developer. My role involves using WordPress and Elementor to create and modify client websites.
 
-## Personal Learnings
+#### Key Skills Developed at Conquest Outback Productions:
+- Elementor
+- WordPress
+- SEO with YoastSEO
 
-Of course I haven't been in school and working every moment of my life. In my free time I have been learning about many more things to do with website development and methods to improve my projects. One of the things I have been learning is Python. Over the last few years I have been self-taught in Python by building [Friday, a Discord chatbot powered by GPT-3](/projects/friday-discord-bot). I have also been learning new website frameworks like VueJS and many more can be found in my [personal projects](/#personal-projects).
+## Personal Development
+
+In addition to my formal education and professional work, I have dedicated time to self-learning and personal projects. I have been enhancing my Python skills by developing [Friday, a Discord chatbot powered by GPT-3](/projects/friday-discord-bot). Additionally, I have been exploring new web development frameworks such as Vue.js. More details about my personal projects can be found in the [personal projects](/#personal-projects) section.
 
 <aside>
 
-## Adobe Certifications
+### Adobe Certifications
 
-Although they are expired now, I have a couple of Adobe badges. If they are something that interests you, check them out at [youracclaim.com](https://youracclaim.com/users/brettanda).
+Though currently expired, I have earned several Adobe badges. You can view them at [youracclaim.com](https://youracclaim.com/users/brettanda) if you're interested.
 
 </aside>

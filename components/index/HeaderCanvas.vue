@@ -301,7 +301,7 @@ onUnmounted(() => {
   width: 100vw;
   max-width: 100%;
   max-height: 180vw;
-  min-height: 700px;
+  min-height: 800px;
   position: absolute;
   overflow: hidden;
   transform: skewY(-3deg);

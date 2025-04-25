@@ -4,12 +4,12 @@
       <ol
         class="carousel__viewport-sub"
         ref="viewport"
-        :style="`--item-length: ${flatUnwrap($slots.default(), ['p']).length}`"
+        :style="`--item-length: ${images.length}`"
       >
         <li
-          v-for="(item, index) of flatUnwrap($slots.default(), ['p'])"
+          v-for="image in images"
           ref="viewportSlides"
-          :key="index"
+          :key="image"
           :class="`carousel__slide`"
           @dragstart.prevent
           @touchstart="touchStart(index, $event)"
@@ -21,7 +21,8 @@
           @mouseleave="touchEnd"
         >
           <!-- :class="`carousel__slide ${index === 0 ? 'active' : ''}`" -->
-          <ContentSlot :use="() => item" unwrap="li" />
+          <img :src="image" />
+          <!-- <ContentSlot :use="() => item" unwrap="p" /> -->
         </li>
       </ol>
     </div>
@@ -39,7 +40,7 @@
     ></button>
     <ol class="carousel__pagination" ref="pagination">
       <li
-        v-for="(item, index) of flatUnwrap($slots.default(), ['p'])"
+        v-for="(item, index) of flatUnwrap($slots.default!(), ['p'])"
         :key="index"
         class="carousel__pagination-item"
       >
@@ -57,7 +58,16 @@
 
 <script setup lang="ts">
 // https://codepen.io/bushblade/pen/ZEpvzbK
-import { ref, Ref } from "vue";
+import { ref, toRefs } from "vue";
+
+const props = defineProps({
+  images: {
+    type: Array,
+    required: true,
+  },
+});
+
+const { images } = toRefs(props);
 const { flatUnwrap } = useUnwrap();
 
 const viewportSlides = ref<HTMLLIElement[]>([]);
@@ -77,7 +87,7 @@ let isDragging = false,
 //   ((((num - min) % (max - min)) + (max - min)) % (max - min)) + min;
 
 const range = (num: number, min: number, max: number): number =>
-  Math.min(max-1, Math.max(min, num));
+  Math.min(max - 1, Math.max(min, num));
 
 const getPositionX = (event: any) => {
   const num = event.type.includes("mouse")
@@ -157,6 +167,8 @@ const setSliderPosition = () => {
 };
 
 onMounted(() => {
+  console.log(flatUnwrap(useSlots().default, ["p"]));
+
   window.addEventListener("resize", setPositionByIndex);
   paginationButtons.value[0].classList.add(
     "carousel__pagination-button--active"

@@ -1,5 +1,5 @@
 <template>
-  <nuxt-picture
+  <img
     class="image"
     :imgAttrs="{
       class: 'image',
@@ -37,10 +37,12 @@ defineProps({
 
 <style lang="scss" scoped>
 .image {
-  max-width: 100%;
+  max-width: 50%;
   max-height: 500px;
   margin: 0 auto;
   display: block;
+  float: right;
+  padding: 2rem 3rem;
   // background-color: var(--background-accent);
 }
 </style>

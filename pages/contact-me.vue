@@ -1,5 +1,5 @@
 <template>
-  <main class="container">
+  <main class="my-container">
     <Head>
       <Title>Contact Me</Title>
       <Meta hid="og:type" property="og:type" content="website" />

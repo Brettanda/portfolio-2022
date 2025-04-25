@@ -1,369 +1,281 @@
 <template>
-  <div class="skew-container">
+  <!-- <div class="skew-container"> -->
+      <!-- v-bind:height="height"
+      v-bind:width="width" -->
     <canvas
-      v-bind:height="height"
-      v-bind:width="width"
       class="backface"
       id="backface"
       ref="backface"
     ></canvas>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script setup lang="ts">
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+// import { OutlineEffect } from '@/composables/THREEOutlineEffect';
+import { useThree } from '@/composables/useThree';
 
-// @ts-ignore
-let backface: Ref<HTMLCanvasElement>;
-// @ts-ignore
-backface = ref(null);
 
-// @ts-ignore
-let context: CanvasRenderingContext2D; // = backface.getContext("2d");
-let canvas_stop: boolean = false;
+let _scene: THREE.Scene;
+let _camera: THREE.PerspectiveCamera;
+let _renderer: THREE.WebGLRenderer;
+let _renderLoopId: number;
+// let _effect: OutlineEffect;
+let _mesh1: THREE.Mesh;
+let _mesh2: THREE.Mesh;
+let _mesh3: THREE.Mesh;
+let _mesh4: THREE.Mesh;
+// let _torus: THREE.Mesh;
+// let _from_top: number;
+const { initThree, cleanUpThree } = useThree();
 
-let current_animation: number;
+let backface = computed(() => document.getElementById('backface') as HTMLCanvasElement);
 
-// const colourMode = useColorMode();
-// const mode = colourMode.value; //document.getElementsByTagName("html")[0].className;
-let colourMinH = 0;
-let colourMaxH = 255;
-let colourMinS = 30;
-let colourMaxS = 70;
-let colourMinL = 60;
-let colourMaxL = 80;
+let mesh: THREE.Mesh;
+function animate() {
+  const time = Date.now() * 0.0001;
 
-// if (mode == "dark") {
-//   colourMinH = 0;
-//   colourMaxH = 255;
-//   colourMinS = 30;
-//   colourMaxS = 70;
-//   colourMinL = 20;
-//   colourMaxL = 40;
-// }
+  // mesh.rotation.x = time * 0.25;
+  // mesh.rotation.y = time * 0.5;
+}
+function renderLoop() {
+  // will keep running for every frame since
+  // we keep recreate a new requestAnimationFrame at the end of the function.
+  // _controls.update();
+  _renderer.render(_scene, _camera);
+  animate();
+  _renderLoopId = requestAnimationFrame(renderLoop);
+}
+function setupScene() {
+  //initialize
+  const { scene, camera, renderer } = initThree('backface');
+  _scene = scene;
+  _camera = camera;
+  _renderer = renderer;
 
-class Circle {
-  x: number;
-  y: number;
-  radius: number;
-  hue: number;
-  saturation: number;
-  lightness: number;
+  // _effect = new OutlineEffect(renderer);
 
-  constructor(
-    x: number,
-    y: number,
-    radius: number,
-    hue: number,
-    saturation: number,
-    lightness: number
-  ) {
-    this.x = x;
-    this.y = y;
-    this.radius = radius;
-    this.hue = hue;
-    this.saturation = saturation;
-    this.lightness = lightness;
-  }
+  // const triangles = 4;
+
+  // const cgeometry = new THREE.BoxGeometry( 1, 1, 1 ); 
+  // const cmaterial = new THREE.MeshBasicMaterial( {color: 0x00ff00} ); 
+  // const cube = new THREE.Mesh( cgeometry, cmaterial ); 
+  // scene.add( cube );
+
+  // const geometry = new THREE.BufferGeometry();
+  const geometry = new THREE.BufferGeometry();
+  const geometry2 = new THREE.BufferGeometry();
+  const geometry3 = new THREE.BufferGeometry();
+  const geometry4 = new THREE.BufferGeometry();
+
+  const vertices = new Float32Array( [
+    - 1, 1, - 1, // v1
+    1, 1, 1, // v0
+    1, - 1, - 1 // v2
+  ] );
+  const vertices2 = new Float32Array( [
+    1, 1, 1, // v0
+    - 1, 1, - 1, // v2
+    - 1, - 1, 1, // v1
+  ] );
+  const vertices3 = new Float32Array( [
+    1, 1, 1, // v0
+    - 1, - 1, 1, // v1
+    1, - 1, - 1 // v2
+  ] );
+  const vertices4 = new Float32Array( [
+    - 1, - 1, 1, // v1
+    - 1, 1, - 1, // v2
+    1, - 1, - 1 // v2
+  ] );
+
+  geometry.setAttribute( 'position', new THREE.BufferAttribute( vertices, 3 ) );
+  geometry2.setAttribute( 'position', new THREE.BufferAttribute( vertices2, 3 ) );
+  geometry3.setAttribute( 'position', new THREE.BufferAttribute( vertices3, 3 ) );
+  geometry4.setAttribute( 'position', new THREE.BufferAttribute( vertices4, 3 ) );
+
+  const material = new THREE.MeshBasicMaterial( { color: 0xff0000 } ); // red
+  const material2 = new THREE.MeshBasicMaterial( { color: 0x00ff00 } ); // green
+  const material3 = new THREE.MeshBasicMaterial( { color: 0x0000ff } ); // blue
+  const material4 = new THREE.MeshBasicMaterial( { color: 0x0f0050 } ); // purple?
+
+  _mesh1 = new THREE.Mesh(geometry, material);
+  _mesh2 = new THREE.Mesh(geometry2, material2);
+  _mesh3 = new THREE.Mesh(geometry3, material3);
+  _mesh4 = new THREE.Mesh(geometry4, material4);
+
+  scene.add( _mesh1, _mesh2, _mesh3, _mesh4 );
+  // const positions = [];
+  // const normals = [];
+  // const colors = [];
+
+  // const color = new THREE.Color();
+
+  // const n = 1000, n2 = n / 2;	// triangles spread in the cube
+  // const d = 12, d2 = d / 2;	// individual triangle size
+
+  // const pA = new THREE.Vector3();
+  // const pB = new THREE.Vector3();
+  // const pC = new THREE.Vector3();
+
+  // const cb = new THREE.Vector3();
+  // const ab = new THREE.Vector3();
+
+  // // for ( let i = 0; i < triangles; i ++ ) {
+
+  // //   // positions
+
+  // //   const something = (i / triangles) * 100;
+  // //   const inverted = triangles - i;
+  // //   const other = (something / 100) * n;
+  // //   // const x = Math.random() * n - n2;
+  // //   let y = Math.random() * n - n2;
+  // //   const ned = n - (y);
+  // //   const ned2 = ned / 2;
+  // //   const x = Math.random() * ned - ned2;
+  // //   // const y = Math.random() * (n2 * something);
+  // //   // const y = Math.max(0, Math.min(n, other));
+  // //   // console.log(y);
+  // //   // const y = Math.random() * n - n2) * something;
+
+
+  // //   const z = Math.random() * ned - ned2;
+
+  // //   const ax = x + Math.random() * d - d2;
+  // //   const ay = y + Math.random() * d - d2;
+  // //   const az = z + Math.random() * d - d2;
+
+  // //   const bx = x + Math.random() * d - d2;
+  // //   const by = y + Math.random() * d - d2;
+  // //   const bz = z + Math.random() * d - d2;
+
+  // //   const cx = x + Math.random() * d - d2;
+  // //   const cy = y + Math.random() * d - d2;
+  // //   const cz = z + Math.random() * d - d2;
+
+  // //   positions.push( ax, ay, az );
+  // //   positions.push( bx, by, bz );
+  // //   positions.push( cx, cy, cz );
+
+  // //   // flat face normals
+
+  // //   pA.set( ax, ay, az );
+  // //   pB.set( bx, by, bz );
+  // //   pC.set( cx, cy, cz );
+
+  // //   cb.subVectors( pC, pB );
+  // //   ab.subVectors( pA, pB );
+  // //   cb.cross( ab );
+
+  // //   cb.normalize();
+
+  // //   const nx = cb.x;
+  // //   const ny = cb.y;
+  // //   const nz = cb.z;
+
+  // //   normals.push( nx, ny, nz );
+  // //   normals.push( nx, ny, nz );
+  // //   normals.push( nx, ny, nz );
+
+  // //   // colors
+
+  // //   const vx = ( x / n ) + 0.5;
+  // //   const vy = ( y / n ) + 0.5;
+  // //   const vz = ( z / n ) + 0.5;
+
+  // //   color.setRGB( vx, vy, vz );
+
+  // //   const alpha = Math.random();
+
+  // //   colors.push( color.r, color.g, color.b, alpha );
+  // //   colors.push( color.r, color.g, color.b, alpha );
+  // //   colors.push( color.r, color.g, color.b, alpha );
+
+  // // }
+  // function disposeArray() {
+
+  //   this.array = null;
+
+  // }
+
+  // geometry.setAttribute( 'position', new THREE.Float32BufferAttribute( positions, 3 ).onUpload( disposeArray ) );
+  // geometry.setAttribute( 'normal', new THREE.Float32BufferAttribute( normals, 3 ).onUpload( disposeArray ) );
+  // geometry.setAttribute( 'color', new THREE.Float32BufferAttribute( colors, 4 ).onUpload( disposeArray ) );
+
+  // geometry.computeBoundingSphere();
+  // const material = new THREE.MeshPhongMaterial( {
+  //   color: 0xd5d5d5, specular: 0xffffff, shininess: 250,
+  //   side: THREE.DoubleSide, vertexColors: true, transparent: true
+  // } );
+
+  // mesh = new THREE.Mesh( geometry, material );
+  // scene.add( mesh );
+  // start the renderLoop
+  _renderLoopId = requestAnimationFrame(renderLoop);
 }
 
-/**
- * Get Random
- * ==========
- * Gets a random number between a min and max value
- */
-const getRandom = (min: number, max: number) => {
-  return Math.floor(Math.random() * (max - min) + min);
-};
-
-const getDist = (x1: number, y1: number, x2: number, y2: number) => {
-  return Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
-};
-
-let drawSpacedCircles_Circles: Circle[] = [];
-let drawSpacedCircles_PreviousTimeStamp: number;
-const drawSpacedCircles = (timestamp: number) => {
-  if (drawSpacedCircles_PreviousTimeStamp === undefined) {
-    drawSpacedCircles_PreviousTimeStamp = timestamp;
-  }
-  const elapsed = timestamp - drawSpacedCircles_PreviousTimeStamp;
-  if (elapsed > 50) {
-    const width = 3;
-    const circle: Circle = {
-      x: getRandom(1, backface.value.width),
-      y: getRandom(1, backface.value.height),
-      radius: getRandom(2, 100),
-      hue: getRandom(colourMinH, colourMaxH),
-      saturation: getRandom(colourMinS, colourMaxS),
-      lightness: getRandom(colourMinL, colourMaxL),
-    };
-    let overLapping = false;
-    for (let j = 0; j < drawSpacedCircles_Circles.length; j++) {
-      const other = drawSpacedCircles_Circles[j];
-      const d = getDist(circle.x, circle.y, other.x, other.y);
-      if (d < circle.radius + other.radius + width) {
-        overLapping = true;
-        break;
-      }
-    }
-    if (!overLapping) {
-      drawSpacedCircles_Circles.push(circle);
-      context.beginPath();
-      context.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
-      context.lineWidth = width;
-      context.fillStyle = `hsla(${circle.hue},${circle.saturation}%,${circle.lightness}%,1)`;
-      context.fill();
-      context.closePath();
-    }
-    drawSpacedCircles_PreviousTimeStamp = timestamp;
-  }
-  if (drawSpacedCircles_Circles.length < 2000)
-    current_animation = requestAnimationFrame(drawSpacedCircles);
-};
-
-let line_x_position: number = 0;
-const lineWidth = 7;
-let hueStart = getRandom(colourMinH, colourMaxH);
-let hueRange = Math.max(30, getRandom(colourMinH / 2, colourMaxH / 2));
-let drawLines_PreviousTimeStamp: number;
-const drawLines = (timestamp: number) => {
-  if (drawLines_PreviousTimeStamp === undefined) {
-    drawLines_PreviousTimeStamp = timestamp;
-  }
-
-  const elapsed = timestamp - drawLines_PreviousTimeStamp;
-  if (elapsed > 30) {
-    const start = hueStart - hueRange / 2;
-    const end = hueStart + hueRange / 2;
-    const hue = getRandom(start, end);
-    const sat = getRandom(colourMinS, colourMaxS);
-    const lig = getRandom(colourMinL, colourMaxL);
-
-    context.clearRect(line_x_position, 0, 1 + lineWidth, backface.value.height);
-    context.beginPath();
-    context.lineWidth = lineWidth;
-    context.strokeStyle = `hsla(${hue},${sat}%,${lig}%,1)`;
-    context.moveTo(line_x_position, backface.value.height);
-    context.lineTo(
-      line_x_position,
-      getRandom(100, backface.value.height - 100)
-    );
-
-    if (canvas_stop == true) {
-      return;
-    }
-    context.stroke();
-    context.closePath();
-
-    if (line_x_position >= backface.value.width) {
-      line_x_position = 0;
-      hueStart = getRandom(colourMinH, colourMaxH);
-      hueRange = Math.max(30, getRandom(colourMinH / 2, colourMaxH / 2));
-    } else {
-      line_x_position = line_x_position + 1 + lineWidth;
-    }
-    drawLines_PreviousTimeStamp = timestamp;
-  }
-  current_animation = requestAnimationFrame(drawLines);
-};
-
-let drawCircle_PreviousTimeStamp: number;
-let drawCircle_CurrentlyGrowing: Circle;
-let drawCircle_CurrentRadius: number = 0;
-const drawCircle = (timestamp: number) => {
-  if (drawCircle_PreviousTimeStamp === undefined) {
-    drawCircle_PreviousTimeStamp = timestamp;
-  }
-
-  // const elapsed = timestamp - drawCircle_PreviousTimeStamp;
-  // if (elapsed > 20) {
-  const circleRad = getRandom(10, 150);
-  drawCircle_CurrentlyGrowing = {
-    x: getRandom(0 - circleRad, backface.value.width),
-    y: getRandom(0 - circleRad, backface.value.height),
-    radius: circleRad,
-    hue: getRandom(colourMinH, colourMaxH),
-    saturation: getRandom(colourMinS, colourMaxS),
-    lightness: getRandom(colourMinL, colourMaxL),
-  };
-  context.fillStyle = `hsla(${drawCircle_CurrentlyGrowing.hue},${drawCircle_CurrentlyGrowing.saturation}%,${drawCircle_CurrentlyGrowing.lightness}%,1)`;
-  if (canvas_stop == true) {
-    return;
-  }
-  context.beginPath();
-  context.arc(
-    drawCircle_CurrentlyGrowing.x,
-    drawCircle_CurrentlyGrowing.y,
-    0,
-    0,
-    2 * Math.PI
-  );
-  context.fill();
-  current_animation = requestAnimationFrame(growCircle);
-  drawCircle_PreviousTimeStamp = timestamp;
-  // } else {
-  //   current_animation = requestAnimationFrame(drawCircle);
-  // }
-};
-
-const growCircle = (timestamp: number) => {
-  const elapsed = timestamp - drawCircle_PreviousTimeStamp;
-  const circle = drawCircle_CurrentlyGrowing;
-  if (elapsed > 10) {
-    const growSpeed = 5;
-    if (canvas_stop == true) return;
-    context.beginPath();
-    context.arc(circle.x, circle.y, drawCircle_CurrentRadius, 0, 2 * Math.PI);
-    context.lineWidth = growSpeed + growSpeed;
-    context.strokeStyle = `hsla(${circle.hue},${circle.saturation}%,${circle.lightness}%,1)`;
-    context.stroke();
-    context.closePath();
-    drawCircle_CurrentRadius += growSpeed;
-    drawCircle_PreviousTimeStamp = timestamp;
-  }
-  if (drawCircle_CurrentRadius <= circle.radius) {
-    current_animation = requestAnimationFrame(growCircle);
-  } else {
-    drawCircle_CurrentRadius = 0;
-    current_animation = requestAnimationFrame(drawCircle);
-  }
-};
-
-let height = ref(0);
-let width = ref(0);
-const rand = Math.floor(Math.random() * 3) + 1;
-
 const onResize = () => {
-  height.value = window.innerHeight;
-  width.value = window.innerWidth;
-  drawSpacedCircles_Circles = [];
-  line_x_position = 0;
+  _camera.aspect = window.innerWidth / window.innerHeight;
+  _camera.updateProjectionMatrix();
+
+  _renderer.setSize( window.innerWidth, window.innerHeight );
 };
 
+const onScroll = () => {
+  const t = document.body.getBoundingClientRect().top;
+  let start = t + 600;
+  _mesh1.position.y = Math.max(0, t * 0.02);
+  _mesh1.position.z = Math.max(0, 15 + t * 0.02);
+  _mesh2.position.y = Math.max(0, t * 0.02);
+  _mesh2.position.z = Math.max(0, 15 + t * 0.02);
+  _mesh3.position.y = Math.max(0, t * 0.02);
+  _mesh3.position.z = Math.max(0, 15 + t * 0.02);
+  _mesh4.position.y = Math.max(0, t * 0.02);
+  _mesh4.position.z = Math.max(0, 15 + t * 0.02);
+
+
+  // they have hit the "gound"
+  console.log(_mesh1.rotation.x, t);
+  start += 440;
+  // if (start < 0) {
+  _mesh1.position.x = Math.max(0, Math.min(2, start * -0.01));
+  _mesh1.rotation.x = Math.max(0, Math.min(2, -start * 0.01));
+  _mesh1.rotation.z = Math.max(0, Math.min(1, -start * 0.01));
+
+
+  _mesh2.position.x = Math.max(-2, Math.min(0, start * 0.01));
+  _mesh2.rotation.x = Math.max(0, Math.min(1, -start * 0.01));
+  _mesh2.rotation.y = Math.max(0, Math.min(.8, -start * 0.01));
+  // }
+  // _camera.position.y = 0 + t * 0.1;
+  // _camera.position.z = 700 - t * 0.1;
+  // _camera.setFocalLength(Math.min(t * -0.01, 32));
+  // console.log(_camera.position.y);
+}
 onMounted(() => {
+  if (backface.value) {
+    setupScene();
+  }
   nextTick(() => {
-    height.value = window.innerHeight;
-    width.value = window.innerWidth;
-    // @ts-ignore
-    context = backface.value.getContext("2d");
     window.addEventListener("resize", onResize);
-    // const changeColours = (mode: string) => {
-    //   colourMinH = 0;
-    //   colourMaxH = 255;
-    //   colourMinS = 30;
-    //   colourMaxS = 70;
-    //   colourMinL = 60;
-    //   colourMaxL = 80;
-    //   if (mode == "dark") {
-    //     colourMinH = 0;
-    //     colourMaxH = 255;
-    //     colourMinS = 30;
-    //     colourMaxS = 70;
-    //     colourMinL = 20;
-    //     colourMaxL = 40;
-    //   }
-    // };
-    // window
-    //   .matchMedia("(prefers-color-scheme: dark)")
-    //   .addEventListener("change", (ev: MediaQueryListEvent) => {
-    //     if (colourMode.preference == "system") {
-    //       changeColours(ev.matches ? "dark" : "light");
-    //     }
-    //   });
-    // window.addEventListener("colourChange", (e: Event) => {
-    //   // @ts-ignore
-    //   let mode = e.detail;
-    //   if (
-    //     colourMode.preference == "system" &&
-    //     window.matchMedia &&
-    //     window.matchMedia("(prefers-color-scheme: dark)").matches
-    //   ) {
-    //     mode = "dark";
-    //   }
-    //   changeColours(mode);
-    // });
-  });
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-  const renderer = new THREE.WebGLRenderer({
-    canvas: document.querySelector("#backface"),
-    alpha: true,
-  });
-  renderer.setPixelRatio(window.devicePixelRatio);
-  renderer.setSize(window.innerWidth, window.innerHeight);
-  renderer.outputColorSpace = THREE.SRGBColorSpace;
-  camera.position.setZ(30);
-
-  const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
-  const material = new THREE.MeshStandardMaterial({ color: 0xFF6347 });
-  const torus = new THREE.Mesh(geometry, material);
-  scene.add(torus);
-
-  const pointLight = new THREE.PointLight(0xffffff);
-  pointLight.position.set(5, 5, 5)
-  
-  const ambientLight = new THREE.AmbientLight(0xffffff);
-  scene.add(pointLight, ambientLight)
-
-  function addStar() {
-    const geometry = new THREE.SphereGeometry(0.25, 24, 24);
-    const material = new THREE.MeshStandardMaterial({ color: 0xffffff })
-    const star = new THREE.Mesh(geometry, material)
-
-    const [x, y, z] = Array(3).fill(0).map(() => THREE.MathUtils.randFloatSpread(100))
-
-    star.position.set(x, y, z)
-    scene.add(star)
-  }
-  Array(200).fill(0).forEach(addStar)
-
-  // const loader = new GLTFLoader();
-  // let bus;
-  // loader.load("/models/Donut.glb",
-  //   function (gltf) {
-  //     scene.add(gltf.scene);
-  //     // gltf.scene.size.set(1000, 1000, 1000);
-  //     gltf.scene.position.set(0,0,0)
-  //     gltf.scene.rotation.x += 90
-  //   },
-  //   // called while loading is progressing
-  //   function ( xhr ) {
-
-  //     console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
-
-  //   },
-  //   // called when loading has errors
-  //   function ( error ) {
-
-  //     console.log( 'An error happened', error );
-
-  //   }
-  // )
-
-  function animate() {
-    requestAnimationFrame(animate);
-    torus.rotation.x += 0.01
-    torus.rotation.y += 0.005
-    torus.rotation.z += 0.01
-    renderer.render(scene, camera)
-  }
-  animate();
-
+    document.body.onscroll = onScroll
+    onScroll();
+  })
 });
-onUnmounted(() => {
+onBeforeUnmount(() => {
   window.removeEventListener("resize", onResize);
-  cancelAnimationFrame(current_animation);
+  cancelAnimationFrame(_renderLoopId);
+  cleanUpThree(_scene, _renderer);
 });
 </script>
 
 <style lang="scss" scoped>
 .skew-container {
-  height: 90vh;
+  height: 90svh;
   width: 100vw;
   max-width: 100%;
-  max-height: 180vw;
-  min-height: 700px;
+  // max-height: 180vw;
+  // min-height: 700px;
   position: absolute;
   overflow: hidden;
   transform: skewY(-3deg);
@@ -374,22 +286,29 @@ onUnmounted(() => {
 }
 .backface {
   transform-origin: top left;
-  height: 100vh;
+  height: 100svh;
   width: 100vw;
-  max-height: 180vw;
-  min-height: 700px;
+  // max-height: 180vw;
+  // min-height: 700px;
   // max-width: 100%;
   position: relative;
   transform: skew(0, 3deg);
   min-width: var(--min-width);
   // opacity: 0.7;
 }
+
+.backface {
+  position: fixed;
+  transform: unset;
+  z-index: 9999;
+  // z-index: -999999999999999999999999999999999999999;
+}
 </style>
 
 <style lang="scss">
-.dark {
-  .backface {
-    filter: brightness(50%);
-  }
-}
+// .dark {
+//   .backface {
+//     filter: brightness(50%);
+//   }
+// }
 </style>

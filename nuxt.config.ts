@@ -6,9 +6,10 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/color-mode',
     '@nuxt/image',
-    '@nuxtjs/html-validator',
-    '@zadigetvoltaire/nuxt-gtm',
+    // '@nuxtjs/html-validator',
     // 'nuxt-turnstile',
+    '@zadigetvoltaire/nuxt-gtm',
+    "@nuxtjs/tailwindcss"
   ],
 
   gtm: {
@@ -66,7 +67,7 @@ export default defineNuxtConfig({
       }
     },
     navigation: {
-      fields: ['image', 'draft', 'description', 'category']
+      fields: ['image', 'draft', 'description', 'category', 'year', 'tech_stack']
     }
   },
 
@@ -90,5 +91,6 @@ export default defineNuxtConfig({
       },
     },
   },
-})
 
+  compatibilityDate: '2024-07-14',
+})

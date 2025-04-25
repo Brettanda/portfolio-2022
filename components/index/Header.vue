@@ -1,9 +1,5 @@
 <template>
   <header class="header canvas-home">
-    <ClientOnly>
-      <IndexHeaderCanvas />
-      <!-- <IndexHeaderCanvasThree /> -->
-    </ClientOnly>
     <div class="text">
       <div>
         <h1 class="slide-left">
@@ -18,7 +14,7 @@
       </nav>
     </div>
   </header>
-  <div class="knowledge-slider" title="My amazing skills">
+  <div class="knowledge-slider" title="My amazing skill set">
     <ul class="knowledge-track">
       <template v-for="i in 4" :key="i">
         <li>HTML</li>
@@ -41,9 +37,10 @@
         <li>Docker</li>
         <li>Ubuntu</li>
         <li>Windows</li>
-        <li>MacOS</li>
+        <li>Mac OS</li>
         <li>WSL2</li>
         <li>Unraid</li>
+        <li>LDAP</li>
       </template>
     </ul>
   </div>
@@ -58,8 +55,8 @@
   justify-content: center;
   max-width: 100%;
   min-width: var(--min-width);
-  min-height: 700px;
-  max-height: 180vw;
+  min-height: 800px;
+  // max-height: 180vw;
   position: relative;
   // background: var(--background-accent);
 
@@ -71,9 +68,9 @@
     width: 100%;
     height: 90vh;
     min-height: 700px;
-    max-height: 180vw;
+    // max-height: 180vw;
     min-width: var(--min-width);
-    background: var(--background-accent);
+    // background: var(--background-accent);
     transform-origin: top left;
     transform: skewY(-3deg);
     min-width: var(--min-width);
@@ -115,22 +112,10 @@
   }
 
   h1 {
-    font-size: 5rem;
+    font-size: clamp(2.5rem,7vw,5rem);
     font-weight: bold;
     margin: 0;
     text-transform: uppercase;
-
-    @include break(md) {
-      font-size: 4rem;
-    }
-
-    @include break(sm) {
-      font-size: 3rem;
-    }
-
-    @include break(xs) {
-      font-size: 2.5rem;
-    }
   }
 
   & > * {
@@ -157,7 +142,7 @@ a {
 }
 
 $item-width: 200px;
-$item-count: 23 * 4;
+$item-count: 24 * 4;
 
 @keyframes scroll {
   0% {

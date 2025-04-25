@@ -25,7 +25,7 @@
       <nav>
         <NuxtLink itemprop="url" to="/"><span itemprop="name">Home</span></NuxtLink>
         <NuxtLink itemprop="url" to="/about-me"><span itemprop="name">About</span></NuxtLink>
-        <a href="mailto:brett@brettanda.ca?subject=I'd like to hire you immediately&body=Hey Brett, when can you start?" target="_blank"><span clasd="full-email">brett@brettanda.ca</span><span class="short-email">Email</span></a>
+        <a href="mailto:brett@brettanda.ca?subject=I'd like to hire you immediately&body=Hey Brett, when can you start?" target="_blank"><span class="full-email">brett@brettanda.ca</span><span class="short-email">Email</span></a>
         <!-- <NuxtLink itemprop="url" to="/contact-me"><span itemprop="name">Contact</span></NuxtLink> -->
       </nav>
     </div>

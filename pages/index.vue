@@ -45,7 +45,7 @@
           </div>
           <ul class="my-container">
             <ContentNavigation v-slot="{ navigation }" :query="industry">
-              <template v-for="p of navigation[0].children" :key="p._path">
+              <template v-for="p of navigation[0].children.reverse()" :key="p._path">
                 <IndexProjectCard tag="li" v-bind:item="p" />
               </template>
             </ContentNavigation>

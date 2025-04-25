@@ -15,7 +15,7 @@
         style: 'height: 100%;object-fit: contain;',
       }"
       v-bind:src="item.image"
-      v-bind:alt="item.description"
+      v-bind:alt="item.title"
       format="webp,png,jpeg"
       loading="lazy"
       width="200px"

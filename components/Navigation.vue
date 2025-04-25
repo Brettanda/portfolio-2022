@@ -25,7 +25,7 @@
       <nav>
         <NuxtLink itemprop="url" to="/"><span itemprop="name">Home</span></NuxtLink>
         <NuxtLink itemprop="url" to="/about-me"><span itemprop="name">About</span></NuxtLink>
-        <a href="mailto:brett@brettanda.ca?subject=I'd like to hire you immediately&body=Hey Brett, when can you start?" target="_blank">brett@brettanda.ca</a>
+        <a href="mailto:brett@brettanda.ca?subject=I'd like to hire you immediately&body=Hey Brett, when can you start?" target="_blank"><span clasd="full-email">brett@brettanda.ca</span><span class="short-email">Email</span></a>
         <!-- <NuxtLink itemprop="url" to="/contact-me"><span itemprop="name">Contact</span></NuxtLink> -->
       </nav>
     </div>
@@ -81,6 +81,20 @@ const colorMode = useColorMode();
   }
 }
 
+.short-email {
+  display:none;
+
+  @include break(sm) {
+    display: unset;
+  }
+}
+
+.full-email {
+  @include break(sm) {
+    display: none;
+  }
+}
+
 nav > a {
   text-transform: uppercase;
   // font-weight: bold;
@@ -94,13 +108,13 @@ nav > a {
     }
   }
 
-  &:nth-of-type(2) {
+  //&:nth-of-type(2) {
     // grid-column: 6;
 
-    @include break(sm) {
-      display: none;
-    }
-  }
+    //@include break(sm) {
+      //display: none;
+    //}
+  //}
 
   // &:nth-of-type(3) {
   //   grid-column: 7;

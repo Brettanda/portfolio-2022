@@ -93,7 +93,7 @@ export default {
 
   &.loaded {
     // opacity: 0.6;
-    filter: brightness(60%);
+    filter: brightness(60%) opacity(0.5);
     // background: var(--background-colour);
   }
 }

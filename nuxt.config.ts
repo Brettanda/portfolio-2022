@@ -23,14 +23,14 @@ export default defineNuxtConfig({
     public: {
       captchaSiteKey: '',
     },
-    turnstile: {
-      secretKey: process.env.NUXT_TURNSTILE_SECRET_KEY || '',
-    },
+    // turnstile: {
+    //   secretKey: process.env.NUXT_TURNSTILE_SECRET_KEY || '',
+    // },
   },
 
-  turnstile: {
-    siteKey: process.env.NUXT_TURNSTILE_SITE_KEY || '',
-  },
+  // turnstile: {
+  //   siteKey: process.env.NUXT_TURNSTILE_SITE_KEY || '',
+  // },
 
   typescript: {
     strict: true,
@@ -92,5 +92,5 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-07-14',
+  compatibilityDate: '2025-04-25',
 })

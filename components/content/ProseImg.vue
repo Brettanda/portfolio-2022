@@ -42,8 +42,9 @@ defineProps({
   margin: 0 auto;
   display: block;
   float: right;
-  padding: 2rem 3rem;
-  // background-color: var(--background-accent);
+  padding: 2rem;
+  margin: 2rem;
+  background-color: var(--background-accent);
 
   @include break(md) {
     padding: 2rem;

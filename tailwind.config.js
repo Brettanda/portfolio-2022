@@ -3,7 +3,7 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-  plugins: [require('daisyui')],
+  // plugins: [require('daisyui')],
   theme: {
   },
 };

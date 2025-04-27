@@ -1,10 +1,10 @@
 <template>
   <footer
-    class="my-footer my-container"
+    class="my-footer"
     itemscope
     itemtype="https://schema.org/Person"
   >
-    <div class="subfooter subcontainer">
+    <div class="subfooter subcontainer content-width-container">
       <div class="top">
         <div class="top-left">
           <p>
@@ -128,7 +128,6 @@ useHead({
 .my-footer {
   background-color: var(--background-secondary);
   color: var(--text-colour);
-  padding: var(--padding-full);
   margin-top: auto;
   margin-bottom: 0;
   overflow-x: hidden;
@@ -149,6 +148,7 @@ useHead({
 .subfooter {
   display: flex;
   flex-direction: column;
+  padding: var(--padding-full);
 }
 .top {
   display: flex;

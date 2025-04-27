@@ -65,22 +65,26 @@ export default {
   }
 }
 .card {
-  max-width: 700px;
-  min-width: 250px;
-  width: 100%;
-  margin: 0 auto;
-  border-radius: 5px;
-  position: relative;
+  width: 450px;
+  min-width: 100px;
   display: flex;
   min-height: 200px;
-  flex-direction: column;
-  justify-content: flex-end;
+  flex-grow: 1;
+  padding: 1rem;
+
+  &:hover {
+    background-color: var(--background-accent);
+  }
+
+  @include break(sm) {
+    min-height: 180px;
+  }
 }
 .image {
   width: 200px;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 20px;
+  top: 20px;
   z-index: 1;
   height: 90%;
   max-height: 200px;

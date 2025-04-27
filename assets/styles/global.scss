@@ -190,7 +190,6 @@ main {
   padding-top: 6rem !important;
 
   &>div {
-    max-width: var(--max-width);
     width: 100%;
   }
 
@@ -202,7 +201,6 @@ main {
   & > .subcontainer {
     padding: var(--padding-full);
     margin: 0 auto;
-    max-width: calc(var(--max-width) + var(--padding-full) * 2);
   }
 
   // &+* {
@@ -210,8 +208,9 @@ main {
   // }
 }
 
-.main-container {
+.content-width-container {
   width: 100%;
+  max-width: calc(var(--max-width) + var(--padding-full) * 2);
   // padding: var(--padding-full);
 }
 

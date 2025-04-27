@@ -34,7 +34,7 @@
     <!-- </Teleport> -->
     <IndexHeader />
     <div class="my-container">
-      <div class="subcontainer">
+      <div class="subcontainer content-width-container">
         <section class="section spacer">
           <div class="section">
             <h2 id="industry-projects" v-inview>Industry Projects</h2>
@@ -140,17 +140,19 @@ useHead({
   margin-bottom: 6rem;
 
   & > ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-flow: row wrap;
+    // grid-template-columns: 1fr 1fr;
     gap: 2rem;
     width: 100%;
-    list-style: none;
-    margin: 0;
+    // list-style: none;
+    // margin: 0;
     padding: 0;
+    justify-content: space-between;
 
-    @include break(md) {
-      grid-template-columns: 1fr;
-    }
+    // @include break(md) {
+    //   grid-template-columns: 1fr;
+    // }
   }
 }
 

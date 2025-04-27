@@ -34,6 +34,8 @@ export default {
     const config = useRuntimeConfig();
     definePageMeta({
       layout: false,
+      // hide the page
+      
     });
     useHead({
       script: [

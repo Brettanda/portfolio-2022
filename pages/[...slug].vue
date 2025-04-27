@@ -16,7 +16,7 @@
       <Link
         rel="canonical"
         :href="`https://brettanda.ca${
-          path.slice(-1, path.length) === '/' ? path.slice(0, -1) : path
+          route.path.slice(-1, route.path.length) === '/' ? route.path.slice(0, -1) : route.path
         }`"
       />
       <Meta
@@ -49,11 +49,11 @@
 import { createError } from "h3";
 const appConfig = useAppConfig();
 
-const { path } = useRoute();
-const newPath = path.slice(-1, path.length) === "/" ? path.slice(0, -1) : path;
-const { data } = await useAsyncData(`page-${newPath}`, () =>
-  queryContent().where({ _path: newPath }).findOne()
-);
+const route = useRoute()
+// const newPath = path.slice(-1, path.length) === "/" ? path.slice(0, -1) : path;
+const { data } = await useAsyncData(`page-${route.path}`, () => {
+  return queryCollection('content').path(route.path).first()
+});
 if (!process.dev && (!data.value || data.value.draft === true)) {
   throw createError({ statusCode: 404, statusMessage: "Page Not Found" });
 }
@@ -66,7 +66,7 @@ useHead({
       "item": "https://brettanda.ca" },{ "@type": "ListItem", "position": 2,
       "name": "${
         data.value.head?.title || data.value.title
-      }", "item": "https://brettanda.ca${newPath}"
+      }", "item": "https://brettanda.ca${route.path}"
       }] }`,
     },
   ],

@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   // titleTemplate: '%s | Brett Anda\'s Portfolio',
 
   modules: [
+    '@nuxtjs/sitemap',
     '@nuxt/content',
     '@nuxtjs/color-mode',
     '@nuxt/image',

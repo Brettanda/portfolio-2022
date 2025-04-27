@@ -3,7 +3,7 @@
   <component v-bind:is="tag" class="card">
     <div class="content">
       <h3 class="title">
-        <NuxtLink v-bind:to="item._path" v-text="item.title" />
+        <NuxtLink v-bind:to="item.path" v-text="item.title" />
       </h3>
       <p v-text="item.description"></p>
     </div>

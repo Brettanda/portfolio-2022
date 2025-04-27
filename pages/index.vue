@@ -44,11 +44,11 @@
             </p>
           </div>
           <ul class="my-container">
-            <ContentNavigation v-slot="{ navigation }" :query="industry">
-              <template v-for="p of [...navigation[0].children].reverse()" :key="p._path">
-                <IndexProjectCard tag="li" v-bind:item="p" v-inview/>
+            <!-- <ContentRenderer v-slot="{ navigation }" :data="industry"> -->
+              <template v-for="p in [...content].reverse()"  :key="p.path">
+                <IndexProjectCard tag="li" v-if="p.category == 'Work'" v-bind:item="p" v-inview/>
               </template>
-            </ContentNavigation>
+            <!-- </ContentRenderer> -->
           </ul>
         </section>
         <section class="section spacer">
@@ -61,11 +61,11 @@
             </p>
           </div>
           <ul>
-            <ContentNavigation v-slot="{ navigation }" :query="personal">
-              <template v-for="p of navigation[0].children" :key="p._path">
-                <IndexProjectCard tag="li" v-bind:item="p" v-inview/>
+            <!-- <ContentRenderer v-slot="{ navigation }" :data="industry"> -->
+              <template v-for="p in content" :key="p.path">
+                <IndexProjectCard tag="li" v-if="p.category == 'Personal'" v-bind:item="p" v-inview/>
               </template>
-            </ContentNavigation>
+            <!-- </ContentRenderer> -->
           </ul>
         </section>
         <section class="section spacer">
@@ -77,11 +77,11 @@
             </p>
           </div>
           <ul>
-            <ContentNavigation v-slot="{ navigation }" :query="educational">
-              <template v-for="p of navigation[0].children" :key="p._path">
-                <IndexProjectCard tag="li" v-bind:item="p" v-inview/>
+            <!-- <ContentRenderer v-slot="{ navigation }" :data="industry"> -->
+              <template v-for="p in content" :key="p.path">
+                <IndexProjectCard tag="li" v-if="p.category == 'School'" v-bind:item="p" v-inview/>
               </template>
-            </ContentNavigation>
+            <!-- </ContentRenderer> -->
           </ul>
         </section>
         <!-- <section class="container section"> -->
@@ -95,21 +95,31 @@
 
 <script setup>
 const appConfig = useAppConfig();
-const industry = {
-  where: [{ _path: /^\/projects/ }, { category: "Work" }],
-};
-const personal = {
-  where: [
-    { _path: { $contains: "/projects" } },
-  {category: "Personal"}
-  ]
-};
-const educational = {
-  where: [
-    {_path: { $contains: "/projects" }},
-    {category: "School"},
-  ]
-};
+const { data: content } = await useAsyncData("navigation", () => {
+  return queryCollection("content")
+    .orWhere(query => query.where("draft", "=", 'false').where("draft","IS NULL"))
+    // .order("path", "DESC")
+    .select("title", "path", "description", "image", "draft","category")
+    .all();
+});
+// const { data: personal } = await useAsyncData("navigation", () => {
+//   return queryCollection("content").where("category","=","Personal").order("path","DESC").all();
+// });
+// const { data: educational } = await useAsyncData("navigation", () => {
+//   return queryCollection("content").where("category","=","School").order("path","DESC").all();
+// });
+// const personal = {
+//   where: [
+//     { _path: { $contains: "/projects" } },
+//   {category: "Personal"}
+//   ]
+// };
+// const educational = {
+//   where: [
+//     {_path: { $contains: "/projects" }},
+//     {category: "School"},
+//   ]
+// };
 definePageMeta({
   layout: false,
 });

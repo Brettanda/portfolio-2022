@@ -1,6 +1,6 @@
 <template>
   <div class="subcontainer">
-    <header class="page_header my-container">
+    <header class="page_header">
       <div class="subcontainer">
         <h1><slot name="header"> Content failed to load </slot></h1>
         <!-- <div>

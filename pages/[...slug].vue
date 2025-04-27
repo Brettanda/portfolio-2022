@@ -1,5 +1,5 @@
 <template>
-  <main class="my-container">
+  <main class="main-container">
     <Head>
       <Title v-if="data">{{
         data.head && data.head.title ? data.head.title : data.title

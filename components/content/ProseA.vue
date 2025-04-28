@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="link(href)" target="_blank">
+  <NuxtLink :to="link(href)" :target="target(href)">
     <slot />
   </NuxtLink>
 </template>
@@ -16,9 +16,13 @@ export default {
     },
   },
   methods: {
-    link(l: String) {
+    link(l: string) {
       // if (!l.startsWith("/")) return l + "?utm_source=brettanda.ca";
       return l;
+    },
+    target(l: string) {
+      if (l.startsWith("/")) return "_self";
+      return "_blank";
     },
   },
 };

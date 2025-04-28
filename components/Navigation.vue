@@ -7,14 +7,14 @@
   >
     <div class="nav_sub subcontainer">
       <NuxtLink to="/" title="Home" class="logo">
-        <nuxt-picture
-          v-if="$colorMode.value == 'dark' && !$colorMode.unknown"
+        <NuxtPicture
+          v-if="colorMode.value == 'dark' && !colorMode.unknown"
           height="80"
           width="80"
           src="/logo-light.svg"
           alt="Brett Anda's logo"
         />
-        <nuxt-picture
+        <NuxtPicture
           v-else
           height="80"
           width="80"

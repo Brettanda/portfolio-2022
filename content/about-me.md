@@ -45,6 +45,7 @@ I am currently employed at Conquest Outback Productions as a WordPress Developer
 - Elementor
 - WordPress
 - SEO with YoastSEO
+- Improving site speed (e.g: cache and database optimizations)
 
 ## Personal Development
 

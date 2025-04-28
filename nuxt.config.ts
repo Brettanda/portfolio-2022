@@ -62,16 +62,17 @@ export default defineNuxtConfig({
   },
 
   content: {
-    highlight: {
-      preload: ["csharp", "md", "javascript", "python"],
-      theme: {
-        default: 'github-light',
-        dark: 'dark-plus',
-      }
+    build: {
+      markdown: {
+        highlight: {
+          preload: ["csharp", "md", "javascript", "python"],
+          theme: {
+            default: 'github-light',
+            dark: 'dark-plus',
+          },
+        },
+      },
     },
-    navigation: {
-      fields: ['image', 'draft', 'description', 'category', 'year', 'tech_stack']
-    }
   },
 
   nitro: {

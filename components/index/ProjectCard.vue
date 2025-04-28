@@ -64,6 +64,26 @@ export default {
     animation-timeline: scroll();
   }
 }
+
+@keyframes underline-left-to-right {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  40% {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  60% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+    right: 0;
+  }
+}
+
 .card {
   width: 450px;
   min-width: 100px;
@@ -74,6 +94,10 @@ export default {
 
   &:hover {
     background-color: var(--background-accent);
+
+    & a::after {
+      animation: underline-left-to-right 0.8s normal forwards;
+    }
   }
 
   @include break(sm) {
@@ -97,7 +121,7 @@ export default {
 
   &.loaded {
     // opacity: 0.6;
-    filter: brightness(60%) opacity(0.5);
+    filter: opacity(0.5) brightness(60%);
     // background: var(--background-colour);
   }
 }

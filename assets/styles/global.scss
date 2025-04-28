@@ -133,12 +133,15 @@ a {
   text-decoration: none;
 }
 
+
+
 main {
   a {
     transition: all 0.2s ease-in-out;
     position: relative;
 
-    &::after {
+    &::after,
+    &::before {
       content: "";
       display: block;
       position: absolute;
@@ -154,7 +157,7 @@ main {
     &:focus {
       filter: brightness(60%);
 
-      &::after {
+      &::before {
         width: 100%;
       }
     }

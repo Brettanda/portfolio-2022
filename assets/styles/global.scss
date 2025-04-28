@@ -128,6 +128,20 @@ code {
   // font-family: Monocraft, 'Fira Code', monospace;
 }
 
+pre {
+  background: var(--background-secondary);
+  padding: var(--padding-half);
+  border-radius: $border-radius;
+  display: inline-block;
+  max-width: 100%;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+pre code .line {
+  display: block;
+  min-height: 1rem;
+}
+
 a {
   color: var(--link-colour);
   text-decoration: none;

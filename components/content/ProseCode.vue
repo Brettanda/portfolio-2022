@@ -33,6 +33,9 @@ pre {
   padding: var(--padding-half);
   border-radius: $border-radius;
   display: inline-block;
+  max-width: 100%;
+  white-space: pre-wrap;
+  overflow-x: scroll;
 }
 pre code .line {
   display: block;

@@ -39,7 +39,7 @@
           <div class="section">
             <h2 id="industry-projects" v-inview>Industry Projects</h2>
             <p class="content" v-inview>
-              The projects that I worked on, or created in the web development
+              The featured projects that I worked on, or created in the web development
               industry.
             </p>
           </div>
@@ -55,7 +55,7 @@
           <div class="section">
             <h2 id="personal-projects" v-inview>Personal Projects</h2>
             <p class="content" v-inview>
-              All of these projects i created on my own time for myself to learn
+              All of these featured projects i created on my own time for myself to learn
               more about what is possible with web development or coding in
               general
             </p>
@@ -72,7 +72,7 @@
           <div class="section">
             <h2 id="academic-projects" v-inview>Academic Projects</h2>
             <p class="content" v-inview>
-              Projects that were created for assignments for my post-secondary
+              Featured projects that were created for assignments for my post-secondary
               schooling.
             </p>
           </div>

@@ -41,7 +41,7 @@ defineProps({
   max-width: 50%;
   // max-height: 500px;
   margin: 0 auto;
-  // display: block;
+  display: block;
   float: right;
   padding: 2rem;
   margin: 0 0 2rem 2rem;

@@ -39,12 +39,12 @@ defineProps({
 <style lang="scss" scoped>
 .image {
   max-width: 50%;
-  max-height: 500px;
+  // max-height: 500px;
   margin: 0 auto;
-  display: block;
+  // display: block;
   float: right;
   padding: 2rem;
-  margin: 2rem;
+  margin: 0 0 2rem 2rem;
   background-color: var(--background-accent);
 
   @include break(md) {

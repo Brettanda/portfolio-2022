@@ -32,6 +32,7 @@ pre {
   background: var(--background-secondary);
   padding: var(--padding-half);
   border-radius: $border-radius;
+  display: inline-block;
 }
 pre code .line {
   display: block;

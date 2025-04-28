@@ -301,7 +301,7 @@ onUnmounted(() => {
   width: 100vw;
   max-width: 100%;
   max-height: 180vw;
-  min-height: 800px;
+  min-height: 700px;
   position: absolute;
   overflow: hidden;
   transform: skewY(-3deg);
@@ -309,6 +309,14 @@ onUnmounted(() => {
   // background: var(--background-accent);
   transform-origin: top left;
   // top: -5rem;
+
+  @include break(md) {
+    min-height: clamp(650px, 90vw, 850px);
+  }
+  
+  @include break(sm) {
+    max-height: 100%;
+  }
 }
 .backface {
   transform-origin: top left;
@@ -321,6 +329,11 @@ onUnmounted(() => {
   transform: skew(0, 3deg);
   min-width: var(--min-width);
   // opacity: 0.7;
+
+  @include break(sm) {
+    max-height: 100%;
+    // max-height: unset !important;
+  }
 }
 </style>
 

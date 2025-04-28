@@ -56,7 +56,7 @@
   justify-content: center;
   max-width: 100%;
   min-width: var(--min-width);
-  min-height: 800px;
+  min-height: 700px;
   // max-height: 180vw;
   position: relative;
   // background: var(--background-accent);
@@ -79,6 +79,10 @@
 
   &::after {
     height: 50%;
+  }
+
+  @include break(md) {
+    min-height: clamp(650px, 90vw, 850px);
   }
 }
 
@@ -176,6 +180,7 @@ $item-count: 25 * 4;
 
 .knowledge-track {
   animation: scroll #{calc($item-count/1.1)}s linear infinite;
+  will-change: translate;
   width: calc($item-width * $item-count);
   display: flex;
   // justify-content: space-around;
@@ -188,24 +193,30 @@ $item-count: 25 * 4;
 
 @keyframes slideleft {
   0% {
+    opacity: 0;
     transform: translateX(-3rem);
   }
   100% {
+    opacity: 1;
     transform: translateX(0);
   }
 }
 @keyframes slideright {
   0% {
+    opacity: 0;
     transform: translateX(3rem);
   }
   100% {
+    opacity: 1;
     transform: translateX(0);
   }
 }
 .slide-left {
+  will-change: transform, opacity;
   animation: slideleft 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .slide-right {
+  will-change: transform, opacity;
   animation: slideright 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 </style>

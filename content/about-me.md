@@ -39,7 +39,7 @@ My career in web development began at True Market immediately after completing m
 
 ### Conquest Outback Productions
 
-I am currently employed at Conquest Outback Productions as a WordPress Developer. My role involves using WordPress and Elementor to create and modify client websites.
+I am currently employed at Conquest Outback Productions as a WordPress Developer. My role involves using WordPress and Elementor to create and modify client websites, along with managing all of the company's back-end infrastructure.
 
 #### Key Skills Developed at Conquest Outback Productions:
 - Elementor

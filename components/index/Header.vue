@@ -34,6 +34,7 @@
         <li>Elementor</li>
         <li>Woo Commerce</li>
         <li>Next.js</li>
+        <li>Nuxt</li>
         <li>Docker</li>
         <li>Ubuntu</li>
         <li>Windows</li>
@@ -142,7 +143,7 @@ a {
 }
 
 $item-width: 200px;
-$item-count: 24 * 4;
+$item-count: 25 * 4;
 
 @keyframes scroll {
   0% {

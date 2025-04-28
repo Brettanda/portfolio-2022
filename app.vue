@@ -1,6 +1,7 @@
 <template>
   <AppHead/>
   <Navigation />
+  <SpeedInsights/>
   <NuxtLayout>
     <NuxtLoadingIndicator />
     <NuxtPage />
@@ -9,6 +10,7 @@
 </template>
 
 <script lang="ts" setup>
+import { SpeedInsights } from "@vercel/speed-insights/nuxt";
 useHead({
   titleTemplate: (titleChunk) => {
     return titleChunk

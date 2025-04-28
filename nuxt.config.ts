@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   // titleTemplate: '%s | Brett Anda\'s Portfolio',
 
+  site: { url: 'https://brettanda.ca' },
+  
   modules: [
     '@nuxtjs/sitemap',
     '@nuxt/content',

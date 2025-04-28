@@ -42,7 +42,7 @@ export default defineNuxtConfig({
 
   // https://image.nuxtjs.org
   image: {
-    // none: {}
+    inject: true,
   },
 
   colorMode: {

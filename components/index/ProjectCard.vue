@@ -16,7 +16,7 @@
       }"
       v-bind:src="item.image"
       v-bind:alt="item.title"
-      format="webp,png,jpeg"
+      format="avif,webp"
       loading="lazy"
       width="200px"
       fit="inside"

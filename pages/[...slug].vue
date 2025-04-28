@@ -51,7 +51,7 @@ const appConfig = useAppConfig();
 
 const route = useRoute()
 // const newPath = path.slice(-1, path.length) === "/" ? path.slice(0, -1) : path;
-const { data } = await useAsyncData(`page-${route.path}`, () => {
+const { data } = await useAsyncData(route.path, () => {
   return queryCollection('content').path(route.path).first()
 });
 if (!process.dev && (!data.value || data.value.draft === true)) {

@@ -19,6 +19,7 @@
       format="avif,webp"
       quality="75"
       loading="lazy"
+      sizes="200px sm:100px md:200px"
       width="200px"
       fit="inside"
     />

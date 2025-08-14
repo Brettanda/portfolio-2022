@@ -91,6 +91,7 @@ export default {
   min-height: 200px;
   flex-grow: 1;
   padding: 1rem;
+  position: relative;
 
   &:hover {
     background-color: var(--background-accent);

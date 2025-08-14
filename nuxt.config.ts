@@ -24,6 +24,11 @@ export default defineNuxtConfig({
       link: [
         {
           rel: "preload",
+          href: "/_nuxt/entry.iAFtUSu0.css",
+          as: "style"
+        },
+        {
+          rel: "preload",
           href: "/fonts/BaiJamjuree-Bold.woff2",
           as: 'font',
           type: 'font/woff2',

@@ -11,13 +11,13 @@ export default defineNuxtConfig({
     '@nuxt/image',
     // '@nuxtjs/html-validator',
     // 'nuxt-turnstile',
-    '@zadigetvoltaire/nuxt-gtm',
+    // '@zadigetvoltaire/nuxt-gtm',
     "@nuxtjs/tailwindcss"
   ],
 
-  gtm: {
-    id: 'GTM-5TZJ7JJ',
-  },
+  // gtm: {
+  //   id: 'GTM-5TZJ7JJ',
+  // },
 
   runtimeConfig: {
     captchaKey: '',

@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   // titleTemplate: '%s | Brett Anda\'s Portfolio',
 
   site: { url: 'https://brettanda.ca' },
-  
+
   modules: [
     '@nuxtjs/sitemap',
     '@nuxt/content',
@@ -18,6 +18,27 @@ export default defineNuxtConfig({
   // gtm: {
   //   id: 'GTM-5TZJ7JJ',
   // },
+
+  app: {
+    head: {
+      link: [
+        {
+          rel: "preload",
+          href: "/fonts/BaiJamjuree-Bold.woff2",
+          as: 'font',
+          type: 'font/woff2',
+          crossorigin: true
+        },
+        {
+          rel: "preload",
+          href: "/fonts/BaiJamjuree-Medium.woff2",
+          as: 'font',
+          type: 'font/woff2',
+          crossorigin: true
+        },
+      ]
+    }
+  },
 
   runtimeConfig: {
     captchaKey: '',

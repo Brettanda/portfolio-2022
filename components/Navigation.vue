@@ -7,7 +7,25 @@
   >
     <div class="nav_sub subcontainer">
       <NuxtLink to="/" title="Home" class="logo">
-        <NuxtPicture
+        <picture>
+          <source
+            media="(prefers-color-scheme: dark)"
+            srcset="/logo-light.svg"
+          />
+          <source
+            media="(prefers-color-scheme: light)"
+            srcset="/logo-dark.svg"
+          />
+          <NuxtImg
+            height="80"
+            width="80"
+            src="/logo-dark.svg"
+            alt="Brett Anda's logo"
+            fetchpriority="high"
+            preload
+          /> 
+        </picture>
+        <!-- <NuxtPicture
           v-if="colorMode.value == 'dark' && !colorMode.unknown"
           height="80"
           width="80"
@@ -22,7 +40,7 @@
           src="/logo-dark.svg"
           alt="Brett Anda's logo"
           fetchpriority="high"
-        />
+        /> -->
       </NuxtLink>
       <nav>
         <NuxtLink itemprop="url" to="/"><span itemprop="name">Home</span></NuxtLink>

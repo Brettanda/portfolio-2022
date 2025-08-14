@@ -17,10 +17,11 @@
       v-bind:src="item.image"
       v-bind:alt="item.title"
       format="avif,webp"
-      quality="75"
+      quality="70"
       loading="lazy"
-      sizes="200px sm:100px md:200px"
+      sizes="200px"
       width="200px"
+      densities="x1 x2"
       fit="inside"
     />
     <div v-else class="image"></div>

@@ -13,6 +13,7 @@
           width="80"
           src="/logo-light.svg"
           alt="Brett Anda's logo"
+          fetchpriority="high"
         />
         <NuxtPicture
           v-else
@@ -20,6 +21,7 @@
           width="80"
           src="/logo-dark.svg"
           alt="Brett Anda's logo"
+          fetchpriority="high"
         />
       </NuxtLink>
       <nav>

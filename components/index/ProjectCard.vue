@@ -17,7 +17,7 @@
       v-bind:src="item.image"
       v-bind:alt="item.title"
       format="avif,webp"
-      quality="70"
+      quality="50"
       loading="lazy"
       sizes="200px"
       width="200px"
